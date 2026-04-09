@@ -5,8 +5,8 @@
 # scenarios. This is expensive — run selectively or in parallel.
 # ============================================================
 
-BUYER_MODELS=("gpt-4o-mini" "gpt-4.1" "deepseek-chat")
-SELLER_MODELS=("gpt-4o-mini" "gpt-4.1" "deepseek-chat")
+BUYER_MODELS=("gpt-4o-mini" "gpt-4.1")
+SELLER_MODELS=("gpt-4o-mini" "gpt-4.1")
 SUMMARY_MODEL="gpt-4o-mini"
 N=3        # experiments per scenario (paper uses 5)
 TURNS=30
