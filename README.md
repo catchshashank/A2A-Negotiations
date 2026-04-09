@@ -1,4 +1,4 @@
-# A2A-NT Replication
+# A2A-NT Replication and Extension
 
 Replication of **"The Automated but Risky Game: Modeling Agent-to-Agent Negotiations and Transactions in Consumer Markets"** (Zhu et al., 2025).
 
