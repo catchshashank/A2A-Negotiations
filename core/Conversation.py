@@ -10,8 +10,10 @@
 import json
 import os
 import re
+import logging
+logger = logging.getLogger(__name__)
 
-from LanguageModel import LanguageModel
+from core.LanguageModel import LanguageModel
 
 
 class Conversation:
@@ -343,11 +345,11 @@ Keep the message concise and focused on opening the negotiation."""
                 print(f"\nNegotiation concluded: {self.negotiation_result}")
                 break
 
+            self.completed_turns = turn_count  # record before incrementing
             turn_count += 1
 
-        self.completed_turns = turn_count
-
-        if turn_count > self.max_turns and not self.negotiation_completed:
+        if not self.negotiation_completed:
+            self.completed_turns = self.max_turns  # cap at limit
             self.negotiation_completed = True
             self.negotiation_result = "max_turns_reached"
             print("\nReached maximum turns without a natural conclusion.")

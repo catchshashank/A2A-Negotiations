@@ -12,7 +12,7 @@ import os
 import json
 import argparse
 
-from Conversation import Conversation
+from core.Conversation import Conversation
 
 
 # ------------------------------------------------------------------

@@ -155,6 +155,14 @@ class LanguageModel:
                     chat_msgs = [m for m in messages if m["role"] != "system"]
                     # Anthropic requires alternating user/assistant turns
                     chat_msgs = self._ensure_alternating(chat_msgs)
+                    # Ensure content is plain str for Anthropic
+                    chat_msgs = [
+                        {'role': m['role'],
+                         'content': m['content'] if isinstance(m['content'], str)
+                                    else ' '.join(b.get('text', '') if isinstance(b, dict)
+                                                  else str(b) for b in m['content'])}
+                        for m in chat_msgs
+                    ]
                     response = self.client.messages.create(
                         model=self.model_name,
                         max_tokens=max_tokens,
@@ -166,19 +174,29 @@ class LanguageModel:
 
                 # ---- Google Gemini ----
                 elif self.provider == "google":
-                    validated = []
+                    from google.genai import types as gtypes
+                    def _gs(c):
+                        if isinstance(c, list):
+                            return ' '.join(b.get('text','') if isinstance(b,dict) else str(b) for b in c)
+                        return c or ''
+                    role_map = {'user':'user','assistant':'model','system':'user','model':'model'}
+                    system_parts, contents = [], []
                     for m in messages:
-                        if m["role"] == "system":
-                            validated.append({"role": "user", "content": f"System: {m['content']}"})
+                        if m['role'] == 'system':
+                            system_parts.append(_gs(m['content']))
                         else:
-                            validated.append(m)
+                            contents.append(gtypes.Content(
+                                role=role_map.get(m['role'], 'user'),
+                                parts=[gtypes.Part(text=_gs(m['content']))]))
+                    config = gtypes.GenerateContentConfig(
+                        temperature=temperature,
+                        max_output_tokens=max_tokens,
+                        system_instruction=' '.join(system_parts) if system_parts else None,
+                    )
                     response = self.client.models.generate_content(
                         model=self.model_name,
-                        contents=[m["content"] for m in validated],
-                        generation_config={
-                            "temperature": temperature,
-                            "max_output_tokens": max_tokens,
-                        },
+                        contents=contents,
+                        config=config,
                     )
                     return response.text
 
@@ -242,16 +260,21 @@ class LanguageModel:
     def _ensure_alternating(messages: List[Dict]) -> List[Dict]:
         """
         Anthropic requires strictly alternating user/assistant turns.
-        Merge consecutive same-role messages by concatenating content.
+        Merge consecutive same-role messages; content always normalised to str.
         """
+        def _to_str(c):
+            if isinstance(c, list):
+                return ' '.join(b.get('text', '') if isinstance(b, dict) else str(b) for b in c)
+            return c or ''
         if not messages:
             return messages
-        out = [messages[0].copy()]
+        out = [{'role': messages[0]['role'], 'content': _to_str(messages[0]['content'])}]
         for m in messages[1:]:
-            if m["role"] == out[-1]["role"]:
-                out[-1]["content"] += "\n" + m["content"]
+            cs = _to_str(m['content'])
+            if m['role'] == out[-1]['role']:
+                out[-1]['content'] += '\n' + cs
             else:
-                out.append(m.copy())
+                out.append({'role': m['role'], 'content': cs})
         return out
 
     # ------------------------------------------------------------------
