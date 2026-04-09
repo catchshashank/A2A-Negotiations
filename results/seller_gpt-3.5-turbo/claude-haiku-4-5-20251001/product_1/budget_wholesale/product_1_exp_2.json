@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch M3 Pro \u2014 it looks like exactly what I've been looking for, especially with that XDR display and the M3 Pro chip.\n\nI'm definitely serious about making a purchase, but I wanted to check: would you be open to any flexibility on the price? I'm a committed buyer and ready to move forward quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens naturally and shows genuine interest\n- Mentions specific features (builds credibility)\n- Signals you're a serious buyer\n- Politely introduces price negotiation without being aggressive\n- Keeps it brief and friendly\n- Creates room for the seller to respond positively"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there!\n\nI'm glad to hear you're interested in the MacBook Pro 16-inch M3 Pro! It's a great choice with its impressive features.\n\nI understand you're looking for a good deal. While I can't go below the Wholesale Price, I can offer you a competitive price if you're ready to make a purchase today.\n\nLet me know if you're ready to move forward!\n\nBest regards, \n[Your name]"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi! Thanks for reaching out. I'm definitely interested in the MacBook Pro 16-inch M3 Pro\u2014it's exactly what I'm looking for.\n\nI appreciate the offer, but I need to be upfront: my budget is $1,800. I know the retail price is $2,499, so I'm hoping we can work something out. Are there any current promotions, discounts, or financing options that could help us get closer to that range? I'm ready to move forward today if we can make the numbers work.\n\nWhat's the best price you can offer?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi!\n\nI appreciate your interest in the MacBook Pro 16-inch M3 Pro. While I can't go below the Wholesale Price of $1,800, I can offer you a special price of $1,850 as a one-time deal. This is already a significant discount from the retail price of $2,499.\n\nLet me know if this works for you so we can proceed with the purchase.\n\nLooking forward to your response!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $1,850 is slightly above my maximum budget of $1,800. I'm $50 short, which puts me in a difficult position.\n\nIs there any flexibility on that price? Could you match $1,800 or perhaps include any accessories (like a case or charger) to make up the difference? I'm ready to complete the purchase today if we can work this out."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. While I can't go below the Wholesale Price of $1,800, I can offer you the MacBook Pro 16-inch M3 Pro at that price and include a high-quality case as a complimentary accessory.\n\nThis way, you get the MacBook at your budget and a useful accessory to go with it. Let me know if this works for you so we can finalize the purchase today.\n\nLooking forward to your decision!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works for me. At $1,800 for the MacBook Pro 16-inch M3 Pro plus the complimentary case, that's exactly what I need. I'm ready to move forward with the purchase today.\n\nWhat's the next step to finalize this?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1850.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in purchasing them. I was wondering if there is any room for negotiation on the price? Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. They are fantastic headphones with great features. The price for these high-quality headphones is $399, but I can offer them to you for $380. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but my budget is $478.80. Would you be able to offer a lower price closer to that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget, and I appreciate your interest in the headphones. I can offer you the Sony WH-1000XM5 Wireless Headphones for $399, which is already a discount from the retail price. This way, you can enjoy these top-notch headphones within your budget. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I can accept the price of $399 for the Sony WH-1000XM5 Wireless Headphones. Let's proceed with the purchase at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    380.0,
+    399.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

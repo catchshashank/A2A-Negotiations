@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the LG C3 65-inch OLED TV you have listed. I was wondering if there might be any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! That's an excellent choice, the LG C3 65-inch OLED is truly a top-tier TV with incredible features. While the listed price of $1,799 is very competitive for its value, for a serious buyer, I could offer it today for $1,749."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer. I'm very interested in the C3, but I was hoping we could get closer to $1,699."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for the best possible deal. The LG C3's picture quality, gaming features, and smart platform really set it apart. How about we meet in the middle at $1,725? That's a fantastic price for this model."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to meet me in the middle. I'm really stretching my budget for this, and $1,699 is a much more comfortable price point for me. Would you be able to do that?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Okay, I understand you're working with a specific budget. Given your strong interest, and to help you get this incredible TV today, I can meet you at $1,699. That would be my absolute best and final offer for the LG C3."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's great! I'll take it for $1,699."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1749.0,
+    1725.0,
+    1699.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

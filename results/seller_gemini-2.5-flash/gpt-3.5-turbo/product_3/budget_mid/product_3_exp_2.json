@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the LG C3 65-inch OLED TV and I must say, it looks like an amazing product. I was wondering if there is any possibility for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! You've picked an excellent TV, the LG C3 65-inch OLED is truly top-tier. While our listed price of $1,799 is already very competitive for such a premium model, I'm certainly open to discussing a fair offer with you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering a potential offer. I have a budget of $1449.50 for this purchase. Can you offer a price within my budget for the LG C3 65-inch OLED TV?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer of $1449.50. That's a solid starting point for such a high-demand TV. The LG C3 65-inch OLED, with its stunning OLED evo panel, 4K 120Hz, Dolby Vision IQ, and full suite of gaming features, truly offers an unparalleled home entertainment experience. To make this deal happen, how about we meet closer to the value it truly represents?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the LG C3 65-inch OLED TV. Considering its features and quality, would you be able to offer a price below $1449.50 that we can agree on today?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for the best possible deal. However, for a TV of this caliber, going below your initial offer isn't something we can do. The LG C3's OLED evo panel, 4K 120Hz, and comprehensive gaming features make it an exceptional value. My best competitive offer for you today would be $1599."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but unfortunately, $1599 is above my budget of $1449.50. I'm afraid I won't be able to proceed with the purchase at that price. Thank you for your time."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1449.5,
+    1599.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

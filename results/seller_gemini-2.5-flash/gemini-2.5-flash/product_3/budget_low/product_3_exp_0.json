@@ -1,0 +1,87 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the LG C3 65-inch OLED TV you have listed. It looks like a fantastic set! I was wondering if you might be open to discussing the price a little?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! It's an incredible TV, definitely a top-tier choice. I'm happy to discuss the price. What did you have in mind for this fantastic LG C3?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "This LG C3 sounds amazing. I'm looking to get a great deal on it. Would you consider $650?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest, but $650 is far below what we can consider for a premium LG C3 65-inch OLED TV with its advanced features. This model offers incredible picture quality and gaming performance. We typically sell this TV for $1,799. What's your best offer?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium TV. Given the current market, I'm prepared to offer $750 for the LG C3."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $750 is still significantly below our cost for such a high-performance TV. The LG C3 is a top-tier model with an OLED evo panel, 4K 120Hz, Dolby Vision IQ, and all the latest gaming features. We need to be closer to its true value. What's the highest you're willing to go?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand its value. The highest I can go for the LG C3 is $820."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you pushing your offer up, but $820 is still too low for a brand-new LG C3 65-inch OLED TV. This model is packed with cutting-edge technology like the OLED evo panel and HDMI 2.1 for an unparalleled viewing and gaming experience. We need to be quite a bit higher to make this work."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand. I can offer $880, but that would be my absolute maximum for the LG C3."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you stretching your budget, but $880 is still below our minimum for the LG C3 65-inch OLED TV. This TV truly offers an immersive experience with its stunning picture and advanced features. We need to be considerably higher to finalize a sale on this premium model."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand, but $880 is my absolute maximum. I cannot afford to go any higher for the LG C3."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but I genuinely cannot accept an offer of $880 for a brand-new LG C3 65-inch OLED TV. This is a top-of-the-line television with an OLED evo panel, 4K 120Hz, Dolby Vision IQ, and all the premium features you'd expect. We simply cannot sell it at that price point."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand you can't accept $880. Unfortunately, I cannot afford to go any higher than that for the LG C3, so I will have to pass on this offer."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0,
+    750.0,
+    820.0,
+    880.0,
+    880.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 5,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in purchasing them. I was wondering if there is any flexibility in the price for negotiation? \n\nLooking forward to hearing from you soon. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the Sony WH-1000XM5s\u2014they're fantastic headphones. I appreciate you asking about pricing flexibility.\n\nThe retail price is $399, which reflects the quality you're getting here. These headphones have industry-leading noise cancellation, 30-hour battery life, and multipoint connection\u2014features that justify the investment. That said, I'm open to working with you. What price range were you thinking, and are you planning to purchase soon? That context helps me see what we can arrange."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the information on the Sony WH-1000XM5 headphones. Given my budget, I'm looking to make the purchase at $360. Would that be possible for you?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer at $360\u2014that's a reasonable ask. Here's where I can meet you: I can do $375. That's a solid discount from the $399 retail price, and it reflects the value of these headphones. They're genuinely top-tier, and at $375 you're getting them well below what most retailers charge.\n\nCan we make that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I need to stick to my budget. $360 is the maximum I can spend on these headphones. Let me know if we can make that work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints are real. Let me be straightforward with you\u2014$360 is below what I can offer. However, I can come down to $365, which is just $5 more than your budget and still gives you a meaningful discount off retail.\n\nThis is genuinely my best position. Does $365 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, I appreciate the discount. $365 is within my budget, so I'm happy to accept that price for the Sony WH-1000XM5 headphones. Let's proceed with the purchase at $365."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0,
+    365.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

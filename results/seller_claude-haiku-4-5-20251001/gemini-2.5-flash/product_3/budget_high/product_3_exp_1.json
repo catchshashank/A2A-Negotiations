@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm very interested in the LG C3 65-inch OLED TV you have listed. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice on the C3 \u2013 it's an incredible TV. The retail price is $1,799, but I can definitely work with you. What kind of price range were you thinking? If you're looking at buying soon or can commit today, I might have some room to negotiate."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! I'm definitely looking to buy soon. I was hoping to get it for around $1,550."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the interest, but $1,550 is a bit lower than I can go. That said, I don't want to lose this sale. How about we meet somewhere in the middle? I can do $1,650 for you \u2013 that's still a solid $150 off retail, and you're getting one of the best OLED TVs on the market with that 120Hz refresh rate and Game Optimizer. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm really trying to stick closer to my initial offer. Could you do $1,599?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, but $1,599 is pretty tight for me on this unit. Here's what I can do \u2013 $1,625 is my best offer, and that's a genuine $174 discount off retail. Plus, you're getting a premium TV with Dolby Vision IQ, Dolby Atmos, and four HDMI 2.1 ports that most competitors can't touch at that price point. Can we lock it in at $1,625?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me. How about we meet at $1,600 to close the deal right now?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, I respect that you're ready to commit today. $1,600 is as low as I can go \u2013 that's $199 off retail and a fair deal for both of us. Let's make this happen. Can we move forward at $1,600?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, let's do $1,600. I'm ready to proceed."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1650.0,
+    1625.0,
+    1600.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

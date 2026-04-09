@@ -1,0 +1,96 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in your Sony WH-1000XM5 headphones. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's great to hear you're interested in the Sony WH-1000XM5. They truly are an exceptional pair of headphones. The retail price is $399, and for what they offer in terms of industry-leading noise cancellation and features, it's a fantastic value. What price point were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! They sound fantastic. I was hoping to get them for around $125."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $125 is significantly below the price point for these premium headphones. The Sony WH-1000XM5 retail for $399, and for good reason, given their top-tier noise cancellation and features. What's the best you can do closer to their value?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the retail price. My absolute best is $150."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you increasing your offer, but $150 is still too low for the Sony WH-1000XM5. These are top-of-the-line headphones with unparalleled noise cancellation and a suite of advanced features. I can't go that low. What's the highest you're willing to go for these premium headphones?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I can go up to $170, but that would be my absolute maximum."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you stretching your budget, but $170 is still significantly below where I can sell these industry-leading Sony WH-1000XM5 headphones. Their features, like 30-hour battery life and speak-to-chat, truly justify their premium value. What's the highest you're genuinely able to offer for such a high-quality product?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "My absolute final offer is $175."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your final offer, but $175 is still below the threshold for these premium Sony WH-1000XM5 headphones. Their industry-leading noise cancellation, long battery life, and smart features truly set them apart. I'm unable to accept that price. What's the highest you can genuinely go for such a high-end product?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I cannot go any higher. I can only offer $176."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you pushing your offer to $176, but unfortunately, that's still not a viable price for these top-tier Sony WH-1000XM5 headphones. They offer unmatched quality and features. I'm confident we can find a price that works, but it needs to be higher. What's the highest you can realistically offer to take home these exceptional headphones today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I cannot go any higher. I'm afraid I cannot afford them at a higher price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget limitations, and I appreciate you trying to meet a higher price. However, I genuinely cannot sell the Sony WH-1000XM5 headphones for $176. Their industry-leading noise cancellation and advanced features make them a premium product, and that price is simply too low."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I cannot go any higher. I'm afraid I cannot afford them."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    150.0,
+    170.0,
+    175.0,
+    176.0,
+    176.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 6,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

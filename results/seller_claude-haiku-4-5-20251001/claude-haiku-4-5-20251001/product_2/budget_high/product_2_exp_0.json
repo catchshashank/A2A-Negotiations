@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They seem like exactly what I'm looking for, especially with the noise cancellation and battery life.\n\nBefore I commit, I wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- \u2705 Friendly and casual tone\n- \u2705 Shows genuine interest in the product\n- \u2705 Opens negotiation naturally without being pushy\n- \u2705 Signals you're a serious buyer (builds trust)\n- \u2705 Keeps it brief and to the point\n- \u2705 Doesn't reveal negotiation strategy"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out \u2013 I'm glad you're interested in these headphones. They really are fantastic, and I appreciate you being a serious buyer.\n\nI can definitely work with you on the price. These are retailing at $399, but I can offer them to you at $349 if you're ready to move forward today. That's a solid discount while I still keep fair value on these premium headphones.\n\nDoes that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer \u2013 I appreciate you coming down to $349. These are great headphones, and I'm definitely interested. However, I'd like to see if we can go a bit lower. Would you be able to do $320? That would make this a really compelling purchase for me, and I'm ready to complete the transaction today if we can make that work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but I need to be straightforward with you \u2013 $320 is getting close to my floor. These are premium headphones with industry-leading features, and I've already come down significantly from retail.\n\nHere's what I can do: I'll meet you at $340. That's a solid $59 off retail, and it reflects the real value of what you're getting. Plus, you get them today with no hassle.\n\nCan we lock this in at $340?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me halfway there. $340 is definitely better, and I can see you're being fair with the value. I'm ready to move forward today \u2013 let's go with $340. That works for me."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    349.0,
+    340.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

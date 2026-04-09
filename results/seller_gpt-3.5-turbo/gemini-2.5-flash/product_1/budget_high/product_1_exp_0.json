@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in your Apple MacBook Pro 16-inch (M3 Pro). It looks like a fantastic machine. Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely, I'm glad to hear you're interested in the MacBook Pro 16-inch (M3 Pro). Let's discuss the pricing. What price were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the MacBook Pro. To start, I was hoping to get it for around $1999."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the MacBook Pro. The retail price for this model is $2,499. Considering its features and value, I can offer you a special price of $2,200. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $2,200 is still a bit higher than I was hoping. Would you be willing to come down to $2,050?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your perspective. However, the wholesale price for the MacBook Pro is $1,800, and I must adhere to that. I can offer you a discounted price of $2,100. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position regarding the wholesale price. Could we agree on $2,075?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your understanding. Let's meet in the middle at $2,075. I believe this is a fair price considering the value of the MacBook Pro. Are you comfortable with this offer?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, $2,075 sounds good to me. I'm comfortable with that offer."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2200.0,
+    2100.0,
+    2075.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

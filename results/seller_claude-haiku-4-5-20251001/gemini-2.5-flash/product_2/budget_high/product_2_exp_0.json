@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones you have listed. They look fantastic! I was just wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice \u2013 these are truly top-tier headphones. The retail price is $399, and honestly, they're worth every penny with that industry-leading noise cancellation and 30-hour battery life.\n\nThat said, I can definitely work with you. What price range were you thinking? I'm happy to discuss options, especially if you're ready to move forward today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "These headphones sound fantastic, and I'm definitely interested in making a purchase today. I was hoping to get them closer to $325. What do you think about that?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the enthusiasm! $325 is a solid offer, but it's a bit lower than I can go. Here's the thing \u2013 these headphones are in high demand, and the quality justifies the price point.\n\nHow about we meet somewhere in the middle? I could do $360 for you today, which is still a nice discount off retail. That way you're getting genuine value, and we both walk away happy. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand these are premium headphones. $360 is better, but I was hoping for something closer to $340. Would that be possible?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you \u2013 $340 is closer to where we need to be. Let me be honest with you: I can work with $350. That's a solid $49 off retail, and it reflects the quality you're getting. Plus, you're getting them today without waiting.\n\nCan we shake hands at $350?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds like a fair compromise. I can do $350."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    360.0,
+    350.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

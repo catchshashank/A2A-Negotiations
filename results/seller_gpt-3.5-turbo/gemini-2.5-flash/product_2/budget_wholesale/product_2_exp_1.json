@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Sony WH-1000XM5 headphones. Is there any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the Sony WH-1000XM5 headphones! The price for these high-quality headphones is already very competitive."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate that. I'm very interested in the XM5s, but my budget is quite limited. I was hoping to pay around $180 for them."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but the wholesale price for the Sony WH-1000XM5 headphones is $220. I can offer them to you at that price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand $220 is your wholesale cost. That's still a bit higher than I was hoping, but I appreciate you working with me. Could you possibly do $200?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your understanding. Considering the quality and features of the Sony WH-1000XM5 headphones, I can offer them to you at $220, which is already below the retail price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand, and I appreciate the offer at $220. Unfortunately, that's my absolute maximum budget, and I was really hoping to get them for less. I'm afraid I'll have to pass if $220 is the firm price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    220.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

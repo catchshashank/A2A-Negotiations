@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there's any possibility of negotiating the price a bit. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great to hear you're interested in the WH-1000XM5s\u2014they're fantastic headphones. I appreciate you asking about the price.\n\nThe retail is $399, and I'm currently offering them at a competitive price point. That said, I'm definitely open to working with you. What kind of price range were you thinking? If you're looking at buying soon or maybe grabbing multiple units, I might be able to find some flexibility there. What works best for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for offering a competitive price. Given my budget constraints, would you be able to offer the Sony WH-1000XM5 headphones within the $220 range I have available?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. At $220, that's actually the wholesale cost\u2014there's no margin for me there, so unfortunately I can't go that low.\n\nHere's what I can do though: I can offer you $280, which is still a solid discount from the $399 retail. These headphones are genuinely worth it with the noise cancellation, 30-hour battery, and multipoint connection. \n\nIf that's still tight, we could also explore options like a payment plan or if you know anyone else interested, I might have some flexibility for multiple purchases. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position. Since $280 is still above my budget of $220, I won't be able to proceed with the purchase. Thank you for considering different options though."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    280.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

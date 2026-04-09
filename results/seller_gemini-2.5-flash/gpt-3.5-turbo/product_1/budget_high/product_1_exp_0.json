@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in potentially purchasing it. I was wondering if there's any room for negotiation on the price. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's wonderful to hear you're interested in the Apple MacBook Pro 16-inch M3 Pro. It truly is an exceptional machine, offering unparalleled performance with the M3 Pro chip, a stunning Liquid Retina XDR display, and an impressive 22-hour battery life. While its retail price is $2,499, we can offer it to you today for $2,399."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate the discount. Could you go a bit lower to $2,350 to help me make the purchase today?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your prompt decision-making! At $2,399, you're already getting an exceptional value for this top-tier machine. However, to help you finalize your purchase today, I can offer it to you for $2,375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value you're offering, but my budget is quite tight. Would you be able to meet me at $2,350 so I can proceed with the purchase?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. Given your readiness to purchase today, I can meet you at $2,350. That's a fantastic price for the 16-inch M3 Pro MacBook Pro."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for accommodating my budget. I'm ready to proceed with the purchase at $2,350. Let's finalize the transaction."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2399.0,
+    2399.0,
+    2350.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

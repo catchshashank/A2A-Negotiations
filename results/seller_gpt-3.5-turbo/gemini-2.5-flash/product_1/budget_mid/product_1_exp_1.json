@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! I'd be happy to discuss the price with you. What price were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I was hoping to get it for around $1,999.20."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your offer, but the best price I can offer for the Apple MacBook Pro 16-inch (M3 Pro) is $2,199. Would you be willing to consider this price?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a good offer, but it's a bit outside my budget. I can't afford $2,199."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. Since I want to ensure you get a good deal, I can offer you the Apple MacBook Pro 16-inch (M3 Pro) for $2,099, which is the lowest I can go without compromising on the quality of the product. Would this price work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds like a fair price. I'll take it for $2,099."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2199.0,
+    2099.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

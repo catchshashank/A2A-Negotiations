@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your LG C3 65-inch OLED TV. It looks fantastic. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great to hear you're interested in the C3! It's an outstanding TV\u2014that OLED evo panel and 4K 120Hz really deliver an incredible viewing experience.\n\nThe retail price is $1,799, but I'm happy to work with you. What price range were you thinking? Depending on your situation\u2014whether you're buying today, purchasing multiple units, or anything else\u2014I may be able to offer some flexibility."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "It definitely sounds like an impressive TV. I'm looking to make a purchase today and my budget is around $950."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. However, at $950, I'm not able to work with that\u2014I'd be operating at a loss on this unit.\n\nHere's the thing: this TV retails for $1,799, and even at my absolute floor, I need to stay at $1,100. That's already a significant discount off retail.\n\nSince you're ready to buy today, what if we looked at $1,100? That's a $699 savings from retail, and it gets you this premium OLED experience without compromise. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a significant drop from retail, and I appreciate you coming down. $1,100 is right at the top of what I can afford. If you can do"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! Let's make this happen at $1,100. That's a great deal on this TV, and you're getting premium OLED technology at a solid price.\n\nWhen would you like to complete the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, that works for me. I'm ready to complete the purchase at $1,100. What are the next steps?"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

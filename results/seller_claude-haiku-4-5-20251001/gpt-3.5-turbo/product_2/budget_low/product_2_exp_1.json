@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I must say, I'm quite impressed with the features they offer. I was wondering if there's any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest in the WH-1000XM5s \u2013 they're fantastic headphones. I appreciate you reaching out about the price.\n\nThe retail is $399, which honestly reflects the quality you're getting here. These have industry-leading noise cancellation, 30-hour battery life, and multipoint connection that really sets them apart. \n\nWhat price range were you thinking? I'm happy to work with you, but I want to make sure we land on something fair for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the information! Given my budget, I can only afford to purchase the Sony WH-1000XM5 headphones for $176.00. Let me know if we can work within that price range."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $176 is unfortunately below what I can do. These headphones are worth significantly more \u2013 that's well below even my cost on them.\n\nHere's what I can offer: I can come down to $299, which is a solid $100 off retail. That gives you premium noise-canceling headphones at a fair price while keeping the deal workable for me.\n\nDoes $299 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value proposition. Unfortunately, $299 is still above my budget limit. I appreciate your offer, but I have to stick to my maximum budget of $176. Thank you for considering."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I totally understand budget constraints \u2013 I've been there. But I have to be honest: $176 is just too far below what I can offer. That price doesn't work for me on this product.\n\nHere's the thing though \u2013 if you're serious about getting these headphones, I can meet you at $249. That's still a meaningful discount from retail, and it's the lowest I can responsibly go.\n\nIf that's still outside your range, I'd recommend checking back when you have a bit more flexibility in your budget. These are worth the investment when you're ready!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your understanding. While $249 is a great offer, it's still beyond my budget limit of $176. I'll have to pass for now. Thank you for your time and the offer."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    299.0,
+    249.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

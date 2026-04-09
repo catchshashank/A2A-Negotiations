@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in purchasing them. I was wondering if there is any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice on the WH-1000XM5s \u2013 they're really top-tier headphones. I appreciate you asking about the price.\n\nThe retail is $399, and I'm flexible within reason. What price range were you thinking? If you're looking at bulk orders or can commit to a purchase soon, I might be able to work something out for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! Considering my budget constraints, would you be able to offer the Sony WH-1000XM5 headphones for $360?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $360 is a bit lower than I can go. These headphones retail at $399 and are in high demand right now.\n\nHow about $375? That's a solid discount from retail, and you're getting an incredible product with industry-leading noise cancellation and 30-hour battery life. That's a fair middle ground \u2013 does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the product. Would you be willing to meet halfway at $370? That way, we can both benefit from the deal."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you on wanting to meet in the middle. $370 is close, but let me ask \u2013 are you buying just one unit, or would you be interested in multiple headphones? If it's a larger order, I can definitely work with $370 or even better.\n\nIf it's a single purchase though, I'd need to stay at $375. That's already a solid 6% off retail, and honestly, that's about as low as I can go while keeping this worthwhile for both of us.\n\nWhat do you think \u2013 can we do $375?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, and I understand the value you're providing. I can commit to purchasing a single unit at $375. Let's proceed with that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could work this out. $375 for a single unit it is \u2013 you're getting an excellent deal on these headphones.\n\nLet me get the details sorted for you. What's the best way to proceed with the payment and shipping?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds great, thank you! I'm excited about the purchase. Let's proceed with the payment and shipping details."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0,
+    375.0,
+    375.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

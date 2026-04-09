@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested\u2014they look like exactly what I'm looking for. The noise cancellation and battery life are impressive.\n\nI was wondering if there's any flexibility on the price? I'm a serious buyer and ready to move quickly on this. Would you be open to negotiating?\n\nLooking forward to hearing from you!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product (mentions specific features)\n- \u2705 Signals you're a serious, committed buyer\n- \u2705 Directly but politely asks about price negotiation\n- \u2705 Keeps momentum by mentioning readiness to purchase\n- \u2705 Concise\u2014doesn't over-explain or sound robotic"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey there!\n\nI'm glad you're interested in the Sony WH-1000XM5 headphones! They are indeed top-notch with their noise cancellation and battery life.\n\nI appreciate your interest in negotiating. The headphones are priced at the wholesale price of $220, ensuring you get a great deal for a high-quality product.\n\nLet me know if you'd like to proceed at this price point."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a great opening offer at $220 \u2013 I appreciate it! Before I commit, let me ask: is there any flexibility on that price, or any bundle deals you might offer? For instance, do you have any accessories like a carrying case or extended warranty that could be included to sweeten the deal? I'm ready to move forward quickly if we can work something out."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad you appreciate the wholesale price of $220!\n\nWhile the price is already at the wholesale level, I can include a premium carrying case as a complimentary accessory to enhance your experience with the headphones. This way, you get a great product and a useful accessory to go with it.\n\nLet me know if this works for you and if you're ready to proceed with the purchase."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a solid offer with the carrying case included. I'm definitely interested at $220 plus the case \u2013 that's a great value. Let me confirm the details: it's $220 total for the headphones and premium carrying case, correct? If that's the case, I'm ready to move forward with the purchase right away."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    220.0,
+    220.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

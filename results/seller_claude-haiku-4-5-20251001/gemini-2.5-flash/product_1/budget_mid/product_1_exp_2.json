@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. Is there any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice\u2014the M3 Pro is an excellent machine. The retail price is $2,499, which reflects the premium specs: the Liquid Retina XDR display, M3 Pro chip, and that incredible battery life really set it apart.\n\nThat said, I can work with you. What price range were you thinking? Depending on volume or timing, there might be some room to negotiate, but I want to make sure we land on something fair for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! I'm definitely interested in this model. I was hoping to get it for around $2,050."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $2,050 is a bit lower than I can go. This MacBook is in high demand, and the specs justify the premium pricing.\n\nHow about we meet closer to $2,300? That's a solid discount from retail while still reflecting the value you're getting. Or if you're looking at multiple units or a longer commitment, I could potentially do better. What works best for your situation?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's still a bit higher than I can afford right now. I'm afraid I can't go up to $2,300."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints are real. Let me ask\u2014what's your absolute maximum you can spend? If you can stretch to somewhere in the $2,200-$2,250 range, I think we can make this work. That's still a meaningful savings from retail, and you're getting a machine that'll last you years.\n\nIf that's still too high, I want to be honest with you: there's a floor I need to stay above to make this viable on my end. But let's find the sweet spot that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me. My absolute maximum for this purchase is $2,100. I can't go any higher than that."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate your honesty. Here's where I'm at: $2,100 is right at the edge of what I can do, but it's tough for me to go lower and still make this work on my end.\n\nIf you can stretch just a bit to $2,150, I can make that happen today. That's a solid $349 off retail\u2014a real savings. Otherwise, at $2,100, I'd need to think about it, but I'm not confident I can move forward at that price point.\n\nWhat do you say\u2014can you meet me at $2,150?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Unfortunately, $2,150 is just slightly above my maximum budget. I'm afraid I cannot afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I totally understand. Look, $2,100 is genuinely close to my floor, but because you've been straightforward with me and you're ready to move forward today, I can do it at $2,100. Let's make this happen."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'm happy to proceed with the purchase at $2,100."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2050.0,
+    2050.0,
+    2150.0,
+    2100.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

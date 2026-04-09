@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the LG C3 65-inch OLED TV you have listed. It looks fantastic! Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest\u2014it's an amazing TV, honestly. The C3 is one of the best OLED panels out there with that 4K 120Hz refresh rate and Dolby Vision IQ.\n\nI'm definitely open to talking price. What did you have in mind? The current price is $1,799, but depending on your situation, we might be able to work something out."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! It definitely sounds like an impressive TV. To be upfront, I was hoping to get it for around $1550. Would that be something you'd consider?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront! $1,550 is pretty aggressive though\u2014that's about 14% off retail, and honestly, this TV is in high demand right now.\n\nHere's the thing: the C3 is legitimately a flagship model. You're getting that premium OLED evo panel, the Game Optimizer with 4x HDMI 2.1 ports, and AI Picture Pro\u2014features you don't see at lower price points.\n\nI can't go that low, but I'm not stuck at $1,799 either. How about we meet somewhere in the middle? I could do $1,650\u2014that's still a solid discount, and you're getting a TV that'll last you years. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium model. $1,650 is better, but I was really hoping to stay closer to my original offer. Could you do $1,600?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you\u2014$1,600 is closer to where you want to be. Let me be straight with you: that's pretty much my floor on this one. I can do $1,600, but that's as low as I can go while keeping this deal fair for both of us.\n\nThat gets you a $199 discount off retail and you're still getting a top-tier TV. Does $1,600 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, $1,600 works for me. I'll take it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1650.0,
+    1600.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

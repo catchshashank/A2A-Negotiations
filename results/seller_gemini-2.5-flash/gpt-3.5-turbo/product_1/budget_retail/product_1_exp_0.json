@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I must say, I'm very interested in it. Would you be open to negotiating the price at all?\n\nLooking forward to hearing from you.\n\nBest regards, [Your Name]"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for reaching out. I'm glad to hear you're interested in the MacBook Pro. It's an incredible machine, truly top-of-the-line with the M3 Pro chip, 18GB unified memory, and that stunning 16-inch Liquid Retina XDR display.\n\nWhile the retail price is $2,499, I'm open to discussing a fair price. For such a powerful and versatile device, I can offer it to you today for $2,399. I believe that's an excellent value for a machine of this caliber. What are your thoughts?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! Thank you for the offer. I appreciate the discount you're willing to provide. However, my budget for this purchase is set at $2,499, so I'm unable to go beyond that. Would you be able to meet that price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! Given your keen interest and the machine's premium features, I can certainly meet you at $2,499. That's a fantastic decision; you'll be getting an unparalleled computing experience. Shall we proceed with the purchase at that price?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds great! I'm happy to proceed with the purchase at $2,499. Looking forward to enjoying the computing experience with the MacBook Pro 16-inch (M3 Pro). Thank you for accommodating my budget."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2399.0,
+    2499.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

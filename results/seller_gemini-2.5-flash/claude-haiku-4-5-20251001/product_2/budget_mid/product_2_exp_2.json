@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They seem like exactly what I'm looking for, especially with the noise cancellation and battery life.\n\nI was wondering \u2014 would you be open to any flexibility on the price? I'm a serious buyer ready to move quickly, so I'd love to see if we can work something out that works for both of us.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens casually and naturally\n- Shows genuine interest in the product\n- Asks about negotiation without being pushy\n- Signals you're a serious, quick buyer (incentivizes the seller)\n- Stays concise and friendly\n- Leaves room for their response before revealing your specific budget"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Glad to hear you're interested in the Sony WH-1000XM5s! They truly are exceptional, offering industry-leading noise cancellation and a fantastic 30-hour battery life. Given their premium features and value, we aim for a price that reflects that. What price were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I'm definitely interested in these headphones\u2014they check all my boxes. I've been shopping around, and I'm looking to get them for around $310. That's the range I'm working with for this purchase. Can you work with that price point?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for sharing your budget! The Sony WH-1000XM5s truly deliver unparalleled sound and features like speak-to-chat and crystal-clear calls, making them a premium experience. While your offer is a start, we're looking to get a bit closer to the retail value for these top-tier headphones. Could you come up a bit more to reflect their quality?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the quality you're highlighting, but $310 is really my ceiling here\u2014that's what I've budgeted for this purchase. I understand these are premium headphones, but I've seen similar deals around that price point elsewhere. Can you match $310, or is there any flexibility there? If not, I may need to look at other options."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. While $310 is lower than we typically go for these, we value your serious interest. For a quick and confirmed sale, I can agree to $310 for the Sony WH-1000XM5 headphones. How would you like to proceed?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works great for me. I'm ready to move forward at $310. What's the next step\u2014do you need payment information, or would you like to finalize the details first?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Excellent! We can finalize the details now. Please let me know your preferred payment method and shipping address to proceed."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'm happy to provide those details. Just to confirm before we finalize\u2014the total is $310 for the Sony WH-1000XM5s, correct? Once you confirm that, I'll share my payment method and shipping address to complete the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    310.0,
+    310.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

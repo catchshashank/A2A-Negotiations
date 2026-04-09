@@ -1,0 +1,105 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Sony WH-1000XM5 headphones. Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! I'm glad you're interested in the WH-1000XM5s\u2014they're fantastic headphones. The retail price is $399, but I'm definitely open to working with you. What kind of pricing were you thinking about?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm definitely interested. To start, I was hoping to get them for around $260."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $260 is a bit lower than I can go. These headphones are really premium\u2014the noise cancellation is industry-leading, 30-hour battery life, and they're built to last. \n\nHow about we meet somewhere in the middle? I could do $340, which still gives you a solid discount from the $399 retail price. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $340 is still beyond my budget. The most I could afford for them would be $300."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you on the budget constraints. Here's the thing\u2014at $300, I'm already cutting pretty deep into my margin on a premium product like this. These headphones retail at $399, so even at $300 you're getting about 25% off.\n\nHow about $330? That's a fair middle ground where I can still make this work, and you're getting genuine savings on a top-tier product. Can we go with that?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me, but $330 is still more than I can afford. I'm afraid I cannot accept that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand\u2014budget is important. Let me ask: what's the absolute maximum you could stretch to? If you can go to $320, I can make that happen. That's a meaningful discount from retail, and honestly, it's about as low as I can responsibly go on these. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $320 is still above my budget. I'm afraid I cannot afford it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being straightforward. At this point, we're pretty close, and I want to find a way to make this work for you. \n\nThe reality is I can't go below $220\u2014that's my absolute floor. If $300 is truly your max, we're only $80 apart. Is there any flexibility on your end, or would you like to think it over and circle back?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "If you can truly do $220, I'll take them for that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $220 is my wholesale cost\u2014I can't make any profit at that price. I need to at least cover my costs and make a reasonable margin.\n\nLet me be direct: if you can stretch to $280, that's a real deal I can offer you today. It's still 30% off retail, and we both walk away happy. Can you do $280?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer. I was hoping to get them closer to $250."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you meeting me in the middle here. Look, $250 is really close to my floor, but I can do $265. That's a genuine compromise\u2014you're getting nearly a third off retail, and I can make this work. Can we close the deal at $265?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I can do $258. Would that work for you?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, $258 is fair. I can make that work. Let's do it\u2014you've got yourself a deal on the WH-1000XM5s at $258. When would you like to complete the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'm happy with that. I'm ready to complete the purchase at $258."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    340.0,
+    330.0,
+    320.0,
+    220.0,
+    280.0,
+    265.0,
+    258.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 7,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

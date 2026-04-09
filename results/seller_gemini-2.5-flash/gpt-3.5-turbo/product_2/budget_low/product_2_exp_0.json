@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there's any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 headphones. They are indeed a fantastic choice, known for their industry-leading noise cancellation and impressive 30-hour battery life. While our retail price is $399, I'm open to discussing a fair price for these premium headphones. What were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for offering a discussion on the price. Considering my budget, would you be willing to sell the Sony WH-1000XM5 headphones for $170?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $170 is quite a bit lower than we can go for these brand-new, top-of-the-line headphones. The Sony WH-1000XM5s offer unparalleled features like speak-to-chat and crystal clear calls, making them a premium audio experience. I can work with you on the price, but we'd need to be closer to their true value."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the Sony WH-1000XM5 headphones. Considering that, would you be able to offer them to me for $175?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your continued interest. However, $175 is still below our cost for these incredible headphones. The WH-1000XM5s are a premium product, offering industry-leading noise cancellation and a host of advanced features. I can't go that low, but I'm happy to meet you closer to a fair market value for such high-quality audio."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I completely understand the value of the Sony WH-1000XM5 headphones. Given that, would you consider selling them to me for $176? This is the maximum I can offer within my budget."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your persistence and understanding of the value. However, $176 is still significantly below the minimum price we can offer for these brand-new Sony WH-1000XM5 headphones. They truly are a top-tier product with unmatched features. I'm keen to find a price that works, but we need to be substantially higher for these premium headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my offer. I understand the value you place on the Sony WH-1000XM5 headphones. Unfortunately, $176 is the maximum budget I have for this purchase. If you're unable to accommodate this price, I will have to respectfully decline and look for other options within my budget. Thank you for your time."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    170.0,
+    175.0,
+    176.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

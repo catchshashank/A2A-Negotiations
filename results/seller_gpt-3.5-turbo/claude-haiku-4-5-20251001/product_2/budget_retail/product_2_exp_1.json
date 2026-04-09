@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you have listed. They look like exactly what I've been looking for, and I love that they have the 30-hour battery life and noise cancellation.\n\nBefore I commit, I wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer and ready to move forward quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Friendly and conversational tone\n- Shows genuine interest in the product\n- Opens the door to negotiation naturally without being pushy\n- Signals you're a serious, ready buyer (increases seller motivation)\n- Keeps it brief and respectful"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey there!\n\nI'm glad you're interested in the Sony WH-1000XM5 headphones. They are indeed top-notch with their features. While the retail price is $399, I can offer them to you at $300. Let me know if that works for you.\n\nLooking forward to your response!\n\nBest regards,"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a great offer at $300 \u2013 I appreciate you coming down from retail! Before I commit, I wanted to ask: is there any flexibility on the price, or is $300 your best offer? Also, would you be able to include any accessories like a carrying case or warranty extension? I'm ready to move forward today if we can work out the best possible deal."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your request. Considering the value, I can offer you the headphones at $310, which includes a carrying case and a one-year warranty extension. I believe this is a great deal for you. Let me know if this works, and we can proceed with the purchase today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the carrying case and warranty extension \u2013 that definitely adds value. However, I'd like to counter at $280. These headphones are excellent, but I want to make sure I'm getting the best possible price. Can you work with that, or what's the absolute lowest you can go?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your perspective. However, I must adhere to the Wholesale Price of $220 to maintain fairness. I can offer you a final price of $290, which is already a significant discount from the retail price. Let me know if you'd like to proceed at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate you coming down to $290 \u2013 that's a solid discount. Let me be straightforward: I'm looking to get the best deal possible today. Can you do $280? That would make this a no-brainer for me, and we can finalize the purchase right now."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position, and I value your interest in the product. Since you're committed to finalizing the purchase today, I can meet you at $280. Let's make this a no-brainer deal for you. We can proceed with the purchase at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! $280 works great for me. That's an excellent deal \u2013 I'm ready to move forward. What's the next step to complete the purchase?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    300.0,
+    310.0,
+    290.0,
+    280.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

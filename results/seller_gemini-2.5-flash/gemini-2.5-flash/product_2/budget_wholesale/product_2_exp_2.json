@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones you have listed. They look fantastic! Just wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! You've made an excellent choice; the Sony WH-1000XM5s truly offer an unparalleled audio experience with their industry-leading noise cancellation and fantastic features. While they retail at $399, I can offer them to you today for $385."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks, I know they're excellent headphones. However, $385 is much higher than I can afford right now. I was hoping to find a pair for around $200."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand that $385 might be a stretch, and I appreciate your interest. However, $200 is significantly below what I can offer for these premium, brand-new Sony WH-1000XM5 headphones, which retail for $399. Given their superior noise cancellation, 30-hour battery, and multi-point connection, the value is truly exceptional. I can adjust the price to $350 for you today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the adjustment, but $350 is still too high for my budget. The maximum I could consider for these headphones is $215."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but $215 is unfortunately below my cost for these brand-new Sony WH-1000XM5 headphones. They offer incredible value with their top-tier features. The lowest I can possibly go for them is $270."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me, but $270 is still more than I can afford. Unfortunately, I cannot go above $220 for these."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your limit. Given your strong interest and as a final offer, I can meet you at $220. That's the absolute lowest I can go for these brand-new, feature-rich Sony WH-1000XM5 headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I can accept that. I'll take them for $220."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    385.0,
+    350.0,
+    270.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

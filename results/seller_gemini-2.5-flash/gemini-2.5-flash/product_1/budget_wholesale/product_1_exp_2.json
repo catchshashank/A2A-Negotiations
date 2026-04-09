@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello!\n\nI'm very interested in the Apple MacBook Pro 16-inch (M3 Pro) you have for sale. Would you be open to discussing the price at all?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's fantastic to hear! The 16-inch M3 Pro MacBook Pro is an outstanding machine, packed with power and that stunning Liquid Retina XDR display. We typically offer it at $2,499. What price point were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you. While I appreciate the quality of the MacBook Pro, my budget is considerably lower. I was hoping to acquire it for around $1,500."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand that budget is a key consideration. However, $1,500 is significantly below what we can offer for a brand new M3 Pro MacBook Pro. This machine is a premium investment, boasting the M3 Pro chip, stunning Liquid Retina XDR display, and an incredible 22-hour battery life.\n\nWhile the retail price is $2,499, we're open to finding a suitable price, but we would need to be much closer to the original asking price to make this work. What's the highest figure you're comfortable offering for such a high-performance device?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium device. Given its features, I could stretch my budget to $1,650."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you stretching your budget for this incredible machine. At $1,650, we're still quite a bit below the value of a brand new 16-inch M3 Pro MacBook Pro, which features that powerful M3 Pro chip and expansive 18GB unified memory. This is a top-tier professional device.\n\nGiven its capabilities and our costs, we'd need to be closer to $2,200 to make a deal. What's the absolute best you can do?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand. The highest I can go is $1,800."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you pushing your budget to $1,800. While that's still a very tight margin for a brand new M3 Pro MacBook Pro, considering its retail price of"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position, but $1,800 is truly the absolute maximum I can afford for this purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Given that $1,800 is your absolute maximum, we can finalize the sale at that price. It's an excellent investment, and you'll truly enjoy the performance of this 16-inch M3 Pro MacBook Pro. How would you like to proceed with the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent. I accept the offer at $1,800. Please let me know the next steps to complete the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    1650.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

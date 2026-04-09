@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \n\nI'm really interested in your MacBook Pro 16-inch M3 Pro \u2014 it looks like exactly what I'm looking for. The specs are fantastic, especially the display and battery life.\n\nI'm seriously considering making a purchase, but I wanted to check if there's any flexibility on the price? I'm a committed buyer and ready to move quickly if we can work something out.\n\nWould you be open to discussing the price?\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest (mentions specific features)\n- \u2705 Signals you're a serious buyer (builds goodwill for negotiation)\n- \u2705 Directly asks about price flexibility without being pushy\n- \u2705 Concise and non-threatening tone\n- \u2705 Opens the door for them to make a counteroffer"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there!\n\nI'm glad to hear you're interested in the MacBook Pro 16-inch M3 Pro. It's a great choice with impressive specs. While I can appreciate your interest, the price for this top-of-the-line model is already at a wholesale rate of $1,800. I'm sure you understand the value it holds. Let me know if you have any other questions or if you'd like to proceed with the purchase."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for reaching out! I appreciate you sharing that wholesale rate of $1,800 \u2013 that's actually within my budget, so I'm definitely interested. Before I commit, I wanted to ask: is there any flexibility on that price, or are there any current promotions, bundle deals, or incentives you might be running? I'm a serious buyer ready to move forward today if we can work out the best possible terms."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear that the wholesale rate works for you! As much as I'd love to accommodate further price adjustments or promotions, the wholesale rate of $1,800 is already the best offer available for this top-tier MacBook Pro model. Rest assured, you're getting the best value with this price. Let me know if you have any other questions or if you're ready to proceed with the purchase."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! The $1,800 wholesale price is excellent and well within my budget. I'm ready to move forward with this purchase. Can you walk me through the next steps \u2013 do I need to complete payment now, and what's the timeline for delivery?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested\u2014they seem like exactly what I'm looking for. The noise cancellation and battery life are impressive.\n\nI'm definitely keen to move forward, but I was wondering if there's any flexibility on the price? I'd love to work something out that works for both of us. Let me know if you're open to discussing it!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Friendly and casual opener\n- Shows genuine interest in the product\n- Diplomatically asks about price flexibility without being aggressive\n- Opens the door for negotiation naturally\n- Keeps it brief and respectful"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Glad to hear you're interested in the Sony WH-1000XM5s \u2013 they truly are top-tier headphones. With their industry-leading noise cancellation, 30-hour battery, and smart features, they offer exceptional value. While the retail price is $399, I can offer them to you today for $379. Let me know if that works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the $20 discount, but that's still above what I can spend right now. I'm looking to get these around $310 or less. I know that's a significant drop from retail, but given the current market and competition, would you be able to work with me on that price point?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget. While $310 is quite a bit lower than the value these premium headphones offer, I can come down a bit further. Considering their unmatched features and performance, I can offer them to you for $349. That's a fantastic deal for brand-new XM5s."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $349, but I'm still $40 over my budget. I really want these headphones, but I can't go above $309.50. Is there any flexibility on your end to meet me there? If not, I understand, but that's the maximum I can work with today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Okay, I can see you're serious about these headphones. Given your strong interest and to close this today, I can meet you at $309.50. That's an excellent price for these brand-new, industry-leading headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works for me. I'm ready to move forward at $309.50. Thank you for working with me on this \u2013 I really appreciate it. How would you like to proceed with the purchase?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    379.0,
+    349.0,
+    309.5
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

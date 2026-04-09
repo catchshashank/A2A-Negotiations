@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're having a good day. I'm really interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. It looks like a fantastic machine! I was wondering if there's any flexibility on the price?\n\nThanks for your time!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad to hear you're interested in the Apple MacBook Pro 16-inch (M3 Pro)! It is indeed a fantastic machine. While I can't go below the wholesale price, I can offer you a great deal on it. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds promising! What price are you able to offer for it?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I can offer you a special price of $2,100 for the Apple MacBook Pro 16-inch (M3 Pro). It's a great deal considering all the amazing features it offers. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $2,100 is higher than I can afford for this purchase. I'm looking for a significantly lower price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but the best price I can offer for the Apple MacBook Pro 16-inch (M3 Pro) is $2,100. It's already a discounted price from the retail price. Let me know if you'd like to proceed at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your transparency. Unfortunately, I cannot afford the MacBook Pro at $2,100. I have a firm budget that it exceeds."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2100.0,
+    2100.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

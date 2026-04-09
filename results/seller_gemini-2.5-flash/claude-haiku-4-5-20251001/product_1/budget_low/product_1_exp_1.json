@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \n\nI came across your listing for the MacBook Pro 16-inch M3 Pro and I'm really interested in it. The specs look great, especially the display and battery life \u2014 exactly what I've been looking for.\n\nI'm genuinely interested in moving forward, but I wanted to check if there's any flexibility on the price? I'm a serious buyer and ready to complete the purchase quickly if we can work something out.\n\nWould you be open to discussing the price at all?\n\nThanks!\n\n---\n\n**Note:** This message is friendly and direct without being aggressive. It signals genuine interest while naturally introducing the price negotiation topic. It also emphasizes you're a serious, ready buyer \u2014 which often motivates sellers to negotiate."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for your interest! You're right, it's an exceptional machine, perfect for what you're describing. For a serious buyer ready to move quickly, I can certainly be a *little* flexible. How about we look at $2,399?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I need to be straightforward with you\u2014my budget is $1,440, which is significantly lower than even that discounted price. \n\nI'm genuinely interested in this MacBook, but I can't go beyond that amount. Is there any way you could work with me at or near my budget, or would you have any other options that might fit better?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your candidness. While I understand budget considerations, $1,440 is significantly below what I can offer for a new 16-inch M3 Pro MacBook Pro. This machine's advanced display, powerful M3 Pro chip, and exceptional battery life truly set it apart.\n\nConsidering your serious interest, the absolute lowest I could go is $1,950. This is a truly competitive price for such a high-performance machine."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the MacBook's value, and I genuinely appreciate you coming down to $1,950. However, that's still $510 beyond what I can spend. My budget of $1,440 is firm\u2014I simply can't go higher without overextending myself financially.\n\nAt this point, I don't think we're going to find a meeting point on this particular model. Unless you have any refurbished or previous-generation MacBooks that might work within my range, I may need to look at other options. What do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm at $1,440. Unfortunately, for this new 16-inch M3 Pro MacBook Pro, I cannot go below $1,950. This is the absolute best I can do for this high-performance model. I don't have refurbished or previous-generation models available at this time."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being direct about your bottom line. Since $1,950 is still $510 over my budget and you don't have other options available, I don't think we can make this work today. \n\nI'm unable to move beyond $1,440, so I'll have to pass on this purchase. Thanks for your time and for negotiating in good faith\u2014I appreciate it."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2399.0,
+    1950.0,
+    1950.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

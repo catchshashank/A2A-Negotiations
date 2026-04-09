@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm very interested in your LG C3 65-inch OLED TV. It looks like a great set! I was wondering if there's any flexibility on the listed price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the LG C3 65-inch OLED TV! While I can't go below the wholesale price, I can offer you a competitive deal. How does [Offer Price] sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds interesting! What's the specific offer price you have in mind?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I can offer you the LG C3 65-inch OLED TV for $1,500. It's a great deal considering its features and quality. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a fantastic TV, but $1,500 is a bit beyond my current budget. I was really hoping to secure it for closer to $1,400. Is there any way you could work with me on that price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. How about meeting halfway at $1,450? It's a great value for this top-of-the-line TV."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down, but $1,450 is still just a little bit more than I can afford. I simply can't go over $1,449.50."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your position. Since I value your interest, I can agree to sell you the LG C3 65-inch OLED TV for $1,449.50. I'm glad we could reach a mutually beneficial agreement."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm thrilled we could make this work. I'll take it for $1,449.50."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1500.0,
+    1450.0,
+    1449.5
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

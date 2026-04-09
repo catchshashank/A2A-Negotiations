@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in your LG C3 65-inch OLED TV. It looks like a fantastic set. Would you be open to discussing the price at all?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! I'm glad you're interested in the C3\u2014it's an incredible TV. The retail price is $1,799, but I'm definitely open to discussing options depending on your situation. What kind of pricing were you thinking about, or do you have any questions about the TV itself?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks, it does sound like an excellent TV. To be upfront, my budget is quite strict for this, and I'm really looking to spend around $850 for this model."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty about your budget. However, at $850, we're unfortunately too far apart to make this work. The C3 is a premium OLED with cutting-edge features\u201465-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, and four HDMI 2.1 ports\u2014so there's real value there.\n\nThat said, I want to work with you. What if we found a middle ground? I could do $1,299 or $1,350, which gives you a solid discount from the $1,799 retail while reflecting the TV's quality. Would something in that range be more feasible for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand its value, but those prices are still well beyond what I can afford. My absolute maximum for this TV would be $880. I can't go any higher than that."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    850.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

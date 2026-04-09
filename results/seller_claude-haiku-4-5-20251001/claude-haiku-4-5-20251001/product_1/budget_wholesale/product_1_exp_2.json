@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "**Subject: Interested in Your MacBook Pro 16-inch \u2013 Quick Question**\n\n---\n\nHey there!\n\nI came across your listing for the MacBook Pro 16-inch M3 Pro, and I'm really interested in it. The specs look fantastic, and it's exactly what I've been looking for.\n\nI'm seriously considering making a purchase, but I wanted to reach out and see if there's any flexibility on the price? I'm a committed buyer and ready to move forward quickly if we can work something out.\n\nWould you be open to discussing this?\n\nThanks so much!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out\u2014great to hear you're interested in the MacBook Pro 16-inch M3 Pro. It's an incredible machine with that M3 Pro chip and XDR display.\n\nI appreciate you being a serious buyer. The retail price is $2,499, which is already competitive for the specs you're getting. That said, I'm willing to work with you\u2014how did you have in mind? I'm flexible within reason, especially for someone ready to move quickly like yourself.\n\nWhat price point were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the willingness to negotiate! I'm definitely ready to move forward quickly. Given the current market, I'm looking at $1,800 as my target price. I know that's a significant discount from retail, but I'm a serious buyer who can close this deal today if we can make the numbers work. Is there any room to get there, or what's the best you can do?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the directness! $1,800 is actually our wholesale cost, so there's no margin there for us. I need to stay above that to make this work.\n\nHere's what I can do though: I can offer you $2,199 today. That's a solid $300 off retail, and it reflects your commitment to closing quickly. It's a fair middle ground that works for both of us.\n\nCan we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $2,199 is still outside my budget. I'm working with a hard limit of $1,800, so I can't go above that unfortunately. \n\nI understand that's your wholesale cost, but I'm wondering if there are other options\u2014do you have any refurbished or open-box units, or perhaps a bundle deal with accessories that might help us find a solution within my budget? Otherwise, I may need to explore other retailers or wait for a sale period."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position, and I appreciate you being upfront about your budget constraint. Unfortunately, I can't go below $1,800\u2014that's my wholesale cost and my absolute floor. Selling at that price means zero margin for me, so that's genuinely the limit.\n\nAs for refurbished or open-box units, I don't have those available right now. And bundling accessories wouldn't really change the math on the MacBook itself.\n\nHere's my honest take: if $1,800 is your hard limit, you might have better luck checking Best Buy, Amazon, or waiting for a sale event\u2014they sometimes run promotions that could get you closer to that price.\n\nBut if you can stretch to $2,100-$2,150, I can make that happen today and you'd be getting a brand new unit from me with no hassle. Want to explore that instead?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your honesty, and I respect that $1,800 is your floor. Unfortunately, I can't stretch beyond my budget\u2014$1,800 is genuinely my hard limit, not a negotiating position.\n\nSince we can't make this work at that price point, I'll take your suggestion and check those other retailers. If I'm able to find it at or near my budget elsewhere, I'll move forward there. But I wanted to give you first shot since you've been straightforward with me.\n\nIf your situation changes or you get any inventory that does hit $1,800, feel free to reach out. Otherwise, thanks for being transparent about your constraints."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2199.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

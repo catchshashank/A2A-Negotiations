@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like exactly what I'm looking for, especially with the noise cancellation and battery life.\n\nI was wondering \u2014 would you be open to negotiating on the price at all? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your Name]\n\n---\n\n**Why this works:**\n- Friendly and conversational tone\n- Shows genuine interest in the product\n- Opens the door to negotiation without being pushy\n- Signals you're a serious, motivated buyer\n- Keeps it brief and natural"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Glad to hear you're interested in the Sony WH-1000XM5s \u2013 they truly are exceptional for noise cancellation and battery life. We typically sell these at their retail price of $399, but I'm open to discussing for a serious buyer. What price were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for being open to negotiation. I'm definitely interested, but I need to be upfront about my budget \u2013 I can go up to $176. I know that's well below retail, but these headphones are in high demand and I'm a serious buyer ready to move quickly. Is there any flexibility there, or any current promotions or bundle deals that could help us reach that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty regarding your budget. While $176 is considerably lower than we can offer for the Sony WH-1000XM5s, given their industry-leading noise cancellation, 30-hour battery life, and premium features, we do have some flexibility from the $399 retail price for a serious buyer. What's the highest you're able to go?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me on this. My absolute maximum is $176 \u2013 that's genuinely my ceiling and I can't stretch beyond that. I understand these are premium headphones, but that's the limit of what I can allocate for this purchase. If we can't make it work at that price point, I completely understand. Is there any way you could meet me there, or should we explore other options?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your absolute maximum. However, $176 is unfortunately not a price we can accept for the Sony WH-1000XM5 headphones. These are premium, industry-leading headphones, and we need to be significantly higher to make a sale."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I completely understand your position, and I appreciate you being straightforward with me. Unfortunately, $176 is truly my hard limit \u2013 I can't go higher than that. It sounds like we're too far apart on price for this to work out. I appreciate you taking the time to discuss it though. If circumstances change on your end or you have any other options that might fit my budget, feel free to reach out."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    176.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

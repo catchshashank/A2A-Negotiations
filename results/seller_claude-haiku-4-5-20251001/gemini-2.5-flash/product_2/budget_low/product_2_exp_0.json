@@ -1,0 +1,78 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm very interested in your Sony WH-1000XM5 headphones. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great to hear you're interested! These are fantastic headphones with industry-leading noise cancellation and 30-hour battery life. The retail price is $399, which is actually quite competitive given the premium features.\n\nThat said, I do have some flexibility. What price range were you thinking? I'm happy to work with you, but I want to make sure we find something that reflects the quality you're getting here."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the features of these headphones. Given my budget, I was hoping to stay around $140."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget, but I have to be honest\u2014$140 is quite a bit below what I can do. These headphones retail at $399 and have some of the best features in the market.\n\nI can't go that low, but let me ask: what's driving that budget? If you're looking for a solid deal, I might be able to work with you somewhere in the $300-$350 range, which would still give you a meaningful discount while reflecting the true value of the product. Does that feel more workable?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the quality, but $300-$350 is unfortunately well beyond my budget. I truly cannot afford to go above $176 for these headphones."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty about your budget constraints. However, at $176, I'm not able to make that work\u2014that's below what I need to move on this product.\n\nHere's what I can do: I can offer you $280, which is a solid $119 discount off retail. That's a real savings while keeping the deal fair for both of us. If that's still too high, I'd rather be transparent that we might not be able to find common ground on this particular item. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $280 is still too high for me. I cannot afford to go above $176."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand, and I appreciate your transparency. Unfortunately, $176 is simply below my minimum\u2014I can't make that work on this product.\n\nIf you're set on that budget, these headphones might not be the right fit right now. But if your budget can stretch to around $250, I'd be willing to meet you there. Otherwise, I'd suggest revisiting this when you have more flexibility. What would you prefer?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your flexibility, but $250 is still over my budget. I cannot afford to go above $176. Therefore, I must reject this offer."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate you being straightforward throughout this conversation. At $176, I'm unable to move forward\u2014that's below what I need to work with on these headphones.\n\nIf circumstances change and your budget increases, I'd be happy to revisit this. Best of luck with your search, and feel free to reach out if you'd like to explore other options in the future."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand. Since I cannot exceed my budget of $176, I must respectfully decline. Thank you for your time."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    176.0,
+    250.0,
+    176.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

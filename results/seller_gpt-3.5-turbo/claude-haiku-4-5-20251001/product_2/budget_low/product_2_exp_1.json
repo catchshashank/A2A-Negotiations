@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! I came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. The noise cancellation and battery life sound amazing, and they'd be perfect for what I need.\n\nI was wondering if there's any flexibility on the price? I'm a serious buyer and ready to move quickly on this. What's the lowest you'd be willing to go?\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2713 Friendly and natural opener\n- \u2713 Shows genuine interest in the product\n- \u2713 Compliments specific features (builds rapport)\n- \u2713 Hints at being a committed buyer (encourages negotiation)\n- \u2713 Direct but polite price inquiry\n- \u2713 Short and doesn't over-explain"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! I'm glad you're interested in the Sony WH-1000XM5 headphones. They are indeed fantastic with their noise cancellation and battery life. While I can't go below the wholesale price, I can offer them to you at $350. Let me know if that works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the details on these headphones\u2014they sound great. However, $350 is still beyond what I can spend right now. My budget is $176, which I know is a significant gap from retail. \n\nDo you have any older models, refurbished units, or upcoming sales that might help us find a price point that works? Or would you be open to discussing a payment plan? I'm genuinely interested in getting these headphones, but I need to stay within my budget."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints and appreciate your interest in the headphones. While I don't have older models or refurbished units available, I can offer you a payment plan option to help you stay within your budget. How about we split the cost into two payments of $220 each, totaling the wholesale price? Let me know if that works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the payment plan option, but that still puts me at $440 total, which is well over my budget. My constraint is $176 maximum\u2014that's what I can actually afford right now, whether it's one payment or split payments.\n\nI understand that might be far from your wholesale price, but that's my hard limit. Is there any flexibility on the price itself, or should we consider this might not be the right fit at this time?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    440.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

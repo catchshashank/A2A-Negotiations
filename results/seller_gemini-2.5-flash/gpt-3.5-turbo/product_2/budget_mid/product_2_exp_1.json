@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in purchasing them. I was wondering if there's any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Glad to hear you're interested in the Sony WH-1000XM5. These are truly premium headphones, retailing at $399, and offer industry-leading noise cancellation and a fantastic 30-hour battery life. What price did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the information! I have a budget of $309.50 for this purchase. Would you be able to offer a price within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. While $309.50 is a bit lower than what I was hoping for, these headphones are genuinely top-tier. Considering their advanced features like speak-to-chat and crystal clear calls, I could meet you closer to the middle at $360. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but I must stick to my budget of $309.50. If you could consider lowering the price to fit within that range, I would be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget. Given your strong interest, I can agree to $309.50. Shall we proceed with the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds great! I'm glad we could reach an agreement at $309.50. Let's proceed with the purchase. Thank you!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    360.0,
+    309.5
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

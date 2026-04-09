@@ -1,0 +1,42 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in purchasing it. I was wondering if there's any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": null
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm interested in purchasing the Apple MacBook Pro 16-inch (M3 Pro). Can you offer a price within my budget of $1800.00?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 0,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! I came across your listing for the LG C3 65-inch OLED TV and I'm really interested in it. The specs look fantastic, especially the 4K 120Hz and those HDMI 2.1 ports.\n\nI'm seriously looking to make a purchase soon, but I'm wondering if there's any flexibility on the price? I'd love to work something out that works for both of us. What would be the best price you could do?\n\nThanks so much, and looking forward to hearing from you!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and conversational opener\n- \u2705 Shows genuine interest in the specific product\n- \u2705 Asks about negotiation naturally without being pushy\n- \u2705 Creates urgency (\"seriously looking to purchase soon\")\n- \u2705 Frames it as mutual benefit (\"works for both of us\")\n- \u2705 Keeps it short and easy to respond to"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks so much for your interest! I'm glad you're excited about the C3\u2014it's truly a premium TV with those features you mentioned.\n\nI appreciate you asking about flexibility. Here's where I'm at: the retail on this is $1,799, and I'm currently positioned at $1,599 for serious buyers. That's already a solid discount, and honestly, it reflects the real value of what you're getting with that OLED panel and gaming capabilities.\n\nIf you're ready to move forward soon, I could potentially work with you on that price point. What were you thinking for your budget?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me on this. I'm genuinely interested in the C3, but I need to be upfront\u2014my budget is $1,100. I know that's a significant gap from $1,599, but I'm hoping we can find a way to make this work. \n\nIs there any flexibility on your end, or are there any current promotions or bundle options that could help us bridge that gap?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty, and I understand budget constraints are real. However, I need to be equally straightforward with you: $1,100 is actually my absolute floor\u2014that's my cost on this unit, so there's no margin for me there at all.\n\nHere's what I can do instead: at $1,599, you're already getting $200 off retail, which is a genuine discount. But if that's still outside your range right now, I'd rather be honest than pretend I can go lower. \n\nWhat if we explored timing instead? Could you stretch to somewhere in the $1,400-$1,500 range if we worked out a payment plan or if you could wait for a seasonal promotion? Otherwise, I want to make sure you're getting the best value, and at $1,100 I simply can't make this work for me."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate your honesty here. I understand your position, and I respect that you're being straight with me about your floor.\n\nUnfortunately, $1,400-$1,500 is still beyond what I can stretch to right now, and I can't commit to waiting for a seasonal promotion without knowing the timeline. My budget is genuinely capped at $1,100.\n\nGiven that gap, it sounds like we might not be able to make a deal on this unit at this time. But I want to ask\u2014do you have any other TV models in stock that might offer similar performance in the $1,100 range? Or would you be open to connecting me with your manager or another team member who might have additional options or authority on pricing? I'm a serious buyer, just working within real constraints."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1599.0,
+    1599.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

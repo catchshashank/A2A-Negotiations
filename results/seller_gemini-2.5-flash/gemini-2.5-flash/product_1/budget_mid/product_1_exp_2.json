@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! That's wonderful to hear. The 16-inch M3 Pro MacBook Pro is an outstanding machine, offering unparalleled performance and a stunning display. I'm certainly open to discussing the price. What kind of offer were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the MacBook Pro. To start, I'd be looking to purchase it for $2099."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you for your offer of $2099. The 16-inch M3 Pro MacBook Pro is a premium device, retailing at $2,499, and offers unmatched performance and battery life. I can offer it to you for $2349."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $2349 is still higher than I can afford. I could go up to $2125."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you increasing your offer. This MacBook Pro is a significant investment that delivers incredible value for its features. To make this work, I can offer it to you for $2299."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me, but $2299 is beyond my budget. I'm afraid I cannot afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints can be challenging. This MacBook Pro truly stands out with its M3 Pro chip and 22-hour battery life. I can offer you a final price of $2249 for this exceptional machine."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your final offer, but $2249 is still above my maximum budget. I cannot afford it."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2349.0,
+    2299.0,
+    2249.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

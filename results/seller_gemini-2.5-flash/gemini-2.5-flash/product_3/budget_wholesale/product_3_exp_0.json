@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI'm very interested in the LG C3 65-inch OLED TV! It looks like a fantastic set. I was wondering if there might be any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "It truly is an incredible TV! The LG C3 65-inch OLED is a top-tier set, especially with its OLED evo panel, 4K 120Hz, and comprehensive gaming features. While the retail price is $1,799, we can offer it to you today for $1,699."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a beautiful TV, and I appreciate the offer. However, $1,699 is quite a bit outside my budget for this purchase. I was hoping to find something closer to $950."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand that $1,699 might be a stretch, but an LG C3 65-inch OLED is a premium television, and $950 is simply not feasible given its advanced features like the OLED evo panel, 4K 120Hz, and dedicated gaming capabilities. The closest we could get for this model is $1,599."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium model. While $1,599 is a better price, it's still considerably more than I can afford. I appreciate you coming down, but I'm looking for a much lower price point, ideally around $950 to $1000. Is there any flexibility closer to that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is a key factor. However, for a brand new LG C3 65-inch OLED with its premium features like the OLED evo panel and advanced gaming capabilities, a price in the $950 to $1000 range is simply not possible. The absolute lowest we can offer for this exceptional model is $1,199."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me. However, $1,199 is still above my maximum budget for this purchase. I unfortunately cannot afford it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1699.0,
+    1599.0,
+    1199.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

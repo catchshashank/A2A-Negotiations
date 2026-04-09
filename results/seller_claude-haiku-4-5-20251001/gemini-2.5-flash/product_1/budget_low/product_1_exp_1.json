@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI'm really interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed \u2013 it looks like a fantastic machine! I was wondering if there might be any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice \u2013 the M3 Pro is an excellent machine, especially for professional work. The 16-inch display and performance are really top-tier.\n\nI appreciate you asking about flexibility. The retail price is $2,499, which is already competitive given what you're getting. That said, I can work with you. What price range were you thinking? I'm open to discussing options, but I do need to stay within reasonable margins on my end."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm definitely interested in this MacBook Pro. Given my budget, I was hoping to stay closer to $1250 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but that's quite a bit below what I can do. At $1,250, I'd actually be losing money on the deal \u2013 my cost is significantly higher than that.\n\nHere's where I can be realistic with you: the retail is $2,499, and I'm willing to negotiate from there. Depending on your situation \u2013 whether this is for personal use, business, bulk purchase, etc. \u2013 I could potentially get you a solid discount. \n\nWhat's your actual budget range? If we can find something in the $1,900-$2,200 ballpark, we might have a real conversation here."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand that $1250 is too low for you. My budget is quite firm, and I really can't go higher than $1300 for this."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate your honesty about your budget. Unfortunately, $1,300 is still below what I can work with \u2013 that's just not sustainable for me on this product.\n\nHere's the thing: if your budget is firm at $1,300, this MacBook Pro might not be the right fit right now. But I don't want to leave you hanging. A few options:\n\n1. **Wait for sales** \u2013 There are often promotions around holidays or back-to-school seasons where you could get closer to your budget.\n\n2. **Consider the previous generation** \u2013 An older MacBook Pro model might fall into your price range and still be excellent.\n\n3. **Refurbished option** \u2013 If you're open to it, certified refurbished M3 Pros sometimes come in lower.\n\nI genuinely want to help, but I can't go that low on a new unit. Does one of these alternatives interest you, or would you like to revisit this when your budget might shift?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your understanding. While I can see that this model might be a stretch, I can offer a final price of $1390. That's the absolute highest I can go."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I really appreciate you stretching your budget \u2013 that shows genuine interest. However, $1,390 is still below my floor on this. My cost basis doesn't allow me to go that low and stay viable.\n\nHere's my best offer: I can do $1,800 for you. That's a significant discount from the $2,499 retail \u2013 about 28% off \u2013 and it's the lowest I can responsibly go on this unit while keeping the deal fair for both of us.\n\nIf that works for you, we can move forward today. If not, I totally understand, but unfortunately I can't meet you at $1,390. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $1800 is beyond my budget. I'm afraid I cannot afford it."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1250.0,
+    1250.0,
+    1800.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

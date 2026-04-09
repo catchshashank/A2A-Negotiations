@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! Your Apple MacBook Pro 16-inch (M3 Pro) caught my eye \u2013 it looks fantastic. I'm very interested in it and wanted to ask if there might be any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great to hear you're interested! The MacBook Pro 16-inch M3 Pro is an exceptional machine\u2014the 22-hour battery life and XDR display really set it apart. \n\nThe retail price is $2,499, which reflects its premium specs. I can definitely work with you though. What kind of budget range were you thinking? Depending on your situation\u2014whether you're buying for personal use, business, or if you're looking at multiple units\u2014there might be some room to discuss."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the MacBook Pro. Given my budget, I was hoping to get it for around $1200."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the interest, but $1,200 is unfortunately too low\u2014that's well below what I can offer. This M3 Pro model is a premium machine with top-tier specs that command real value.\n\nHere's the reality: I need to stay at $1,800 minimum. That's my floor, and it's actually a solid discount from the $2,499 retail price\u2014you'd be saving $700. \n\nIf that's still outside your budget, I'm happy to discuss alternatives or see if there's something else I can help with. But for this specific model, $1,800 is the best I can do."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $1,800 is still beyond my budget. I unfortunately cannot afford it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

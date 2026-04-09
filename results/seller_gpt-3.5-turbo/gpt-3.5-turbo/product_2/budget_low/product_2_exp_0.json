@@ -1,0 +1,105 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm quite interested in them. I was wondering if there's any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. I can offer you a special price of $350 for them. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I have a budget of $176, would you be able to go lower than that?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but I can't go below the wholesale price of $220 for the Sony WH-1000XM5 Wireless Headphones. Let me know if you're still interested at that price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, but unfortunately, I cannot exceed my budget of $176. If you're able to lower the price within my budget, I would be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but I'm unable to sell below the wholesale price of $220 for the Sony WH-1000XM5 Wireless Headphones. If you're able to reconsider, I'd be happy to assist you with the purchase."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding. I appreciate your offer, but I must adhere to my budget of $176. If you have any future promotions or discounts that could bring the price within my budget, I would be interested."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you for your interest. I will keep your budget in mind and let you know if there are any future promotions or discounts available for the Sony WH-1000XM5 Wireless Headphones. Feel free to reach out if you have any further questions."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I look forward to hearing from you about any future opportunities for the Sony WH-1000XM5 Wireless Headphones. Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Have a great day as well!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you, you too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too, take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 7,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

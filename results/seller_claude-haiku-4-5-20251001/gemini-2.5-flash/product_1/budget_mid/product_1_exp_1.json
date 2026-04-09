@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI'm very interested in your Apple MacBook Pro 16-inch (M3 Pro)! It looks like a fantastic machine. I was wondering if there's any flexibility on the price, or if you'd be open to offers?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! I'm glad you're interested in the MacBook Pro 16-inch. It's definitely a powerhouse machine with that M3 Pro chip and stunning XDR display.\n\nThe retail price is $2,499, and honestly, that's already a competitive price for what you're getting. That said, I'm open to discussing it depending on your situation. What kind of budget were you thinking, or what would make this purchase work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the detailed info. I'm very interested in the MacBook Pro, but my budget is quite firm. I could offer $1950 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer! That's a reasonable number, and I can see you're serious about this. Here's what I can do\u2014I can meet you at $2,150. That gives you a solid discount from retail while reflecting the premium quality and specs of this machine.\n\nThe M3 Pro, 18GB memory, and that XDR display are genuinely top-tier. At $2,150, you're getting exceptional value. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down, but $2,150 is just slightly over my absolute maximum budget. I'm afraid I can't afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints are real. Let me ask\u2014is $2,050 something you could work with? That's a meaningful discount from retail, and it gets you into this machine without stretching too far. \n\nIf that's still outside your range, I want to help make this happen. What's the absolute maximum you can go?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, $2,050 works for me. I'll take it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2150.0,
+    2050.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

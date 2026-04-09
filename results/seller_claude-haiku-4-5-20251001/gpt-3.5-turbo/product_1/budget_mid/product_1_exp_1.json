@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch and I must say, it looks like a fantastic product. I was wondering if there is any flexibility in the price for negotiation? Thank you for your time."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm doing great, thanks for asking. I'm glad you're interested in the MacBook Pro 16-inch\u2014it's truly an excellent machine with the M3 Pro chip and that stunning Liquid Retina XDR display.\n\nI appreciate you asking about pricing. The current price is $2,499, which reflects the value of these premium specs. That said, I do have some flexibility depending on your situation. Are you looking to purchase today, or would you need financing? Also, are you buying for personal use or a larger order? That context would help me see what I can work with for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm definitely interested in the MacBook Pro 16-inch with those impressive specs. My budget is $2149.50, so I'm hoping we can work out a deal within that range. Let me know if there's any room for negotiation on the price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget\u2014that's helpful context. The MacBook Pro 16-inch is priced at $2,499 because of the premium specs: the M3 Pro chip, 18GB memory, 512GB SSD, and that exceptional XDR display are really top-tier.\n\nYour budget of $2,149.50 is a bit below where I can go, but I'm not inflexible. Here's what I can offer: if you're ready to commit today, I could come down to $2,299. That's a meaningful discount from retail while still reflecting the quality you're getting. Does that work better for you, or would you like to explore other options?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate the discount you're willing to provide. However, my budget is firm at $2,149.50, and unfortunately, $2,299 exceeds that limit. I'll have to pass on this offer but thank you for considering. If there's any future promotion or sale that brings it closer to my budget, please let me know."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate your honesty about your budget constraints. I wish I could meet you at $2,149.50, but that's unfortunately below what I can offer while maintaining fair value for this machine.\n\nThat said, I don't want to lose you entirely. Here's my final offer: $2,249. That's a solid $250 discount from retail, and it's the lowest I can responsibly go given the product's quality and current market value. If you can stretch to that, I'd be happy to move forward today and get this excellent machine into your hands.\n\nIf not, I completely understand, and I'll definitely reach out if we run any promotions down the line. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your continued efforts to work with me on the price. However, $2,249 still exceeds my budget of $2,149.50. Unfortunately, I have to stick to my budget. I'll have to decline the offer at this time. Thank you for your understanding, and please do keep me in mind if there are any future promotions that bring it within my budget."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2299.0,
+    2249.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

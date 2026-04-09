@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Opening Message to Seller\n\n---\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested\u2014they seem like exactly what I'm looking for. The noise cancellation and battery life are impressive.\n\nI was wondering if there's any flexibility on the price? I'm a serious buyer ready to move quickly on the right deal. Would you be open to negotiating?\n\nLooking forward to hearing from you!\n\n---\n\n**Why this works:**\n- \u2713 Friendly and natural tone\n- \u2713 Shows genuine interest in the product\n- \u2713 Directly asks about price flexibility without being pushy\n- \u2713 Signals you're a committed buyer (encourages cooperation)\n- \u2713 Keeps it brief and respectful\n- \u2713 Doesn't reveal your maximum budget upfront"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey there! I'm glad you're interested in the Sony WH-1000XM5 headphones. They really are top-notch with their noise cancellation and battery life. While I can't go below the wholesale price, I'm open to discussing a deal. Let's see what we can work out to get you these amazing headphones!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for being open to negotiating! I'm definitely interested in these headphones \u2013 the noise cancellation and battery life are exactly what I'm looking for. However, I need to be upfront about my budget: I can go up to $220 maximum. \n\nI understand the retail is $399, so I'm looking for a significant discount. Are there any current promotions, bundle deals, or bulk discounts you could apply? Or if you have any open-box or refurbished units, that might work for me too. What options do you have that could get us close to that $220 range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the Sony WH-1000XM5 headphones! I understand your budget limitations, and while I can't go below the wholesale price of $220, I can offer you a deal that includes some accessories or a warranty extension to add value. Let's work together to find a package that meets your budget while ensuring you get a quality product with added benefits."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate that offer! Just to clarify \u2013 are you saying you can sell me the headphones at $220 as the final price? If so, that works perfectly within my budget, and I'm ready to move forward with that deal.\n\nIf the $220 is just the wholesale cost and you're adding accessories or warranty on top, I need to know the total out-of-pocket price. I can't exceed $220 total, so I want to make sure we're on the same page before we proceed."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear that $220 works for you. To clarify, the final price including any additional accessories or warranty will be $220 in total. I'll ensure that we stay within your budget while providing you with a great deal on the Sony WH-1000XM5 headphones. Let's proceed with this agreement and get you all set up with your new headphones!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That sounds great. I'm ready to move forward at $220 total for the headphones with the accessories and warranty included. \n\nWhat's the next step? Do you need my payment information, or would you like to confirm the shipping details and delivery timeline?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    220.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

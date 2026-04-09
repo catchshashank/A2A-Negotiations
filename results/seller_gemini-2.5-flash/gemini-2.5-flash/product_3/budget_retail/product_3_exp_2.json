@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the LG C3 65-inch OLED TV. Is there any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! That's an excellent choice, the LG C3 65-inch OLED is truly a standout TV with its stunning picture and features. While the retail price is \\$1,799, we're open to discussing the price for serious buyers. What kind of offer did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the LG C3 65-inch. I'm looking to make a purchase today and would be willing to offer $1,550 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a strong offer, and we appreciate your readiness to purchase today. The LG C3 is an exceptional TV, especially with its OLED evo panel, 4K 120Hz, and features like Dolby Vision IQ and Game Optimizer, truly justifying its retail price of \\$1,799. For a quick sale today, we could finalize it for you at \\$1,699."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand its value, but $1,699 is still a bit higher than I was hoping. Given I'm ready to buy right now, could we meet at $1,600?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your commitment to purchasing today. The LG C3's OLED evo panel, 4K 120Hz, and advanced gaming features truly make it a premium choice. For a ready buyer like yourself, I can meet you closer to your offer. Let's make it \\$1,649 to finalize the deal today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very keen to finalize this. My absolute best offer, ready to complete the purchase right now, would be $1,625."
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a very specific offer, and I understand your eagerness to finalize this. Given your readiness to complete the purchase right now, and to ensure you walk away with this incredible LG C3, we can accept your offer of \\$1,625. Let's get this finalized for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm happy to accept that. I'm ready to proceed with the purchase at $1,625."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1699.0,
+    1649.0,
+    1625.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the LG C3 65-inch OLED TV and I must say, it looks fantastic! I was wondering if there might be any room for negotiation on the price. I'd love to discuss further if possible.\n\nThank you and looking forward to hearing from you soon."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm doing well, thank you, and I appreciate your interest in the LG C3 65-inch OLED TV. It truly is a remarkable television, offering an unparalleled viewing experience with its OLED evo panel, 4K 120Hz, Dolby Vision IQ, and comprehensive gaming features. The retail price for this premium model is $1,799. While it's already an exceptional value for its class, I'm certainly open to discussing how we can make this outstanding TV yours. What price were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm glad to hear you're interested in the LG C3 65-inch OLED TV. Given my budget constraints, I'd like to inquire if there is any flexibility on the retail price of $1,799 to help me secure this fantastic TV within my budget of $2158.80."
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's an excellent budget to work with for such a premium television! The LG C3 65-inch OLED TV, at its retail price of $1,799, already represents outstanding value, especially considering its advanced features like the OLED evo panel and comprehensive gaming support. Since $1,799 is well within your stated budget of $2,158.80, it seems like a perfect fit. Are you ready to move forward with this incredible TV?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I appreciate the value of the LG C3 65-inch OLED TV at $1,799. Let's proceed with the purchase at the retail price. I'm excited to make this exceptional TV mine!"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

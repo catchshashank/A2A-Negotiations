@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the LG C3 65-inch OLED TV and I'm very interested in potentially purchasing it. I was wondering if there might be any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the LG C3 65-inch OLED TV. It's a fantastic choice! While I can't go below the wholesale price of $1,100, I can offer you a special deal at $1,500. Let me know if this works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but my budget is $2158.80. Is there any room for further negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget, and I appreciate your interest in the LG C3 65-inch OLED TV. How about meeting halfway at $1,650? This would be a great deal for you considering the TV's features and quality. Let me know if this works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I'm afraid I can't go above $1,500. Thank you for considering my budget."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your budget constraints. I can offer you the LG C3 65-inch OLED TV for $1,500. It's a great price for a top-quality TV like this. Let me know if you're ready to proceed with the purchase at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds like a fair deal. I'm ready to proceed with the purchase at $1,500 for the LG C3 65-inch OLED TV. Thank you for your understanding."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1500.0,
+    1650.0,
+    1500.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

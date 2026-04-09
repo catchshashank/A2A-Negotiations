@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm very interested in purchasing it. Would you be open to negotiating the price? \n\nLooking forward to hearing from you.\n\nThank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad to hear you're interested in the Apple MacBook Pro 16-inch (M3 Pro)! I'm open to discussing the price. What offer do you have in mind?\n\nThank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your offer. I have a budget of $1800. Could you offer the MacBook Pro 16-inch (M3 Pro) within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but the MacBook Pro 16-inch (M3 Pro) is priced at $2,499. I can offer it to you for $2,300. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. Unfortunately, $2,300 exceeds my budget of $1800. I appreciate your willingness to negotiate, but I cannot afford it at that price. If you're able to offer it within my budget, I'd be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. I can offer you the MacBook Pro 16-inch (M3 Pro) for $1,800, which is the wholesale price. Let me know if you'd like to proceed at that price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding. I appreciate your offer of $1,800 for the MacBook Pro 16-inch (M3 Pro). I'm happy to accept that price and proceed with the purchase. When can we arrange the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2300.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

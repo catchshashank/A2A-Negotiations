@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm very interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely, I'd be happy to discuss it with you! The MacBook Pro 16-inch M3 Pro is an excellent machine\u2014the M3 Pro chip, 18GB memory, and that stunning XDR display really make it a powerhouse for professionals.\n\nWhat price range did you have in mind? I'm flexible within reason, but I want to make sure we find a fair deal that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for that. It's a fantastic machine, no doubt. Given my budget, I was hoping to get it for around $1749."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing that, but I can't go that low\u2014$1,749 is below what I need to work with on this unit. My floor is $1,800, which is actually a solid price for the specs you're getting here.\n\nThat said, I'm open to working with you. Is there any flexibility on your end, or would $1,800 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, $1800 works for me. I'll take it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could work that out. At $1,800, you're getting excellent value on this M3 Pro\u2014that's a great deal for the performance and features.\n\nLet's move forward with the purchase. How would you like to proceed with payment and delivery?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'm ready to proceed. How do you handle payment and delivery?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

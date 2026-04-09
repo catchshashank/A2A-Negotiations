@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there's any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Glad to hear you're interested in the Sony WH-1000XM5 headphones \u2013 they're truly exceptional for their noise cancellation and sound quality. We have them listed at $399. What price were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the information. I have a budget of $478.80 for this purchase. Would you be able to offer a lower price than $399 to accommodate my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "It's great to hear you have a budget of $478.80! Our retail price for the Sony WH-1000XM5 headphones, with their industry"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. Would you be able to offer the Sony WH-1000XM5 headphones at a price lower than $399 to fit within my budget of $478.80?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "It's interesting that your budget is $478.80. The Sony WH-1000XM5 headphones are priced at $399, which offers excellent"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the features of the Sony WH-1000XM5 headphones. To ensure I stay within my budget, would it be possible to secure them at a price lower than $399?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "The Sony WH-1000XM5 headphones are listed at $399, which is already a competitive price for their advanced features. Given your budget of $478.80, this purchase would fit comfortably within it, offering you excellent value for top-tier noise cancellation and sound."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the value offered by the Sony WH-1000XM5 headphones. However, I must adhere to my budget strictly. Since the price is $399 and within my budget, I would be happy to proceed with the purchase at this price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    478.8,
+    399.0,
+    399.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

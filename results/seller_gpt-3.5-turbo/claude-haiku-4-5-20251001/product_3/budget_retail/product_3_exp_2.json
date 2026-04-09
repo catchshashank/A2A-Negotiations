@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! I came across your LG C3 65-inch OLED listing and I'm really interested in it. The specs look fantastic, especially the 4K 120Hz and those HDMI 2.1 ports.\n\nI'm seriously looking to make a purchase soon. Is there any flexibility on the price, or would you consider negotiating? Let me know what you're thinking \u2014 I'd love to work something out!\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural tone\n- \u2705 Shows genuine interest in the product (mentions specific features)\n- \u2705 Directly but politely asks about price flexibility\n- \u2705 Creates urgency (\"looking to make a purchase soon\")\n- \u2705 Opens dialogue without being pushy\n- \u2705 Keeps it brief and engaging"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! I'm glad you're interested in the LG C3 65-inch OLED TV. The listed price is $1,799, but I can offer it to you for $1,600. Let me know if this works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a great offer at $1,600 \u2013 I appreciate the discount. Before I commit, do you have any flexibility on the price? I'm looking to get the best deal possible. Also, does this include delivery and setup, or are there any additional fees I should know about?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your interest in getting the best deal. I can offer you the LG C3 65-inch OLED TV for $1,550, which includes delivery and setup at no extra cost. Let me know if this works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's excellent \u2013 $1,550 with free delivery and setup is very competitive. I'm ready to move forward with this deal. Can we finalize the purchase at this price?"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1600.0,
+    1550.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

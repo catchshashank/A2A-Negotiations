@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested\u2014they look like exactly what I've been looking for. I love that they have the 30-hour battery life and noise cancellation.\n\nBefore I commit, I wanted to check: is there any flexibility on the price at all? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Friendly and casual opening\n- Shows genuine interest in the product (mentions specific features)\n- Asks about price flexibility naturally without sounding pushy\n- Signals you're a serious buyer (builds trust and encourages negotiation)\n- Keeps it brief and doesn't reveal you're using a negotiation strategy"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great to hear you're interested! \ud83d\ude0a\n\nI really appreciate that you're a serious buyer. The WH-1000XM5s are genuinely fantastic\u2014that 30-hour battery and noise cancellation combo is hard to beat, plus the multipoint connection is a game-changer if you switch between devices.\n\nOn price, I've got them listed at $399, which is the retail price. I can definitely work with you since you're ready to move quickly. How about $369? That gives you a solid discount while I keep some fair margin. That's about as flexible as I can go on these.\n\nWhat do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer! $369 is definitely better than retail. Before I commit though, is there any room to go lower? I'm a serious buyer ready to complete this today\u2014could you do $349 or $350? That would make this a no-brainer for me to move forward right now."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you! I like your enthusiasm, and I want to make this work since you're ready to go today.\n\nHere's the thing though\u2014$349-$350 gets pretty tight for me on these. How about we meet in the middle at $359? That's a solid $40 off retail, and honestly, it's a fair deal for both of us. Plus, you get them today without any back-and-forth.\n\nCan we lock it in at $359?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You know what, $359 is fair and I appreciate you meeting me halfway. That's a good discount and I'm ready to move forward. Let's do it\u2014I'll take them at $359."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    369.0,
+    359.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

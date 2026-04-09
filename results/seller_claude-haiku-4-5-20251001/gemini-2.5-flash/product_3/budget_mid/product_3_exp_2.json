@@ -1,0 +1,78 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the LG C3 65-inch OLED TV. It looks like a fantastic TV! I was wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! I'm glad you're interested in the C3 \u2013 it's an excellent choice. The retail price is $1,799, and it's definitely worth it given the specs: the OLED evo panel, 4K 120Hz, Dolby Vision IQ, and those four HDMI 2.1 ports make it perfect for gaming and home theater.\n\nThat said, I can work with you. What price range were you thinking? I have some flexibility, but I want to make sure we land on something fair for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm definitely interested in the C3, it's a fantastic TV. Given the retail price, I was hoping we could work towards something around $1299."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $1,299 is quite a bit below what I can do. That's a significant discount from the $1,799 retail price.\n\nHere's what I can offer: I can bring it down to $1,499 for you. That's still a solid $300 savings off retail, and honestly, for a TV with this caliber of picture quality and gaming features, it's a competitive price. \n\nCan we work with something in that range, or where did you have flexibility?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $1499 is a bit outside my budget. I'm afraid I cannot afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints are real. Let me ask \u2013 what's the absolute maximum you could stretch to? \n\nI can potentially meet you closer to where you need to be, but I do need to stay within a certain range to make this work on my end. If you can share your top number, I'll see what I can do for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I could potentially stretch to $1430. That would be my absolute top."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing that number with me. $1,430 is closer, but I need to be honest \u2013 that's still pushing it for me on this model.\n\nHere's what I can do: I'll come down to $1,450. That's $349 off retail, and it's really the lowest I can go while keeping this deal fair on my side. This is a premium TV with cutting-edge OLED technology, and at $1,450, you're getting exceptional value.\n\nCan we make this work at $1,450?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to meet me, but $1450 is just above my absolute maximum budget. I'm afraid I cannot afford it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you. Look, I want to make this happen for you since you're genuinely interested. Let me meet you at $1,440 \u2013 that's my absolute best offer. It's just $10 more than your budget, and honestly, it's the lowest I can responsibly go on this TV.\n\nCan you find that extra $10 to make this work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds like a fair deal. I can agree to $1440."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1499.0,
+    1499.0,
+    1450.0,
+    1440.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch with the M3 Pro chip \u2014 it looks like exactly what I've been looking for. The specs are impressive, especially that display and battery life.\n\nI wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer ready to move quickly, and I'm wondering if you'd be open to discussing it.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Note:** This message is friendly and natural while opening the door to negotiation without being pushy. It signals you're a genuine, motivated buyer, which gives you leverage in the conversation."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks so much for your interest \u2014 I'm glad the specs caught your attention. The M3 Pro really is a powerhouse, especially for the display and performance combo.\n\nI appreciate you being ready to move quickly. Here's the thing: at $2,499, this MacBook is already competitively priced for what you're getting. That said, I'm definitely open to working with serious buyers like yourself.\n\nWhat kind of budget range were you thinking? That'll help me see what we can do. \ud83d\udcaa"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for being open to negotiating! I appreciate that. My budget is right at $2,499, which is what you're asking, so I'm definitely a serious buyer ready to move forward.\n\nHere's what I'm thinking \u2014 is there any flexibility on the price, or any add-ons you could throw in? Even a small discount or bundled accessories would make this a win-win. If not, I'm prepared to go ahead at your current asking price, but I wanted to see if there's any room to work with first.\n\nWhat options do you have?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I really appreciate your honesty here, and I respect that you're ready to move at full price. That said, at $2,499, I'm already offering this at a fair market rate for the specs you're getting.\n\nHere's what I can do though: rather than discounting the MacBook itself, I can throw in a quality protective case and AppleCare+ coverage (which normally runs $379). That's real value added without cutting into the price.\n\nIf that works for you, we can get this locked in today. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer \u2014 that's genuinely helpful. AppleCare+ is solid value, and a protective case is practical.\n\nBefore I commit, let me ask directly: is that AppleCare+ and case bundle something you can confirm in writing as part of the deal? I want to make sure everything is clear upfront.\n\nIf yes, then we've got a deal at $2,499 with those included. If you can't guarantee the AppleCare+ piece, I'd need to see at least a modest price reduction \u2014 maybe $2,399 or $2,449 \u2014 to make the math work for me.\n\nWhat can you confirm?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely \u2014 I can confirm both the protective case and AppleCare+ in writing as part of this deal at $2,499. I'll document everything clearly so there's no confusion on your end.\n\nThat way you're getting genuine added value without any surprises. I can get the paperwork to you right away once you're ready to move forward.\n\nDoes that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect \u2014 that works for me. I'm ready to move forward at $2,499 with the protective case and AppleCare+ included, all documented in writing.\n\nLet's get the paperwork started. What's the next step to finalize this?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

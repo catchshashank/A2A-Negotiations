@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in your Sony WH-1000XM5 headphones \u2013 they look fantastic. I was wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the Sony WH-1000XM5 headphones! While I can't go below the wholesale price of $220, I can offer them to you for $350. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a bit high for me. I can offer $220."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your offer, but I'm unable to sell below the wholesale price of $220. Is there a price point between $220 and $350 that you would be comfortable with?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "My maximum budget for these is $220. I can't go any higher than that."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your budget constraints. I can offer you the Sony WH-1000XM5 headphones for $220, which is the wholesale price. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That works for me. I'll take them for $220."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    220.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "**Subject: Interest in Your MacBook Pro 16-inch M3 Pro**\n\n---\n\nHi there,\n\nI came across your listing for the MacBook Pro 16-inch M3 Pro and I'm really interested in it. The specs look great, especially the display and battery life\u2014exactly what I've been looking for.\n\nI'm seriously considering making a purchase, but I wanted to check if there's any flexibility on the price? I'm a committed buyer and ready to move quickly if we can work something out.\n\nWould you be open to discussing the price at all?\n\nThanks for your time!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest without being pushy\n- \u2705 Mentions specific features (builds credibility)\n- \u2705 Signals you're a serious buyer\n- \u2705 Opens negotiation door softly with \"flexibility\" and \"work something out\"\n- \u2705 Concise and respectful of their time"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi,\n\nI'm glad to hear you're interested in the MacBook Pro 16-inch M3 Pro! Given its high quality and features, I can offer it to you for $2,200. Let me know if this works for you.\n\nLooking forward to your response!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a great offer at $2,200 \u2013 I appreciate it. Before I commit, I wanted to ask if there's any flexibility on the price? I'm a serious buyer ready to move forward today. Could you do $2,000 or perhaps include any accessories like AppleCare+ or a case to sweeten the deal?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad you appreciate the offer at $2,200. Considering your commitment and interest, I can meet you halfway at $2,100. Unfortunately, I'm unable to include additional accessories at this price point. Let me know if this works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me halfway at $2,100 \u2013 that's a solid offer. Let me be straightforward: I'm ready to buy today, and $2,100 works within my budget. I'm prepared to move forward with this price. Can we finalize the transaction at $2,100?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2200.0,
+    2100.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

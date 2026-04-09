@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \ud83d\udc4b\n\nI came across your listing for the MacBook Pro 16-inch M3 Pro and I'm really interested in it. The specs look fantastic, especially the display and battery life\u2014exactly what I've been looking for.\n\nI'm seriously considering making a purchase, but I wanted to reach out and see if there's any flexibility on the price? I'm a committed buyer and ready to move quickly if we can work something out.\n\nWould you be open to discussing the price at all?\n\nThanks so much, and looking forward to hearing from you!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product\n- \u2705 Compliments specific features (builds rapport)\n- \u2705 Signals serious intent to buy\n- \u2705 Asks about negotiation without being pushy\n- \u2705 Concise and to the point"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! It's great to hear you're so interested in the MacBook Pro 16-inch M3 Pro \u2013 it truly is an exceptional machine, especially with that stunning display and M3 Pro performance. We value serious buyers, and for a committed purchase, we can certainly discuss the price. What figure did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I'm definitely interested in this MacBook Pro. Given the current market and comparable offers I've seen, I'm looking to get this around $2,150. That's a solid price point for me, and I'm ready to move forward quickly if we can work with that number. What flexibility do you have on pricing?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. This M3 Pro MacBook Pro is a premium device, offering incredible performance and value, and $2,150 is a bit lower than we'd typically go for it. For a quick and committed sale, we could finalize the purchase at $2,375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $2,375 is still above what I can work with. My budget ceiling is $2,149.50, and I need to stay within that to make this purchase work. Can you meet me at that price point? If so, I'm ready to complete the transaction today."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2375.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

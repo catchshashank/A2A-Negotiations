@@ -1,0 +1,303 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you are doing well. I came across your listing for the LG C3 65-inch OLED TV and I must say, it looks like a fantastic product. I was wondering if there is any room for negotiation on the price. I am very interested in purchasing it and would love to discuss further. \n\nThank you and looking forward to hearing from you soon."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the LG C3 \u2013 it's truly an exceptional TV. I appreciate you reaching out about pricing.\n\nThe current price is $1,799, which is actually competitive for this model given its premium OLED evo panel, 4K 120Hz capability, and features like Dolby Vision IQ and Game Optimizer. That said, I'm open to working with you.\n\nWhat price range were you thinking about? Depending on your situation \u2013 whether this is a bulk purchase, referral potential, or timing \u2013 we might be able to find some flexibility. Let me know what you had in mind, and we can explore options together."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the information. I have a budget of $880.00 for this purchase. Can you offer the LG C3 TV within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget, but I'm afraid $880 is below what I can offer on this unit. That price point doesn't work for me given the TV's value and current market conditions.\n\nHowever, I don't want to lose this sale. The lowest I can go is $1,100 \u2013 which is a significant discount from the retail price. That's a solid deal for a 65-inch OLED TV with these specs. \n\nIs there any flexibility on your end to work toward that price, or would you like to discuss a payment plan option?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position, but unfortunately, $1,100 is still above my budget limit. I appreciate your offer, but I need to stick to my budget of $880. Thank you for considering."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand budget constraints, and I appreciate your honesty. Unfortunately, $880 is below my absolute minimum \u2013 I simply can't move on this one at that price point.\n\nThat said, if your budget situation changes or you're open to saving up a bit more, $1,100 is genuinely the floor I can offer. It's a 39% discount from retail, which is substantial for a premium OLED TV.\n\nFeel free to reach out if circumstances shift. Best of luck with your search, and I hope you find the right TV for your needs!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding. I will keep your offer in mind and reach out if my budget allows for the higher price. I appreciate your time and assistance."
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're very welcome! I really appreciate your professionalism throughout this conversation. If your budget opens up, I'd be happy to help you secure this TV at $1,100 \u2013 just reach out anytime.\n\nBest of luck, and thanks again for your interest!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and kind words. I will definitely keep your offer in mind. Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Thanks for reaching out, and I hope to hear from you soon. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care as well! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think we've said our goodbyes! Take care now. \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care! Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think we've thoroughly said goodbye! Have a great day. \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! You too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! \ud83d\udc4b"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 30,
+  "negotiation_completed": true,
+  "negotiation_result": "max_turns_reached",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

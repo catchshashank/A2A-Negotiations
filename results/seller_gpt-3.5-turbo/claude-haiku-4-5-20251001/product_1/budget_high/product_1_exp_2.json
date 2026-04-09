@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch with the M3 Pro chip \u2014 it looks like exactly what I've been looking for. The specs are impressive, especially that XDR display and battery life.\n\nI wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer ready to move forward quickly if we can work something out.\n\nWould you be open to discussing it?\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product\n- \u2705 Mentions specific features (builds credibility)\n- \u2705 Signals you're a serious, ready buyer\n- \u2705 Opens negotiation without being pushy\n- \u2705 Keeps it brief and to the point"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there!\n\nI'm glad you're interested in the MacBook Pro 16-inch. It's a top-notch choice with impressive features. I value your interest, and while the retail price is $2,499, I can offer it to you for $2,000. Let me know if this works for you.\n\nLooking forward to your response!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the $500 discount, but I'd like to see if we can go lower. Given the current market competition and the volume of similar deals available, would you be able to come down to $1,800? That would make this a much more compelling purchase for me. What's the best price you can offer?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your point, and I appreciate your interest in getting the best deal possible. While I can't go below the wholesale price of $1,800, I can offer you the MacBook Pro 16-inch at that price. Let me know if this works for you, and we can move forward with the purchase."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! $1,800 works great for me. That's well within my budget and a fantastic deal. Let's move forward with the purchase. What's the next step to complete the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2000.0,
+    1800.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

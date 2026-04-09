@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "**Subject: Interested in Your MacBook Pro 16-inch**\n\nHi there,\n\nI came across your listing for the MacBook Pro 16-inch M3 Pro and I'm really interested in it. The specs look great, and it's exactly what I've been looking for.\n\nI'm seriously considering making a purchase, but I wanted to reach out and see if there's any flexibility on the price? I'm a committed buyer and would love to work something out that works for both of us.\n\nWould you be open to discussing this?\n\nThanks so much!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest without being pushy\n- \u2705 Tactfully introduces price negotiation\n- \u2705 Signals you're a serious buyer (builds seller confidence)\n- \u2705 Keeps it brief and non-committal\n- \u2705 Opens dialogue for their response"
+    },
+    {
+      "speaker": "Seller",
+      "message": "**Subject: Re: Interested in Your MacBook Pro 16-inch**\n\nHi,\n\nI appreciate your interest in the MacBook Pro 16-inch M3 Pro! I'm glad you find the specs appealing. While I can't go below the wholesale price, I can offer you a competitive deal. How does $2,300 sound to you?\n\nLet me know your thoughts.\n\nThanks!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate you coming down from the retail price. However, $2,300 is still above what I can work with. Given the current market competition, would you be able to go down to $2,150? That's within my budget and would make this work for me. Let me know if that's possible."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. I can meet you halfway at $2,250, which is the best I can offer without going below the wholesale price. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me halfway, but $2,250 is still $100 over my maximum budget of $2,150. I really want to make this work, but I can't go above that figure. Is there any flexibility on the $2,150 price point, or would you be open to including any accessories or AppleCare to add value at the $2,250 price? Otherwise, I'll need to pass on this deal."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. I can offer the MacBook Pro 16-inch M3 Pro at $2,150 without any additional accessories. Let me know if this works for you, and we can proceed from there."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! Yes, $2,150 works for me. That's exactly within my budget. I'm ready to move forward with the purchase at this price. What are the next steps to complete the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0,
+    2250.0,
+    2150.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

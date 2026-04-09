@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones. Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Of course! I can definitely discuss the price with you. How much are you looking to invest in these premium Sony headphones?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the WH-1000XM5 headphones. I'd be looking to pay around $150 for them."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the WH-1000XM5 headphones. Considering the premium features and quality of these headphones, the best price I can offer is $220, which is already a wholesale price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $220 is beyond my budget. I'm afraid I cannot afford them at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    220.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I came across your listing for the Apple MacBook Pro 16-inch and I must say, I'm quite interested in it. Is there any room for negotiation on the price? Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Apple MacBook Pro 16-inch. While I can't go below the Wholesale Price, I can offer you a great deal on this high-quality product. How does [Price] sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate your willingness to provide a great deal. Unfortunately, the price you mentioned exceeds my budget. I'm looking to purchase the MacBook Pro 16-inch within my budget of $2998.80. Can you offer a lower price that fits within my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. How about we settle on [Price] to meet your budget of $2998.80 for the Apple MacBook Pro 16-inch?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for accommodating my budget. I accept your offer of [Price] for the Apple MacBook Pro 16-inch. Let's proceed with the purchase at this price."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2998.8
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

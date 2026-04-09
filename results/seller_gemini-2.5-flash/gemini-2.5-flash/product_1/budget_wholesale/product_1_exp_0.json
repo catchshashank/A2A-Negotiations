@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello!\n\nI'm really interested in the Apple MacBook Pro 16-inch (M3 Pro). Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! That's an excellent choice. The Apple MacBook Pro 16-inch with the M3 Pro is currently priced at $2,499. It's an incredible machine, offering top-tier performance and that stunning Liquid Retina XDR display. What did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a fantastic machine, no doubt. Given my budget, I was hoping to get it for around $1500."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $1,500 is significantly below what we can accept for this premium machine. The M3 Pro MacBook Pro offers unparalleled performance, an incredible display, and industry-leading battery life, retailing at $2,499. Could you come up with an offer that reflects its true value?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium product. My absolute maximum budget for this purchase is $1800. Could we meet somewhere around $1750?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget. While $1,750 is still below our threshold, the absolute lowest we could consider for such a high-performance machine would be $1,800. That's a significant discount from the retail price for a brand-new M3 Pro MacBook Pro."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, if $1800 is truly the absolute lowest you can go, I'll accept that. It's at the top of my budget, but it's a fair deal for such a powerful machine."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Excellent! You've made a great decision. The M3 Pro MacBook Pro is an outstanding investment. We can proceed with the purchase at $1,800. How would you like to finalize the transaction?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'm ready to proceed. What are the next steps?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1500.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

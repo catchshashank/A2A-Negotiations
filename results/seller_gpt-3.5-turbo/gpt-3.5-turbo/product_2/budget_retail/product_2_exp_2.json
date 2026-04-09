@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in purchasing them. I was wondering if there is any room for negotiation on the price? Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. They are truly top-notch. While the retail price is $399, I can offer you a special price of $350 for these premium headphones. Let me know if you're interested!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate the special price of $350, but unfortunately, my budget for this purchase is $399. Let me know if you can accommodate that within my budget."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. How about meeting halfway at $375? That way, you can enjoy the premium features of the Sony WH-1000XM5 Wireless Headphones while staying within your budget. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer to meet halfway at $375, but I must adhere to my budget of $399. If you can accommodate that price, I'd be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. I can offer you the Sony WH-1000XM5 Wireless Headphones at $399 to meet your budget. You're getting a fantastic deal on these top-of-the-line headphones. Let me know if you'd like to proceed with the purchase at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding. I appreciate your offer to sell the Sony WH-1000XM5 Wireless Headphones at my budget of $399. I'm happy to proceed with the purchase at this price. Let's finalize the transaction."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    375.0,
+    399.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

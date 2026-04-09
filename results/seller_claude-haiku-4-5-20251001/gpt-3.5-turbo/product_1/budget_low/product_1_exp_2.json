@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\nI hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in purchasing it. I was wondering if there's any flexibility in the price that we could discuss. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out, and I'm glad you're interested in the MacBook Pro. It's a fantastic machine\u2014the M3 Pro chip and that 16-inch XDR display are really something special.\n\nI appreciate you asking about pricing. The current asking price is $2,499, which is actually our retail price and reflects the quality and specs you're getting. That said, I'm open to working with serious buyers. What kind of price range were you thinking? If you're planning to purchase soon or buying multiple units, we might be able to find some common ground."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the MacBook Pro M3 Pro model. Given my budget constraints, would you be able to offer a price that is closer to $1440?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget, but $1,440 is unfortunately below what I can work with\u2014that's well below my cost on this unit.\n\nHere's what I can do: The MacBook Pro M3 Pro is retailing at $2,499, but I'm willing to offer it at $2,099 for a committed buyer. That's a solid $400 discount while still reflecting the real value of the machine.\n\nIf that's still outside your range, I'd love to understand what you're working with. Could you share what your actual budget ceiling is? That way I can see if we can make this work."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer of $2,099, but unfortunately, that is still above my budget limit of $1440. Thank you for your flexibility. Let me know if there's any room to negotiate further within my budget."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand, and I appreciate your honesty about your budget. Unfortunately, $1,440 is simply not workable for me\u2014it's below my actual cost on this unit, so I wouldn't be able to move forward at that price.\n\nHere's the reality: my floor is around $1,800. That's the absolute minimum I can go, and even that's a significant concession from the retail price.\n\nIf the MacBook Pro isn't fitting your budget right now, I'd genuinely suggest either saving up a bit more or exploring refurbished models, which might better match your $1,440 range. But if you can stretch to somewhere in the $1,800-$2,000 range, I'm definitely open to making a deal happen. Let me know!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer at $1,800, but unfortunately, that is still above my budget limit of $1440. I appreciate your suggestions and will consider them. If there are any future promotions or sales that bring it closer to my budget, please let me know."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate you being straightforward about your constraints. Unfortunately, $1,440 is just too far below what I can offer on this model.\n\nIf your budget does increase in the future or you find room to stretch, definitely reach out\u2014I'd be happy to work with you then. In the meantime, keep an eye out for seasonal sales or refurbished options that might hit your price point.\n\nBest of luck with your search, and thanks for your interest!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding, and I appreciate your time and consideration. I will keep an eye out for potential future opportunities. Thanks again for your assistance!"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2099.0,
+    2099.0,
+    1440.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

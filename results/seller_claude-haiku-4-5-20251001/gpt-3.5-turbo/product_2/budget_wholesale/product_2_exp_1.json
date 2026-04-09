@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you are doing well! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I must say, I'm very interested in them. I was wondering if there is any room for negotiation on the price? \n\nLooking forward to hearing from you.\n\nThank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for reaching out \u2013 I'm doing great, and I'm glad you're interested in the WH-1000XM5s!\n\nThese are fantastic headphones with industry-leading noise cancellation and 30-hour battery life, so they're priced competitively at $399. That said, I'm happy to work with you. What kind of pricing were you thinking? I can definitely explore options depending on your situation \u2013 whether you're looking at a bulk order or have a specific budget in mind.\n\nWhat would work best for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the WH-1000XM5s, they sound amazing. Given my budget constraints, I'm looking to purchase them for $220.00. Would that be a possible price we could work with?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget! However, $220 is actually our wholesale cost \u2013 that's what we pay to acquire them, so we'd have no margin there.\n\nWhat I can do is offer you a fair deal: how about $320? That gives you a solid discount from the $399 retail price while allowing us both to make this work. If you're interested in multiple units, I could potentially go even lower per headphone.\n\nDoes that sound more workable for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, I understand the wholesale cost concern. Unfortunately, $320 is still above my budget limit of $220. I'll have to pass on this offer. If there are any future promotions or discounts within my budget, please do let me know. Thank you for your understanding."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    320.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

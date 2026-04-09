@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\n---\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They look like exactly what I've been looking for, and I love that they have the 30-hour battery life and noise cancellation.\n\nBefore I commit, I wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product (mentions specific features)\n- \u2705 Signals you're a serious, motivated buyer\n- \u2705 Politely opens the door to negotiation without being pushy\n- \u2705 Keeps it brief and conversational"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out \u2013 I'm glad the features caught your eye. These headphones are really something special, and honestly, they're priced competitively at $399 given what you're getting with the noise cancellation and battery life.\n\nThat said, I appreciate that you're a serious buyer. I can work with you on this \u2013 how much were you thinking? I'm flexible within reason, but I do need to stay in a realistic range to make it worth my while. What number would make sense for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the flexibility! These are definitely impressive headphones. I've been looking at a few options, and while I love the features, I'm trying to be smart about my budget. \n\nWould you be able to do $349? That's a solid discount from retail and still gives you good margin. I'm ready to move forward quickly if we can make that work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, and I get that you're budget-conscious. $349 is definitely a fair ask, but I've got to be honest \u2013 that's cutting into my margin pretty tight at that level.\n\nHow about we meet somewhere in the middle? I can do $369 for you. That's still a meaningful discount from the $399 retail, you're getting an excellent product, and it works better for me on this end. Plus, like you said, you're ready to move quickly, which I value.\n\nDoes $369 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me halfway \u2013 that's a solid offer. $369 is definitely better than retail, and I can work with that. Let's do it. What's the next step to finalize this?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    369.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

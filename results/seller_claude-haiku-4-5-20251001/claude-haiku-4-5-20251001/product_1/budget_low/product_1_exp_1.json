@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your MacBook Pro 16-inch listing and I'm really interested in it\u2014the specs look fantastic, especially the M3 Pro chip and that XDR display. \n\nI'm genuinely looking to make a purchase soon, but I'm wondering if there's any flexibility on the price? I'd love to work something out that works for both of us. Would you be open to discussing that?\n\nLet me know! \ud83d\ude0a\n\n---\n\n**Why this works:**\n- Opens naturally and friendly\n- Shows genuine interest in the product\n- Asks about negotiation without being pushy\n- Implies you're a serious buyer\n- Leaves room for dialogue without revealing your budget upfront"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for the interest\u2014I'm glad the specs caught your eye! \ud83d\ude0a\n\nThe MacBook Pro 16 is an incredible machine, and honestly, at $2,499 it's already competitively priced for what you're getting. That M3 Pro chip and XDR display combo is hard to beat.\n\nThat said, I'm always open to working with serious buyers. What kind of price range were you thinking? Let me know what you have in mind, and we can see if we can find some middle ground!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I really am interested in this MacBook. Here's where I'm at honestly\u2014my budget maxes out around $1,440. I know that's a significant gap from $2,499, but I'm hoping we can work something out. \n\nIs there any flexibility on price, or would you have any refurbished or open-box options that might fit closer to my range? I'm a serious buyer ready to move quickly if we can make the numbers work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty! I can tell you're a serious buyer, and I respect that.\n\nHere's the thing though\u2014$1,440 is unfortunately below what I can work with. My absolute floor is $1,800, which is already a significant discount from the retail price. That's a $700 difference right there.\n\nAs for refurbished or open-box options, I don't have those available at the moment. But at $1,800, you're getting a brand new, full-warranty MacBook Pro that normally retails for $2,499.\n\nIf $1,800 works for you, I can move on this quickly. If that's still too high, I totally understand\u2014but that's the best I can do. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate you laying that out clearly. $1,800 is a solid discount, and I get that you're already stretching. The thing is, $1,800 is genuinely beyond what I can spend right now\u2014my hard limit is $1,440, and I can't go over that.\n\nI understand if that's not workable on your end, and I respect that. But if there's any way to get closer to my budget\u2014whether that's $1,440 or somewhere between that and $1,800\u2014I'm ready to finalize this today. Otherwise, I'll need to pass on this one. What's the absolute lowest you could go?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate you being upfront about your budget. I really do want to make this work for you.\n\nHere's where I stand though\u2014$1,800 is genuinely my absolute lowest. I can't go below that, and I'm not able to budge further. I know that's a gap from your $1,440, but that's the reality of what I can offer.\n\nI get it if that doesn't work for your situation right now. But if you're able to stretch to $1,800, I'm ready to close this today with no hassle. The MacBook is worth every penny at that price point.\n\nWhat do you want to do?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being straight with me, and I can tell you've given this real thought. Unfortunately, $1,800 is still above my hard budget of $1,440\u2014I just can't stretch beyond that right now.\n\nI'm going to have to pass on this one. It's a fantastic machine and you've made a solid offer, but I need to stay within my budget. If circumstances change on your end down the road, feel free to reach out. Otherwise, I'll need to look at other options. Thanks for working with me on this."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

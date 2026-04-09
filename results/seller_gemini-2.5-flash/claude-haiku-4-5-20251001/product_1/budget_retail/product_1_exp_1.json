@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\n---\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch M3 Pro \u2014 it looks like exactly what I've been looking for. The specs are impressive, especially the display and battery life.\n\nI'm ready to move forward, but I wanted to check: would you be open to any flexibility on the price? I'm a serious buyer and can complete the purchase quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- \u2705 Friendly and conversational opening\n- \u2705 Shows genuine interest in the product\n- \u2705 Naturally introduces price negotiation without being pushy\n- \u2705 Signals you're a committed buyer (encourages seller cooperation)\n- \u2705 Keeps it brief and to the point"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! Great to hear you're interested in the MacBook Pro 16-inch M3 Pro \u2013 it truly is an exceptional machine, perfect for demanding tasks with its stunning display and incredible battery life. For a serious buyer ready to complete the purchase quickly, I can offer it to you today for $2,399."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a solid offer, and I appreciate the quick price reduction. Before I commit, let me ask \u2013 is there any flexibility on that $2,399? I'm a serious buyer ready to move forward today. Could you do $2,350, or is there any additional value you could add \u2013 like AppleCare+ or accessories \u2013 to sweeten the deal at that price point?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your readiness to move forward. The $2,399 is already a very sharp price for this configuration, offering excellent value. To meet you partway and finalize this today, I can offer it at $2,375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me halfway. $2,375 is a fair price, and I'm ready to move forward. Let's complete the purchase at that price point."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2399.0,
+    2375.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

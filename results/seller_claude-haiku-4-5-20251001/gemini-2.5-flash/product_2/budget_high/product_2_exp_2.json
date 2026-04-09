@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones. I was wondering if you might be open to a little price negotiation?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice \u2013 those are fantastic headphones. I'm definitely open to working with you. What price range were you thinking? Keep in mind they're currently at $399 retail, but I can see what I can do depending on what you're looking for."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! I'm definitely interested in the headphones. I was hoping to get them for around $339. Would that be possible?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer! $339 is a solid price, but I'd need to stay a bit higher than that to make it work on my end. How about we meet somewhere in the middle \u2013 I could do $369? That's still a nice savings from the retail price, and you're getting an incredible product with industry-leading noise cancellation and 30-hour battery life. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down. $369 is getting closer, but I was hoping for something a bit lower. Could you do $350?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you \u2013 $350 is reasonable. Tell you what, I can meet you at $359. That's a solid $40 off retail, and honestly, these headphones are worth every penny with the noise cancellation, 30-hour battery, and multipoint connection. That's my best offer without cutting into things too much on my end. Can we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, $359 works for me. I'll take them at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    339.0,
+    359.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

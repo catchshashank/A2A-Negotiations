@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Opening Message to Seller\n\n---\n\nHi there! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like exactly what I'm looking for, especially with the noise cancellation and battery life.\n\nI was wondering \u2014 would you be open to negotiating on the price at all? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Friendly and natural tone\n- Shows genuine interest in the product\n- Opens the door to negotiation without being pushy\n- Signals you're a serious, ready buyer (increases seller motivation)\n- Keeps it brief and easy to respond to"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks so much for reaching out \u2014 I'm glad the WH-1000XM5s caught your eye! They really are fantastic headphones, and honestly, they're priced competitively at $399 considering what you're getting.\n\nThat said, I appreciate you being upfront about negotiating. I'm definitely open to working with serious buyers like yourself. What kind of price range were you thinking? I want to find something that works for both of us, but these are in high demand right now, so I do need to stay within a reasonable range.\n\nLet me know what you had in mind!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for being open to negotiating! I appreciate that. I'm really interested in these headphones, but I need to be honest about my budget \u2014 I'm looking to spend around $220. I know that's a solid discount from the $399 retail, but given the current market and the fact that these are popular, I figured it might be worth exploring. \n\nWhat's the best price you could do? I'm a serious buyer ready to move forward quickly if we can make it work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I really appreciate your honesty about your budget, and I understand you're looking for a good deal. Here's the thing though \u2014 $220 is actually the wholesale cost, so there's no margin for me there at all.\n\nThat said, I don't want to lose a serious buyer like you. How about we meet somewhere in the middle? I could do $320-$340, which is still a solid 15-20% off retail. These headphones genuinely justify the price \u2014 the noise cancellation and 30-hour battery are industry-leading, and they're selling fast at this price point.\n\nWhat do you think? Can we work with something in that range?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being straight with me about your costs, and I understand your position. But honestly, $320-$340 is still beyond what I can work with right now. My budget is firm at $220 \u2014 that's what I have available to spend.\n\nI know that's a significant gap, and I'm not trying to lowball you. If that price just doesn't work on your end, I completely understand. But if there's any way you could move closer to my range \u2014 maybe through a bulk discount, open-box pricing, or if you have any other options \u2014 I'm genuinely ready to buy today. Otherwise, I may need to look at other options that fit my budget.\n\nWhat do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I respect that your budget is firm at $220. I get it \u2014 that's what you have to work with right now.\n\nHere's where I'm at though: $220 is literally my cost to acquire these, so I can't go there without losing money on the sale. I know that's frustrating, but I'm sure you understand I need to make something on my end.\n\nIf your budget is truly capped at $220, these might not be the right fit for you right now, and that's okay. But if there's any flexibility \u2014 even to $250-$280 \u2014 I could make that work and you'd still be getting a great deal on headphones that normally go for $399.\n\nOtherwise, I wish you the best finding something that fits your budget. No hard feelings either way!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your honesty about your position, and I respect that you need to make a margin. You're right \u2014 if $220 is truly your cost, I can't ask you to lose money on this.\n\nUnfortunately, I don't have flexibility beyond $220. That's genuinely my cap right now, so I can't stretch to $250-$280 even though I'd love these headphones.\n\nI totally understand where you're coming from, and I appreciate you being upfront about it. If your situation changes or you find yourself able to move on price down the road, I'm definitely interested. But for now, I'll need to look elsewhere. Thanks for being real with me about this!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    320.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the LG C3 65-inch OLED TV you have listed. It's exactly what I've been looking for\u2014the specs are fantastic, especially with those HDMI 2.1 ports and the OLED panel.\n\nI'm seriously ready to move forward on this, but I was wondering if there's any flexibility on the price? I'd love to work something out that works for both of us. What do you think?\n\nLooking forward to hearing from you!\n\n---\n\n**Why this works:**\n- Opens naturally without revealing negotiation intent\n- Shows genuine interest in the product\n- Politely introduces price flexibility as a topic\n- Keeps it brief and friendly\n- Positions you as a serious, ready buyer (increases seller motivation)"
+    },
+    {
+      "speaker": "Seller",
+      "message": "It's fantastic to hear you're interested in the LG C3 65-inch OLED TV! It really is an incredible television, especially with the stunning OLED evo panel and comprehensive gaming features. We usually offer it at $1,799, but for a serious buyer ready to move forward, I could offer it to you for $1,699. How does that sound?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I need to be straightforward with you\u2014$1,699 is still significantly above what I can work with. My budget is $1,100, and that's my maximum. \n\nI understand this is a premium TV with excellent specs, but that's the realistic range I'm operating in. If you can meet me somewhere closer to that number, I'm ready to move forward today. Otherwise, I'll need to look at other options. What flexibility do you have?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your directness. Given your strong interest and readiness to purchase today, I can meet you at your stated maximum of $1,100. We can proceed with the transaction"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm ready to move forward at $1,100. Let's finalize this deal. What are the next steps to complete the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1699.0,
+    1100.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

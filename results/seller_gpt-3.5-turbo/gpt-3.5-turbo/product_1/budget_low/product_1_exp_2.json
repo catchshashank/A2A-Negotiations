@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Apple MacBook Pro 16-inch and I must say, I'm quite impressed with the features it offers. I was wondering if there might be any room to negotiate on the price. Looking forward to hearing back from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the MacBook Pro 16-inch. It's a top-of-the-line device with impressive features. While I understand your interest in negotiating, the price for this premium product is already very competitive. Let me know if you have any questions about the product itself."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your response. Considering my budget, would you be willing to offer the MacBook Pro 16-inch at $1400?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but the best price I can offer for the MacBook Pro 16-inch is $1800, which is the wholesale price. This ensures you're getting a great deal on this high-quality device. Let me know if you're interested at this price point."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but unfortunately, $1800 exceeds my budget. I'll have to pass on this offer. Thank you for your time."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

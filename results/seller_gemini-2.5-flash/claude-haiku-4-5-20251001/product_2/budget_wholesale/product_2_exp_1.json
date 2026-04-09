@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They look like an amazing pair with all those features\u2014the noise cancellation and battery life are exactly what I'm looking for.\n\nI'm genuinely interested in making this work, so I wanted to reach out and see if there's any flexibility on the price? I'd love to hear if you'd be open to negotiating.\n\nLooking forward to hearing from you!\n\n---\n\n**Why this works:**\n- Friendly and natural opening\n- Shows genuine interest in the product\n- Compliments the item (builds rapport)\n- Softly introduces negotiation without being aggressive\n- Leaves room for the seller to respond positively\n- Concise and not pushy"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Glad to hear you're interested in the WH-1000XM5s \u2013 they really do offer an unmatched experience with their industry-leading noise cancellation and 30-hour battery life. While they retail for $399, I can offer them to you for $379."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the $20 discount, but I'm looking for something more competitive. These are great headphones, but I need to stay closer to $220. Do you have any promotions, bundle deals, or refurbished models that could help us get closer to that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for a great deal. The $220 price point is actually our wholesale cost, and the offer I extended is for a brand new, factory-sealed unit, not a refurbished model or part of a special promotion. Given their premium features like speak-to-chat and crystal-clear calls, I can bring the price down to $350 for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you explaining the wholesale cost, but $350 is still well beyond my budget of $220. I understand these are premium headphones with excellent features, but that price point isn't workable for me right now. \n\nIf you can't meet me closer to $220, I won't be able to move forward with this purchase. Do you have any flexibility, or should we consider this a no-go?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but selling at $220 isn't feasible as that's our wholesale cost. These are brand new, top-of-the-line headphones. The lowest I can go while still making this a viable transaction is $299."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me, but $299 is still significantly above my $220 budget. I can't stretch beyond that limit, so unfortunately we won't be able to make a deal at that price point. \n\nIf circumstances change and you're able to offer these at or near $220, I'd be interested to hear from you. Otherwise, I'll need to look at other options. Thanks for your time."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    379.0,
+    350.0,
+    299.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the LG C3 65-inch OLED TV you have for sale. It looks fantastic! I was wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great question! I'm glad you're interested in the C3 \u2013 it's an exceptional TV with that stunning OLED evo panel and 4K 120Hz performance. \n\nThe retail price is $1,799, but I can definitely work with you. What kind of price range were you thinking? I want to make sure we find something that works for both of us while keeping the value you're getting in mind."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm really excited about the C3. Given the retail price, I was hoping we could get closer to $1450."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the interest, but $1,450 is a bit lower than I can go. Here's the thing \u2013 this TV is genuinely worth the premium. That OLED evo panel, the Dolby Vision IQ, four HDMI 2.1 ports for gaming, and AI Picture Pro are features you're paying for quality.\n\nWhat I *can* do is offer you $1,550. That's a solid discount from retail, and you're still getting an incredible TV. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the C3. How about we meet in the middle at $1,499?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate you meeting me partway. Here's my best offer: $1,525. That's a genuine discount from retail, and honestly, it reflects the premium quality you're getting with this panel and feature set.\n\nCan we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate that. Could you manage $1510?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, I can do $1,510. You've been straightforward in this conversation, and that's a fair meeting point. Let's make this happen \u2013 you're getting an incredible TV at a solid price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! I'm happy with $1510. Let's proceed with the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1550.0,
+    1525.0,
+    1510.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

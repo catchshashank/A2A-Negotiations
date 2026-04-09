@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in it. I was wondering if there's any flexibility in the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad to hear you're interested in the Apple MacBook Pro 16-inch (M3 Pro)! The listed price is quite competitive for this high-quality product. However, I can offer you a special price of $2,300. Let me know if this works for you. Thank you for your interest!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate the discount, but my budget for this purchase is $2,499, and unfortunately, I cannot exceed that limit. If you could consider a lower price within my budget, I would be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. I can offer you the Apple MacBook Pro 16-inch (M3 Pro) for $2,499. It's a great deal considering the features and performance of this top-of-the-line laptop. Let me know if you'd like to proceed at this price. Thank you for considering it!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate your understanding of my budget. I'm happy to accept the Apple MacBook Pro 16-inch (M3 Pro) at the listed price of $2,499. Let's proceed with the purchase. Thank you for accommodating my budget."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0,
+    2499.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,303 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there's any room for negotiation on the price. Looking forward to hearing from you soon. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out \u2013 I'm glad you're interested in the WH-1000XM5s. They're fantastic headphones with industry-leading noise cancellation and 30-hour battery life, so they're definitely worth the investment.\n\nThe current price is $399, which is actually our retail price. That said, I can work with you \u2013 what price range were you thinking? Depending on your budget, we might be able to find something that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate your flexibility. My budget for the WH-1000XM5s is $176.00. Is there a possibility of reaching a price within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget, but $176 is unfortunately below what I can offer. These headphones are premium quality \u2013 the noise cancellation alone is industry-leading, plus you're getting 30-hour battery life and multipoint connection.\n\nMy absolute lowest I can go is $220. That's still a solid savings from the $399 retail price, and you're getting an exceptional product. Can we work with that?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but unfortunately, $220 is still above my budget of $176. I'll have to pass on this offer. Thank you for considering my budget."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate you being upfront about your budget. Just so you know, $220 is genuinely the lowest I can go on these \u2013 it's our cost floor and I can't budge further.\n\nIf your situation changes or you're able to stretch your budget even a bit, feel free to reach out. These headphones are worth the investment, and I'd love to help you get them. Good luck with your search!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding. I'll keep that in mind for any future purchases. I appreciate your time and assistance."
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! I really appreciate your interest and the respectful conversation. If you ever reconsider or want to explore other options in the future, don't hesitate to reach out. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I will definitely keep that in mind. Take care as well!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Best of luck, and thanks again for your interest. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! Stay safe and take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you need any further assistance in the future, feel free to reach out."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I appreciate that. Feel free to reach out anytime if you change your mind about the headphones. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I'll keep that in mind. Have a great day and take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Thanks again, and take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you have any questions in the future, feel free to ask."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I appreciate it. Take care, and goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! Take care and goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you ever need assistance in the future, feel free to reach out."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I appreciate that. Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! Have a wonderful day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you need any help later on, feel free to ask."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I appreciate it. Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! Take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you have any further questions, feel free to ask."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you need any assistance in the future, don't hesitate to ask. Take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I appreciate it. Take care, and goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! Take care and goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you have any questions later on, feel free to ask."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! If you need any further assistance in the future, feel free to reach out."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 30,
+  "negotiation_completed": true,
+  "negotiation_result": "max_turns_reached",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

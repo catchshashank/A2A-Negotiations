@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Apple MacBook Pro 16-inch (M3 Pro). Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely, I'd be happy to discuss it with you! The MacBook Pro 16-inch M3 Pro is an exceptional machine\u2014that Liquid Retina XDR display and M3 Pro chip really set it apart. \n\nThe retail price is $2,499, but I'm definitely open to working with you. What kind of pricing were you thinking about? That'll help me see what we can do."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "It's definitely an impressive machine. I'm very interested, but I'm looking to get the best possible deal. Would you be open to $2,199?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you putting an offer on the table! $2,199 is a solid number, but given what you're getting here\u2014the XDR display, M3 Pro chip, 18GB memory, and that 22-hour battery life\u2014I'd like to stay closer to the retail price.\n\nHow about we meet at $2,349? That's a meaningful discount from retail, and you're still getting an incredible machine. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand its value. $2,349 is an improvement, but I was hoping for a little more off. Could we agree on $2,275?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you\u2014you want the best value. $2,275 is closer, but let me propose $2,325. That gives you a solid $174 discount off retail while letting me stay in a fair range for a machine of this caliber. It's a genuine savings without compromising the value on either side. Can we call it a deal at $2,325?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down. How about we split the difference and settle at $2,300?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, I like your thinking. $2,300 is a fair middle ground\u2014that's a $199 discount off retail, which is a genuine saving on a premium machine. Let's do it. I can get this processed for you right away at $2,300."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! I'll take it for $2,300."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2349.0,
+    2325.0,
+    2300.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

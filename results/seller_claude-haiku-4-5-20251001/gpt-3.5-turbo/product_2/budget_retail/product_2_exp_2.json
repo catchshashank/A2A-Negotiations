@@ -1,0 +1,78 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you are doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I must say, I am quite impressed by the features they offer. I was wondering if there is any possibility of negotiating the price a bit. \n\nLooking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out, and I'm glad you're interested in the WH-1000XM5s\u2014they're really fantastic headphones.\n\nI appreciate you asking about the price. These are currently listed at $399, which is actually the retail price. Given the premium features\u2014the industry-leading noise cancellation, 30-hour battery, and multipoint connection\u2014they're pretty competitively priced.\n\nThat said, I'm open to working with you. What kind of price range were you thinking? Depending on your situation, we might be able to find something that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for providing the information on the WH-1000XM5 headphones. Given my budget, I would be able to proceed with the purchase if we could work out a price lower than the retail price of $399. Would you be able to offer a discount that would allow me to stay within my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand\u2014budget matters! I'm definitely willing to work with you here.\n\nWhat's the price point you had in mind? That'll help me see what I can do. I want to be upfront though: I do have a floor I need to stay above to make this work, but I've got some room to move depending on where you're at. \n\nLet me know what you're thinking, and we can figure out if we can make a deal happen."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your flexibility in working with me on this. Considering my budget, would you be able to offer a price lower than the retail price of $399 for the headphones? If we can find a price point that works within my budget, I'm ready to move forward with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in moving forward! To give you the best offer I can, I really need to know what budget you're working with. What price were you hoping to pay for these?\n\nOnce I know that number, I can tell you exactly what I'm able to do. I'm flexible, but I do need to know what we're working toward here."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the need for clarity on the budget. Considering my maximum budget of $399, I'm looking to secure the headphones at a price lower than the retail price of $399. If you could provide an offer that aligns with my budget, we can proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, but I want to be straight with you\u2014if your max budget is $399, that's actually the retail price we're already at. To offer you a discount below that, I'd need some wiggle room to work with.\n\nHere's what I can do: I can offer you $379\u2014that's a solid $20 discount off retail. These headphones are worth every penny given the features, but I want to make sure we can work together.\n\nDoes $379 work for you, or is there a specific number below that you were targeting? Let me know and we can see if we can make it happen."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer of $379, which is a $20 discount off the retail price. However, my budget is firm at $399, and I must adhere to it. I will have to decline the offer as it exceeds my maximum budget. Thank you for your understanding."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget constraints. Just to clarify though\u2014$379 is actually *below* $399, so it's within your budget and saves you $20 off retail. \n\nWould $379 work for you? That's a genuine discount while still allowing me to move forward on this deal."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the clarification. I appreciate the discounted offer of $379, which falls within my budget of $399. I accept your offer and am ready to proceed with the purchase at this price. Thank you for working with me on this."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    399.0,
+    379.0,
+    379.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

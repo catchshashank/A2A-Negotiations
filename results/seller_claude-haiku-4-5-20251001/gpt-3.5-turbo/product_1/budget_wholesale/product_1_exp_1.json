@@ -1,0 +1,303 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I must say, it looks like a fantastic product. I was wondering if there is any flexibility in the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for your interest! The MacBook Pro 16-inch M3 Pro is an excellent choice\u2014that Liquid Retina XDR display and M3 Pro chip really are top-tier. \n\nThe current price is $2,499, which is actually our retail rate. I do have some flexibility depending on your situation. Are you looking to purchase today, or would you be interested in bulk quantities? That might open up some options for us to work with."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I'm interested in purchasing the MacBook Pro 16-inch M3 Pro today for personal use. Given my budget is $1800, could we work out a price within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. However, $1,800 is actually our wholesale cost\u2014we can't go below that since it doesn't leave us any margin.\n\nThat said, at $2,499 you're getting genuine retail pricing for a machine that's worth every penny. The M3 Pro, 18GB memory, and 512GB storage are premium specs. \n\nWhat if we looked at it this way: could you stretch to $2,200-$2,300? That's a meaningful discount from retail, and it's a price I can actually work with today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I must stick to my budget of $1800. I understand the value of the MacBook Pro 16-inch M3 Pro, but unfortunately, going above my budget is not feasible for me at this time. If there's any way we can make it work within that range, I'd be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your position, and I appreciate your honesty about your budget constraints. Unfortunately, I can't meet you at $1,800\u2014that's our wholesale cost with zero margin for us.\n\nHere's what I can do: if you're flexible on timing, I'd recommend checking back in a few weeks. We occasionally run promotions or seasonal discounts that could bring the price closer to your range. Alternatively, if you can stretch even to $1,900-$1,950, I might be able to make something work today.\n\nOtherwise, I don't want to mislead you\u2014at your current budget, this particular model may not be the right fit right now. But I'm happy to help if circumstances change!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and suggestions. I will keep an eye out for any future promotions or discounts that may bring the price within my budget range. If my circumstances change, I'll be sure to reach out. Thank you for your assistance."
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're very welcome! I really appreciate your understanding. Feel free to reach out anytime\u2014whether it's in a few weeks if promotions come up, or if your budget situation changes. I'd be happy to help you get set up with the MacBook Pro 16-inch M3 Pro.\n\nBest of luck, and thanks for considering us!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your assistance and understanding. I will definitely reach out in the future if there are any changes. I appreciate your help and have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Thanks for reaching out, and I look forward to connecting with you again soon. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you, take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Bye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Bye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! You too! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Bye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Bye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! You too! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the conversation, but it seems we've reached a natural conclusion. Take care, and feel free to reach out anytime if you'd like to discuss the MacBook Pro further!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the conversation. I appreciate your time and assistance. Take care, and I'll keep your offer in mind for future discussions about the MacBook Pro. Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I really appreciate it. Looking forward to hearing from you. Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you too! I'll keep in touch. Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Sounds great! Take care, and thanks again!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! Take care and have a great day! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Bye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think we've said our goodbyes! Feel free to reach out whenever you're ready. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I'll keep that in mind. Take care and goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Goodbye, and thanks for your interest!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! Thank you for your assistance!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 30,
+  "negotiation_completed": true,
+  "negotiation_result": "max_turns_reached",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

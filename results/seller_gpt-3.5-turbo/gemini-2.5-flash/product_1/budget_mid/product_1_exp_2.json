@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! Your Apple MacBook Pro 16-inch looks fantastic. I'm very interested in purchasing it. Would you be open to negotiating the price at all?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad you like the MacBook Pro 16-inch. I can definitely discuss the price with you. What price were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the MacBook Pro. I was hoping we could discuss a price around $1850."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the MacBook Pro. Considering its features and quality, I can offer it to you for $1950."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a good step, but I was really hoping to stay closer to my initial offer. Could you do $1900?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your perspective. I can meet you halfway at $1925. This is the best price I can offer for the MacBook Pro."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, I can agree to $1925. Let's proceed with that."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1950.0,
+    1925.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

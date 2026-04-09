@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Sony WH-1000XM5 headphones. They look fantastic! I was wondering if there might be any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great question! These are absolutely fantastic headphones\u2014the noise cancellation and 30-hour battery life really set them apart. The $399 retail price reflects their premium quality and features.\n\nThat said, I'm happy to work with you. What price range were you thinking? I can definitely explore some options, but I want to make sure we find something that works for both of us while keeping the value fair."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm really interested in these headphones! Given the retail price, I was hoping to find a good deal. Would you consider $120 for them?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest, but $120 is unfortunately well below what I can offer. These headphones retail for $399 and deliver exceptional value with industry-leading noise cancellation, 30-hour battery life, and multipoint connection.\n\nI do want to work with you though. What if we looked at something closer to $320-$350? That's a meaningful discount from retail while reflecting the quality you're getting. Would that range be more workable for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the quality, but $320-$350 is still quite a bit higher than I can manage. My budget is much more limited. Would you be able to come down to $150?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints are real, but I can't go that low\u2014$150 just doesn't work for me on these headphones.\n\nHere's the thing: these are premium headphones with cutting-edge features. Even at a discount, they need to reflect that quality. How about we meet somewhere in the middle? I could do $280\u2014that's a solid 30% off retail and gets you an incredible product at a fair price. Can you work with that?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to meet me in the middle, but $280 is still too high for my budget. The absolute most I could stretch to is $160."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    280.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

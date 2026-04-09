@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the LG C3 65-inch OLED TV you have listed. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the LG C3 65-inch OLED TV! While I can't go below the wholesale price of $1,100, I can offer you a competitive deal. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a very competitive offer. Is there any flexibility on that, or perhaps a small incentive you could add to help me finalize the purchase today?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest and enthusiasm in finalizing the purchase today. While I can't go below the wholesale price of $1,100, I can offer you free delivery and setup as a small incentive. Would that help in making your decision today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Free delivery and setup is a helpful incentive, thank you. To confirm, is that the absolute best you can offer on the LG C3 65-inch OLED TV today, considering everything?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Yes, considering all factors, including the wholesale price and the added incentive of free delivery and setup, that is the best offer I can provide for the LG C3 65-inch OLED TV. I hope this meets your expectations and helps you make a decision."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, I accept your offer of $1,100 for the LG C3 65-inch OLED TV, including free delivery and setup."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1100.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

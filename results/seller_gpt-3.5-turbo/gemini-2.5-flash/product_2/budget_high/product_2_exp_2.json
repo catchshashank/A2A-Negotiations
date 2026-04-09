@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Sony WH-1000XM5 headphones you have listed. They look fantastic! I was wondering if you might be open to a bit of negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the Sony WH-1000XM5 headphones! I can definitely work with you on the price. What price were you thinking about?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the XM5s. I was hoping to get them for around $275."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest, but the best price I can offer for the Sony WH-1000XM5 headphones is $300. These headphones are top-of-the-line with amazing features, definitely worth the investment."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand they're premium headphones. Would you be willing to meet me in the middle at $285?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand where you're coming from, but the lowest price I can offer for the Sony WH-1000XM5 headphones is $300. It's a great deal considering the quality and features they offer."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your firm offer. I'm really trying to get the best deal possible. My absolute best offer is $290. Would you be able to do that?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for a great deal, but I must adhere to the Wholesale Price of $220 for the Sony WH-1000XM5 headphones. I can offer them to you at that price to ensure you're getting a high-quality product at a fair price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's an excellent offer! I'll take them for $220."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    300.0,
+    300.0,
+    220.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

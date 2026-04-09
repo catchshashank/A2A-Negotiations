@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. It looks like a great machine. I was wondering if there might be any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the Apple MacBook Pro 16-inch (M3 Pro)! I can offer you a special price of $2,300 for this high-performance machine. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a good start. I'm looking to get the best possible deal on this MacBook Pro. Would you be able to offer it for $2,000?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest, but the lowest I can offer for the Apple MacBook Pro 16-inch (M3 Pro) is $2,200. It's a top-of-the-line model with amazing features. Would that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium product. How about we meet in the middle at $2,100?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your perspective. Let's make a deal at $2,100 for the Apple MacBook Pro 16-inch (M3 Pro). You're getting a fantastic machine at a great price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm happy with that. I'll take it for $2,100."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0,
+    2200.0,
+    2100.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

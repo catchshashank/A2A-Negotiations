@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope this message finds you well. I came across your listing for the LG C3 65-inch OLED TV and I must say, I'm quite impressed with the features it offers. Is there any possibility of negotiating the price for this TV? \n\nLooking forward to hearing from you soon. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the LG C3 65-inch OLED TV \u2013 it's an excellent choice for anyone serious about picture quality.\n\nI appreciate you asking about pricing. The $1,799 retail price reflects the premium features you get: the OLED evo panel, 4K 120Hz, Dolby Vision IQ, and those four HDMI 2.1 ports make it a top-tier gaming and entertainment display.\n\nThat said, I'm open to working with you. What kind of price range were you thinking? Depending on your situation \u2013 whether you're buying today, purchasing multiple units, or have other considerations \u2013 we might be able to find some flexibility. What would help move forward for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the detailed information on the LG C3 65-inch OLED TV. Given my budget limit, I would be interested in purchasing it at a price below the retail price of $1,799. Could you provide a discounted offer that fits within my budget of $1,799?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget! Here's the thing \u2013 you're actually already at the retail price point of $1,799, so let me offer you something better.\n\nI can offer you the LG C3 at **$1,599**, which is a solid $200 discount off retail. That's a genuine savings while still reflecting the premium quality of this TV.\n\nIf that works for you, we can move forward today. Does that price work with your budget?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the discounted offer of $1,599 for the LG C3 65-inch OLED TV. That price fits within my budget of $1,799, so I'm happy to accept your offer and proceed with the purchase. Let's move forward with the transaction at $1,599."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could work this out. Let me get the details finalized for you.\n\nTo proceed with the purchase at $1,599, I'll need a few quick details:\n- Your name\n- Delivery address\n- Preferred payment method\n- When would you like the TV delivered?\n\nOnce I have this information, I can process the order and get your LG C3 shipped out to you. Thanks for choosing this premium TV \u2013 you're going to love the picture quality!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your assistance. My name is [Your Name], and I will provide you with my delivery address, preferred payment method, and desired delivery date promptly to complete the purchase process for the LG C3 65-inch OLED TV at $1,599."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1599.0,
+    1599.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

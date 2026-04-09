@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the LG C3 65-inch OLED TV you have listed. It looks like an amazing set with all those great features\u2014the 4K 120Hz refresh rate and Dolby Vision are exactly what I've been looking for.\n\nI'm genuinely interested in making this purchase, but I wanted to reach out and see if there's any flexibility on the price? I'd love to work something out if possible.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens naturally and friendly\n- Shows genuine interest in the product (mentions specific features)\n- Asks about price flexibility without being aggressive\n- Keeps it short and easy to respond to\n- Opens the door for negotiation without revealing desperation"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out\u2014I'm glad the C3 caught your eye! It really is a fantastic set, especially for gaming and movies with those specs.\n\nI appreciate you asking about flexibility. Here's the thing: the $1,799 retail price reflects the quality you're getting, and honestly, it's already a competitive ask for a 65\" OLED evo with all those features. That said, I'm open to working with you.\n\nWhat kind of price range were you thinking? Let me see what I can do to make this work for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being open to negotiating. Honestly, $1,799 is right at my max budget, so I'm looking to get below that if possible. Would you be able to come down to around $1,650-$1,700? That would make this work perfectly for me. If you can meet me somewhere in that range, I'm ready to move forward today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate the directness. Here's where I'm at: I can definitely work with you since you're ready to move today, but $1,650-$1,700 is a bit tight for me on this unit.\n\nWhat I *can* do is $1,750. That gives you a solid discount from retail, and it's a fair middle ground. Plus, you're getting a premium OLED with the latest webOS and Game Optimizer\u2014that's real value.\n\nCan we make $1,750 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer and that you're willing to move on price. $1,750 is closer, but I'm still hoping we can get a bit lower. What if we split the difference and go with $1,725? That's a meaningful discount for you to offer, and it works within my budget. Can you do $1,725?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, I like your thinking\u2014$1,725 is a fair split. You're getting a meaningful discount, and I'm comfortable with that number given you're ready to close today.\n\nLet's do it. $1,725 and we've got a deal. When do you want to finalize this?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! I'm glad we could find that middle ground. $1,725 works great for me. I'm ready to move forward right now\u2014what do I need to do to finalize the purchase and get this set ordered?"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1750.0,
+    1725.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

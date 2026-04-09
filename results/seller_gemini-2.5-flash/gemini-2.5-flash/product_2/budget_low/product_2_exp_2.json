@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm very interested in your Sony WH-1000XM5 headphones. They seem like a fantastic pair! Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's great to hear you're interested in the WH-1000XM5. They truly are an exceptional pair, offering industry-leading noise cancellation and a fantastic 30-hour battery life. The retail price is $399. What price did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the information. I was hoping for something closer to $145."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $145 is significantly lower than we can go for these premium headphones. The WH-1000XM5s offer unparalleled noise cancellation and features like Speak-to-Chat, making them a top-tier choice. The retail price is $399. I could offer them to you for $375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand they're premium, but $375 is still much higher than I can afford. My absolute maximum budget is $176."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget constraints, but $176 is simply too low for a brand-new pair of Sony WH-1000XM5s. These headphones come with advanced features like crystal-clear hands-free calling and multipoint connection, justifying their value. The lowest I could possibly go would be $350."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down, but $350 is still outside my budget. I cannot exceed $176."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0,
+    350.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

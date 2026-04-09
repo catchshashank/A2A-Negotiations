@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm very interested in the LG C3 65-inch OLED TV. I was wondering if there might be any flexibility on the listed price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great to hear you're interested in the C3! It's an exceptional TV\u2014that 65-inch OLED evo panel with 4K 120Hz and Dolby Vision is really top-tier stuff.\n\nThe retail price is $1,799, which is fair for the quality you're getting. That said, I'm definitely open to working with you. What kind of pricing were you thinking, or is there anything specific about your purchase\u2014like timing or volume\u2014that might help me find some room to move?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the C3, it's exactly what I'm looking for. I was hoping to get it for around $1,450."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the interest, and I understand everyone wants a good deal! At $1,450, that's about 19% off retail, which is pretty steep for us.\n\nHere's what I can do\u2014I can get you to $1,550. That's still a solid discount from the $1,799 retail, and it reflects the value of what you're getting with that OLED evo panel and all those premium features.\n\nCan we work with $1,550?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "$1,550 is a bit higher than I was hoping for. I'm still very keen on this TV, but I was really aiming for something closer to $1,500. Would that be possible?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you\u2014$1,500 is a reasonable ask. Let me meet you halfway here. How about $1,525? That's a solid $274 off retail, and honestly, it's about as low as I can comfortably go on this model given the demand and the quality you're getting.\n\nDoes $1,525 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down further. $1,525 is a strong offer, but I was really hoping to secure it for $1,500. Would you be able to meet me there?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand the appeal of that $1,500 mark. You know what\u2014if you're ready to move forward today, I can do $1,500. That gets you a premium 65-inch OLED TV at a fair price, and we've got a deal.\n\nCan we lock this in at $1,500?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, absolutely! I'm ready to lock it in at $1,500. Thank you!"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1550.0,
+    1525.0,
+    1500.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

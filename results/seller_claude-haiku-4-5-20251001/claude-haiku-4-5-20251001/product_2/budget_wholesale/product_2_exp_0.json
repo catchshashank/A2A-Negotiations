@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested\u2014they seem like exactly what I'm looking for. I've been wanting a pair with solid noise cancellation and long battery life.\n\nI'm definitely keen to move forward, but I wanted to check: would you be open to any flexibility on the price? I'd love to work something out that works for both of us.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- \u2705 Friendly and conversational tone\n- \u2705 Shows genuine interest in the product\n- \u2705 Mentions specific features (builds credibility)\n- \u2705 Opens negotiation diplomatically without being pushy\n- \u2705 Keeps it brief and natural\n- \u2705 Leaves room for the seller to respond positively"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great to hear you're interested! \ud83d\udc4b\n\nI really appreciate that you're keen on these\u2014they're genuinely fantastic headphones, and it sounds like they'd be perfect for what you need. The noise cancellation and battery life are seriously industry-leading.\n\nOn pricing, I'm happy to work with you! These are currently at $399, which is the standard retail price. Depending on what you had in mind, I might be able to offer some flexibility\u2014but I'd want to make sure we land on something fair for both of us. What kind of price range were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I really do want these headphones\u2014the features are exactly what I'm looking for. However, I need to be upfront about my budget: I can go up to $220 maximum. I know that's a significant gap from retail, but I'm hoping we can work something out. Would you be able to move on price in that range, or is there any flexibility there?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty about your budget! I totally get wanting to find a good deal, and I respect you being straightforward.\n\nHere's the thing though\u2014$220 is actually my wholesale cost, so there's no room for me to go that low and still make this work. That said, I don't want to lose your business since you're genuinely interested and ready to move forward.\n\nWhat if we meet somewhere in the middle? I could do $320-340 range, which gives you a solid discount off retail while keeping things sustainable for me. That's still meaningful savings, and you get the headphones you really want. Does something in that ballpark work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate you being straight with me about your costs. I understand your position, and I respect that. However, $320-340 is unfortunately beyond what I can spend\u2014my absolute maximum is $220, and I can't go over that.\n\nI'm genuinely interested in these headphones, but I need to stay within my budget. If you can't meet that price point, I completely understand, and I'd rather be honest about it now than waste your time. Is there any way you could work with the $220 figure, or should we call it here?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I really appreciate your honesty, and I get it\u2014budget constraints are real. Unfortunately, $220 is literally my cost to acquire these headphones, so I can't go there without losing money on the sale.\n\nHere's where we stand: I can't sell below that point, but I also don't want to lose you. If you're able to stretch even a bit\u2014say to $250-260\u2014I can make that work and you'd still be getting a great deal. Otherwise, I totally understand if this isn't the right fit for your budget right now.\n\nWhat do you think? Any room to move up slightly?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me on this, and I hear that $220 is your floor. Unfortunately, I really can't stretch beyond my $220 budget\u2014it's a hard limit for me right now, not flexibility I have.\n\nI don't want to waste your time going back and forth if we're at an impasse. If $220 isn't workable for you, then I understand, and I'll need to pass on this deal. But if there's any way you can make it happen at that price, I'm ready to move forward immediately. What do you say?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I really do appreciate the directness. Here's my honest answer: $220 is my absolute floor\u2014it's what I pay to get these in stock, so I genuinely can't go there without taking a loss.\n\nI know that might mean we can't make this work right now, and I get it. But if your budget ever shifts, or if you find any wiggle room, I'm here and ready to move fast. These are incredible headphones, and I'd love to get them to you.\n\nBest of luck with your search, and feel free to reach out if things change!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate you being straight with me throughout this\u2014I respect that. I understand your position completely, and I don't want to put you in a spot where you're losing money.\n\nUnfortunately, I can't move beyond $220, so I'm going to have to pass on this one. But I genuinely appreciate the honest negotiation, and if my situation changes down the road, I'll definitely reach back out. Thanks for taking the time to work through this with me!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    399.0,
+    250.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

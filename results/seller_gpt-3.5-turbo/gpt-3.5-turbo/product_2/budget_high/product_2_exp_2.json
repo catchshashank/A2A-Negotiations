@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there is any room for negotiation on the price? Looking forward to hearing from you! Thanks!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. They are a fantastic choice! The retail price for these headphones is $399, but I can offer them to you for $350. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate the discount. Considering my budget, would you be able to do $320 for the Sony WH-1000XM5 Wireless Headphones?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations, and I appreciate your interest in the Sony WH-1000XM5 Wireless Headphones. While I cannot go as low as $320, I can offer them to you for $340. Would that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I would like to meet halfway at $330 for the Sony WH-1000XM5 Wireless Headphones. Can we make that work?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but I'm unable to go below the wholesale price for the Sony WH-1000XM5 Wireless Headphones, which is $220. I can offer them to you at that price. Let me know if you'd like to proceed with the purchase at $220."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position. Unfortunately, $220 exceeds my budget, so I have to decline the offer. Thank you for your time."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    340.0,
+    220.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

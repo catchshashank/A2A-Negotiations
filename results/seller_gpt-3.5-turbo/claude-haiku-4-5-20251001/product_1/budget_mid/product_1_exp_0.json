@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch with the M3 Pro chip \u2014 it looks like exactly what I've been looking for. The specs are impressive, especially the display and battery life.\n\nI'm seriously considering making a purchase, but I wanted to check: would you be open to any flexibility on the price? I'm a committed buyer and ready to move quickly on this. Let me know if there's any room to work something out!\n\nLooking forward to hearing from you.\n\n---\n\n**Why this works:**\n- Opens friendly and natural (no mention of \"negotiation\")\n- Shows genuine interest in the product\n- Signals you're a serious buyer (builds credibility)\n- Asks about price flexibility diplomatically\n- Keeps it brief and non-aggressive"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! \ud83d\udc4b\n\nI'm glad to hear you're interested in the MacBook Pro 16-inch with the M3 Pro chip! It's a top-of-the-line device with impressive features. While I can't go below the wholesale price, I can offer you a special deal at $2,300. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate it, but $2,300 is still above what I'm able to spend. I'm working with a maximum budget of $2,149.50. \n\nIs there any flexibility on the price, or would you be open to including any accessories or extended warranty to make the deal work at that price point?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. I can offer you the MacBook Pro 16-inch at $2,149.50 and include a premium laptop sleeve as a bonus. Does that sound good to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds perfect! Yes, I'd like to move forward with that deal - the MacBook Pro 16-inch M3 Pro at $2,149.50 with the premium laptop sleeve included. When can we complete the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0,
+    2149.5
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

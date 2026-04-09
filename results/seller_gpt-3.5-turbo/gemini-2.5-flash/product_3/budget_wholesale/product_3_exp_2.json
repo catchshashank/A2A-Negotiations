@@ -1,0 +1,78 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello!\n\nI'm really interested in the LG C3 65-inch OLED TV you have listed \u2013 it looks like a fantastic set. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the LG C3 65-inch OLED TV! It's definitely a top-of-the-line model. While I can't go below the wholesale price, I can offer you a competitive deal. How does [Offer Price] sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I'm very interested in the TV, but that's a bit higher than I was hoping. I could do $1000 for it today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest, but I'm unable to go below the wholesale price for this premium TV. However, I can offer you a slightly lower price of [Offer Price] if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm ready to make a deal. What's the specific price you can offer?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great to hear you're ready to make a deal! I can offer you the LG C3 65-inch OLED TV for [Final Offer Price]."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I need the specific price to finalize the deal. Please provide the exact number."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand. The final price for the LG C3 65-inch OLED TV is $1,100."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's still right at the top of my budget. I was really hoping for a little less. Could you do $1050?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but I'm unable to go below the wholesale price for this high-end TV. If you can consider the final offer price of $1,100, we can proceed with finalizing the deal."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Alright, I'll take it for $1,100."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0,
+    1799.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

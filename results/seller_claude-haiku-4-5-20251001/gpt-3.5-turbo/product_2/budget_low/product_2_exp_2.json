@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm very interested in purchasing them. I was wondering if there is any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! I'm doing great, thanks for asking. I'm glad you're interested in the WH-1000XM5s\u2014they're fantastic headphones with industry-leading noise cancellation and 30-hour battery life.\n\nThe retail price is $399, but I can definitely work with you. What price range were you thinking? I'm open to negotiating, though I do need to stay within reasonable margins. Let me know what you had in mind and we can find something that works for both of us!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your flexibility in negotiating. Given my budget constraints, would you be able to offer the Sony WH-1000XM5 headphones for $150?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $150 is unfortunately too low\u2014that's well below what I can work with. These headphones are genuinely worth the investment with their noise cancellation, 30-hour battery, and multipoint connection features.\n\nHere's what I can do: I can offer them at $280, which is a solid discount from the $399 retail price. That's a fair middle ground that reflects the quality you're getting. Would that work for you, or did you have something else in mind in that range?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value proposition you're presenting. However, my budget is set at $176, and I must adhere to it. If you can accommodate that price, I would be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget, but $176 is still below what I can offer. My lowest price point needs to be $220\u2014that's my floor on this product.\n\nHere's the thing: at $220, you're still getting a significant discount from the $399 retail price, and you're getting premium headphones that'll last you years. That's a real value.\n\nCan you stretch to $220? If so, we can finalize this today and you'll have an excellent product at a fair price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I completely understand your position, and I appreciate the offer. However, my budget remains firm at $176. If you're able to meet this price, I'm ready to move forward with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position, and I wish I could meet you there, but I genuinely can't go below $220. That's my absolute floor on this product.\n\nI know $176 is what you budgeted, but these headphones retail for $399\u2014at $220 you're already getting nearly a 45% discount. That's a real deal for the quality you're getting.\n\nIf the budget is truly unmovable, I'd hate to lose the sale, but I'm unable to go lower. Would you be able to find an extra $44 in your budget to make this work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your understanding. Unfortunately, my budget is fixed at $176, and I must stick to it. I will have to pass on this opportunity at $220. Thank you for your time and consideration."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    280.0,
+    220.0,
+    220.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

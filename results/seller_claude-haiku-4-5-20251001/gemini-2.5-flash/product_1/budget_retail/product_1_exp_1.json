@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI'm really interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. It looks like a fantastic machine.\n\nI was wondering if there might be any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest \u2013 it really is an excellent machine. The M3 Pro is our top performer with that stunning XDR display and incredible battery life.\n\nI can definitely work with you on price. What kind of budget were you thinking? Keep in mind the retail is $2,499, so I've got some flexibility depending on what you're looking for. What's your target price range?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! I'm really keen on it. I was hoping to get it closer to $2150, if possible."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $2,150 is a bit lower than I can go. That's cutting into my margin pretty heavily.\n\nHow about we meet somewhere in the middle? I could do $2,300 \u2013 that's a solid $200 off retail, and you're getting a premium machine at a fair price. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand, but $2300 is still a bit high for me. Could you do $2200?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you \u2013 $2,200 is closer to where we need to be. That's $299 off retail, which is a genuine discount on a machine like this.\n\nHere's what I can do: $2,250. That's my best offer and gets you a really solid deal on the MacBook Pro. Can we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, I can do $2,250. Let's make it happen."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! Great decision \u2013 you're getting an excellent machine at a fair price. Let me get the paperwork started for the MacBook Pro 16-inch M3 Pro at $2,250.\n\nI'll need your details to process this. Can you confirm your name, contact info, and preferred delivery method?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! My name is Alex Johnson. You can reach me at alex.johnson@email.com, and I prefer standard delivery."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Excellent, Alex! I've got your information down:\n\n- Name: Alex Johnson\n- Email: alex.johnson@email.com\n- Delivery: Standard\n\nYour MacBook Pro 16-inch M3 Pro is confirmed at $2,250. You'll receive a confirmation email shortly with your order details and tracking information once it ships. Standard delivery typically takes 3-5 business days.\n\nThanks for the business \u2013 enjoy your new MacBook!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Sounds great! Thanks so much. I'm looking forward to receiving it."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2300.0,
+    2250.0,
+    2250.0,
+    2250.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

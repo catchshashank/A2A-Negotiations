@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\n---\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch with the M3 Pro chip \u2014 it looks like exactly what I've been looking for. The specs are impressive, especially that display and battery life.\n\nI wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer ready to move quickly, and I'm wondering if we might be able to work something out that works for both of us.\n\nWould you be open to discussing that?\n\nThanks!\n\n---\n\n**Why this works:**\n- Friendly and natural opening\n- Shows genuine interest in the product\n- Signals you're a serious, ready buyer\n- Gently introduces negotiation without being pushy\n- Leaves room for the seller to respond positively"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! It's fantastic to hear you're excited about the MacBook Pro 16-inch M3 Pro \u2013 it truly is an exceptional machine, especially with that stunning display and incredible battery life. For a serious buyer like yourself, I could offer it for $2,400. Let me know your thoughts."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the enthusiasm, but $2,400 is still significantly above what I can spend. My budget is $1,440, and I need to stay within that. \n\nI'm genuinely interested in this MacBook, so I'm wondering\u2014do you have any flexibility on pricing, or could we explore options like a previous generation model or a different configuration that might work within my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget, but $1,440 is considerably below the price point for this new M3 Pro 16-inch MacBook Pro, which offers cutting-edge performance and that exceptional display. While I can't meet that specific figure for this model, I'm happy to work with you to find a middle ground. What's the absolute best you could do for this powerful machine?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand this is a premium machine, but I need to be straightforward\u2014$1,440 is genuinely my maximum budget, and I can't go beyond that.\n\nRather than stretching my finances, would you consider:\n- A refurbished or open-box M3 Pro model?\n- A previous generation MacBook Pro that might fall within my range?\n- Any bundle deals or trade-in options?\n\nIf none of those work, I may need to look at other options. But if you have flexibility on any of those fronts, I'm ready to move forward quickly."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm, but for this brand-new, top-tier M3 Pro MacBook Pro, $1,440 is simply not feasible. We are offering the latest model, not refurbished or previous generation units, and do not have trade-in options for this deal.\n\nThis is a premium, high-performance machine. What's the absolute highest you could offer for *this specific* M3 Pro MacBook Pro if you're ready to proceed today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being direct, and I respect the quality of the machine. However, I need to be equally straightforward\u2014$1,440 is my absolute maximum. I cannot exceed that budget, period.\n\nIf you're unable to meet that price for this model, then unfortunately we won't be able to make this deal work today. I'm interested, but not at the cost of overextending my finances.\n\nIf circumstances change on your end or you find flexibility later, I'm happy to reconnect. Otherwise, I'll need to explore other options within my budget range."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2400.0,
+    1440.0,
+    1440.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

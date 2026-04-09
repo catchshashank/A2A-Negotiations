@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like exactly what I'm looking for with the noise cancellation and battery life.\n\nI was wondering \u2014 would you be open to negotiating on the price at all? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens casually and naturally\n- Shows genuine interest in the product\n- Asks about flexibility without being pushy\n- Signals you're a serious, ready buyer (encourages seller cooperation)\n- Keeps it brief and friendly\n- Leaves room for the seller to respond before you reveal your specific budget"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! I'm glad you're interested in the Sony WH-1000XM5 headphones. They are indeed a great choice with their features. While I can't go below the wholesale price, I can offer you a competitive deal. Let me know if you're interested in moving forward. Thank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for reaching out! I'm definitely interested in these headphones \u2013 they have amazing features. However, I need to be upfront about my budget. I'm working with a maximum of $176 for this purchase. \n\nI understand you have wholesale constraints, but could you work with me on that price point? If you can meet me there or close to it, I'm ready to move forward today. What's the best you can do?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest! While I can't meet your budget of $176 due to the wholesale price, I can offer you a competitive price of $220. This is the best I can do considering the quality and features of the headphones. Let me know if you'd like to proceed at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $220 is unfortunately outside my budget. My maximum is $176, and I can't go beyond that \u2013 it's a hard limit on my end.\n\nI understand these are premium headphones with great features, but at $220 I simply can't make this work. If there's any flexibility on your end or if you have any promotions, bundle deals, or alternative options that could get us closer to $176, I'd be open to exploring that. Otherwise, I won't be able to move forward at this time."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your budget constraints. While I can't go below the wholesale price, I can offer you a final price of $200 for the Sony WH-1000XM5 headphones. This is the best offer I can provide considering the product quality. Let me know if you'd like to proceed at this price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $200, and I understand your wholesale constraints. However, that's still $24 above my maximum budget of $176. I genuinely can't exceed that limit.\n\nAt this price point, I'm unable to move forward with the purchase. If circumstances change on your end or if you have any other options available, I'm happy to revisit this conversation. Otherwise, I'll need to pass on this deal. Thank you for working with me."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    220.0,
+    200.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

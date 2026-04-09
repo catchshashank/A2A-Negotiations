@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Sony WH-1000XM5 headphones you have listed. They look fantastic! Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey, thanks for your interest! I'm glad you like them\u2014they really are fantastic headphones with industry-leading noise cancellation and 30-hour battery life. \n\nThe current asking price is $399, which is actually the retail price. That said, I'm open to discussing it. What price range were you thinking? I want to make sure we can work something out that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! They do sound like excellent headphones. I'm looking to get a good deal, so I was hoping to stay closer to $300. Would that be something you'd consider?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you putting an offer on the table! $300 is definitely lower than where I need to be though. These are the latest XM5s with all the premium features\u2014the noise cancellation alone is industry-leading, plus you're getting 30-hour battery life and multipoint connection.\n\nHow about we meet somewhere in the middle? I could do $350, which still gives you a solid discount from the $399 retail price. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand they're premium headphones, and $350 is a better offer. However, I'm still hoping to get them for a bit less. My best offer would be $320."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate you coming up a bit. $320 is closer, but it's still cutting into my margin pretty tight. Let me ask\u2014are you looking to purchase just one pair, or potentially multiple units? \n\nIf we can find a middle ground, I'd be willing to do $340. That's still a fair discount from retail, and it reflects the quality of what you're getting. Can we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm only looking for one pair. While $340 is closer, I was really hoping for $330. Would that be acceptable?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you meeting me partway\u2014$330 is a reasonable offer. Let me be straight with you: I can do $335. That's a solid $64 off retail, and honestly, it's about as low as I can go on these while keeping this worthwhile for me.\n\nCan we call it $335 and get you set up with these headphones today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, I can do $335. I'll take them at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    350.0,
+    340.0,
+    335.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

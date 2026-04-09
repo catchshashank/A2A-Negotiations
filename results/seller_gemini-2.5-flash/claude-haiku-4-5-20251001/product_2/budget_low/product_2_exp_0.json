@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. The noise cancellation and battery life sound amazing\u2014exactly what I've been looking for.\n\nI was wondering if there's any flexibility on the price? I'm a serious buyer ready to move quickly, and I'd love to work something out if you're open to negotiating.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens naturally without sounding like a bot\n- Shows genuine interest in the product (builds rapport)\n- Frames negotiation as a mutual benefit (\"work something out\")\n- Signals you're a serious buyer (encourages seller to engage)\n- Keeps it brief and friendly\n- Leaves room for the seller to respond before you reveal your budget"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! Thanks for your interest in the Sony WH-1000XM5 headphones\u2014they truly offer an unparalleled listening experience with that incredible noise cancellation and battery life. I'm definitely open to discussing the price with a serious buyer. What did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I'm definitely interested in these headphones\u2014they sound fantastic. However, I need to be upfront about my budget. I'm working with $176 maximum for this purchase. I know that's significantly below the $399 retail, but I'm hoping we can work something out. Are you open to negotiating in that range, or would you like to tell me what your lowest price point might be?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for being upfront about your budget. I appreciate your interest, but $176 is significantly below what I can accept for these premium Sony WH-1000XM5 headphones. They offer industry-leading noise cancellation, 30-hour battery life, and a host of other high-end features that justify their value. I'm happy to negotiate, but I'd need an offer considerably closer to their true worth. What's the highest you're able to go?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand these are premium headphones with excellent features. My budget is genuinely capped at $176\u2014that's the absolute maximum I can spend right now. I realize that's a substantial gap from retail, but I'm hoping you might have stock that's been sitting around, or you're looking to move inventory quickly. Would you be willing to work at my budget level, or should we acknowledge this might not be the right fit? I'm ready to move forward immediately if we can make it work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your genuine interest and willingness to move quickly. However, $176 is simply too low for these brand-new Sony WH-1000XM5 headphones, given their advanced features and quality. I cannot accept an offer in that range. While I'm keen to find a serious buyer, I need to ensure the price reflects the premium value of the product."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I completely understand your position\u2014these are genuinely premium headphones with real value. Unfortunately, $176 is truly my hard limit right now, and I can't go beyond that. I appreciate you taking the time to negotiate, but it sounds like we're too far apart on price for this to work. I'll have to pass on this offer, but I appreciate your willingness to discuss it. If circumstances change on your end, feel free to reach out!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    176.0,
+    176.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

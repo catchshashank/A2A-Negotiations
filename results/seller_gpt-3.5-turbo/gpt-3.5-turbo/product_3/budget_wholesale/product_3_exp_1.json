@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the LG C3 65-inch OLED TV and I'm very interested in it. I was wondering if there is any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad to hear you're interested in the LG C3 65-inch OLED TV! It's a fantastic choice. The retail price for this TV is $1,799, but I can offer it to you for $1,500. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, but my budget is $1100. Is there any room for negotiation within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. How about I offer you the LG C3 65-inch OLED TV for $1,100?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds great! I'll accept the offer for $1,100. When can we arrange the delivery?"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1500.0,
+    1100.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

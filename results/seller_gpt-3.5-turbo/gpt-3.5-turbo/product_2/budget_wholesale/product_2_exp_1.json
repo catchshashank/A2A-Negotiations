@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there might be any room to negotiate on the price? Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. They are fantastic headphones with top-notch features. The listed price is already a great deal considering their quality and retail price of $399. Would you be willing to purchase them at the listed price of $399?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for offering the Sony WH-1000XM5 Wireless Headphones at $399. Unfortunately, my budget is $220, and I cannot exceed that. Is there any room for negotiation within my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, but the listed price is already the wholesale price of $220. I'm unable to offer a lower price than that. However, I can assure you that these headphones are worth the investment due to their exceptional features and performance."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I appreciate your offer, but I must adhere to my budget limit of $220. As much as I would love to purchase the Sony WH-1000XM5 Wireless Headphones, I have to decline the offer at $399. Thank you for understanding."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

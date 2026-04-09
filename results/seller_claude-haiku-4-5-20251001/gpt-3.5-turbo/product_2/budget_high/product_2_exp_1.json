@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I must say, they look fantastic. I was wondering if there might be any flexibility in the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest in the WH-1000XM5s\u2014they really are fantastic headphones. The current price is $399, which is actually right at retail and reflects their premium features like industry-leading noise cancellation and that impressive 30-hour battery life.\n\nThat said, I'm open to working with you. What kind of price range were you thinking? I can definitely explore some options depending on your situation."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your willingness to work with me. Given my budget constraints, I can consider purchasing the WH-1000XM5s for $360. Would that be possible for you?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $360 is a bit lower than I can go. These headphones are in high demand, and at that price point, I'd be cutting into my margins pretty significantly.\n\nHow about we meet somewhere in the middle? I could do $375 for you\u2014that's a solid discount off retail while keeping things fair on my end. Does that work better for your budget?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position. $375 sounds like a reasonable compromise. I can proceed with the purchase at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

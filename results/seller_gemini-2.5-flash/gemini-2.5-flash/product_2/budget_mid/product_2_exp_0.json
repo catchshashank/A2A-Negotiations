@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the Sony WH-1000XM5 headphones \u2013 they sound fantastic! Is there any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's wonderful you're interested in the Sony WH-1000XM5, they are truly top-of-the-line. Given their industry-leading features, the $399 retail price is very competitive. However, I'm open to discussing a fair offer. What did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm definitely interested in the XM5s. Given the current market, I was hoping to get them for around $299."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer of $299. These headphones truly deliver unparalleled noise cancellation and a premium experience, which is why they retail at $399. For such a high-demand item, we're typically looking for something closer to the retail price. Could you come up a bit from your offer?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand their value. How about we meet in the middle at $305?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you moving up on your offer. At $305, it's still quite a distance from the retail price of $399 for these premium headphones. How about we aim for $350? That's a great value for the XM5's incredible features."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $350 is more than I can afford. I'm unable to go higher than $305."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. While $305 is lower than we typically go for these, I want to ensure you get to experience the best. I can accept your offer of $305. You're getting an exceptional deal on these industry-leading headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm happy to proceed with $305."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    299.0,
+    350.0,
+    305.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

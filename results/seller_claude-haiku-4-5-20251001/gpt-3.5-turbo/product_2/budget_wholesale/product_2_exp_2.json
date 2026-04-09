@@ -1,0 +1,78 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I must say, I'm quite impressed with the features they offer. I was wondering if there is any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest\u2014these are fantastic headphones! I'm glad you're impressed with the features. \n\nThe retail price is $399, and honestly, they're worth every penny given the industry-leading noise cancellation and 30-hour battery life. That said, I can offer you a competitive deal. What price range were you thinking? I'm flexible, but I do need to stay within reason given the quality and demand for these. Let me know what works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer and understand the value these headphones bring. Considering my budget is $220, would you be able to offer them at that price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. $220 is actually our wholesale cost\u2014there's no margin for me there. However, I can meet you somewhere in the middle that works for both of us. How about $280-$300? That's still a solid discount from the $399 retail, and it reflects the true value of these headphones. Does that range work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, but unfortunately, I must stick to my budget of $220. If you can offer the headphones at that price, I'd be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position, but I can't go that low\u2014$220 is literally our cost, and I'd have zero profit on the sale. That said, I really want to work with you. How about $250? That's a fair compromise\u2014you're getting nearly 40% off retail, and it's a reasonable margin for me. If you can stretch to that, we've got a deal today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your flexibility, but I must adhere to my budget strictly. If you're able to meet the $220 limit, I'm prepared to make the purchase today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your straightforwardness, but I genuinely can't do $220\u2014that's our wholesale cost with zero profit for me. I need at least some margin to make this work. \n\nHere's what I can do: $240 is my absolute lowest. You're still getting a great deal at 40% off retail, and we can close this today. That's the best I can offer. What do you say?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I can meet you at $240 for the Sony WH-1000XM5 Wireless Headphones. Let's proceed with that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could work this out. At $240, you're getting an excellent deal on these premium headphones. Let's move forward with the purchase. \n\nTo proceed, I'll need your shipping address and preferred payment method. Once I have those details, I can get these shipped out to you right away. Thanks for the business!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'm excited about the purchase. I'll provide you with my shipping address and preferred payment method promptly. Thank you for your assistance in securing this deal."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    280.0,
+    250.0,
+    240.0,
+    240.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

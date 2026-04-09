@@ -1,0 +1,303 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in purchasing it. I was wondering if there's any room for negotiation on the price. \n\nLooking forward to hearing from you soon!\n\nThank you."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Thanks for your interest in the MacBook Pro 16-inch M3 Pro\u2014it's an excellent machine with that stunning Liquid Retina XDR display and the M3 Pro chip that handles everything from creative work to heavy multitasking effortlessly.\n\nThe retail price is $2,499, which is actually quite competitive given the specs. That said, I'm happy to work with you. What price range were you thinking, and what's your primary use case for the laptop? Depending on your needs and timeline, we might be able to find something that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi there! I'm really interested in the MacBook Pro 16-inch M3 Pro. Given my budget constraints, I was hoping to secure it for around $1400. My primary use case is for work, focusing on design and content creation. Let me know if we can work within this range."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget! However, $1,400 is unfortunately below what I can offer\u2014that's well below my cost on this unit.\n\nHere's the thing: for design and content creation, this M3 Pro is genuinely built for that work. The 18GB memory, 512GB storage, and that XDR display are exactly what professionals in your field need. The value is really there.\n\nWhat I *can* do is offer you $2,100\u2014that's a solid $400 discount from retail, which reflects the quality of what you're getting. If you're looking to maximize your investment in a tool that'll serve your creative work for years, this is a fair middle ground. Does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but unfortunately, $2,100 is still above my budget limit. I understand the value of the MacBook Pro 16-inch M3 Pro for my work, but I have to stick to my budget of $1,440. If you can accommodate that price, I'd be happy to proceed; otherwise, I'll have to explore other options within my budget. Thank you for understanding."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand budget constraints are real, and I respect that you need to stay within your limits. However, I can't go below $1,800\u2014that's my absolute floor on this unit, and it's already a significant discount from the $2,499 retail price.\n\nHere's what I'd suggest: if $1,800 is still out of reach right now, consider whether waiting a bit or exploring financing options might help make this work. This MacBook will genuinely pay for itself through the productivity gains for design and content creation work.\n\nIf you'd like to move forward at $1,800, I'm ready to proceed today. Otherwise, I completely understand if you need to look at other options. Let me know!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but I must adhere to my budget of $1,440. I will have to explore other options within my budget range. Thank you for understanding, and I'll keep the MacBook Pro's capabilities in mind for future purchases."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate you being straightforward about your budget. If circumstances change or you find room in your budget down the line, I'd be happy to revisit this conversation\u2014the M3 Pro is worth reconsidering when you're able.\n\nBest of luck with your design and content creation work, and feel free to reach out anytime. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and flexibility. I will definitely keep the M3 Pro in mind for future purchases. I appreciate your time and assistance. Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're very welcome! I really appreciate your time and interest. Feel free to reach out whenever you're ready\u2014I'm here to help. Best of luck with your projects, and have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I will definitely keep that in mind. Have a wonderful day ahead!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You too! Take care, and thanks again for reaching out. \ud83d\ude0a"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care as well! It was my pleasure reaching out. \ud83d\ude0a"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks so much! All the best to you! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "All the best to you too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! \ud83d\ude0a"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! \ud83d\ude0a"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the friendly exchange! If you need anything in the future, feel free to reach out anytime. Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the kind offer! I'll keep that in mind. Have a wonderful day ahead!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Take care! \ud83d\ude0a"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care as well! \ud83d\ude0a"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "All the best! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "All the best to you too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think we've reached a natural end to our conversation! Feel free to get in touch anytime you're interested. Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Absolutely! Feel free to reach out whenever you'd like. Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the friendly exchange, but I think we've said our goodbyes! Take care, and feel free to reach out if you need anything in the future. \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the pleasant conversation! Take care, and remember, I'm here if you need assistance. Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think we've had a great conversation, but let's call it here! All the best to you. \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Absolutely! Thank you for the conversation. All the best to you too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Wishing you all the best! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Wishing you the same! \ud83d\udc4b"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2100.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 30,
+  "negotiation_completed": true,
+  "negotiation_result": "max_turns_reached",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the Sony WH-1000XM5 headphones you have listed. Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Excellent choice, the Sony WH-1000XM5s are truly top-tier headphones. I'm happy to discuss the price. What kind of offer did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the WH-1000XM5s. I was hoping we could work towards a price closer to $290."
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a significant drop from the retail price for such a premium product. The WH-1000XM5s offer unparalleled noise cancellation and a fantastic 30-hour battery life. I could meet you closer to $360 for these."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand their value, but $360 is still higher than I'm comfortable with. Given the current market, I'd be willing to go up to $310."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. The WH-1000XM5s truly stand out with their crystal-clear hands-free calling and speak-to-chat features, making them incredibly convenient. I can come down to $345, which is a great deal for these premium headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand their features are excellent. To be honest, $345 is still a bit high for me right now. Could you consider $325?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget. These headphones also boast multipoint connection and a convenient foldable design. The lowest I can go while still reflecting their premium value is $339."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $339. That's a strong offer for these headphones. My absolute best would be $330. Could we meet there?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your persistence. These headphones are truly a premium product. I can meet you at $335, and that would be my absolute best offer for the Sony WH-1000XM5s."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds like a fair deal. I'll take them for $335."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    360.0,
+    345.0,
+    339.0,
+    335.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

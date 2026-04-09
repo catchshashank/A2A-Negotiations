@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch and I must say, I'm quite impressed by its features. \n\nI was wondering if there is any room for negotiation on the price. I have a budget in mind and would love to discuss further if possible.\n\nLooking forward to hearing from you soon.\n\nBest regards, \n[Your Name]"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the MacBook Pro 16-inch\u2014it's an excellent machine with some truly impressive specs.\n\nI appreciate you reaching out about pricing. The retail value is $2,499, and given the M3 Pro's performance, the XDR display, and that 22-hour battery life, it's priced competitively. That said, I'm open to discussion depending on your budget range.\n\nWhat price point were you thinking? That way I can see what we can work out together."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi there! I'm definitely interested in the MacBook Pro 16-inch. Given my budget of $2998.80, would you be able to offer a discounted price that would fit within that range? Let's see if we can work out a deal together."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer! However, I should clarify\u2014your budget of $2,998.80 is actually above the retail price of $2,499, so you're in great shape here.\n\nI can offer you the MacBook Pro at the full retail price of $2,499, which is already an excellent value for the specs you're getting. If you'd like to move forward at that price, I can get this processed for you right away.\n\nDoes $2,499 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the clarification. $2,499 works perfectly for me. Let's proceed with the purchase at that price. I'm excited to get my hands on the MacBook Pro 16-inch."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

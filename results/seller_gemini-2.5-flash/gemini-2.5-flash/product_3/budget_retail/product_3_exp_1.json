@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I'm very interested in the LG C3 65-inch OLED TV you have available. I was wondering if there might be any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! That's excellent to hear. The LG C3 65-inch OLED is truly a fantastic choice, especially with its stunning OLED evo panel and gaming features. We typically offer it at $1,799, but for a serious buyer, I could offer it to you today for $1,699."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer. That's a good starting point, but I was really hoping to get closer to $1,499 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for the best value. The LG C3's incredible OLED evo panel, 4K 120Hz, and advanced gaming features truly make it a premium TV. I can meet you a bit further, offering it for $1,629 today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down further. I was hoping to get closer to $1,550 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you. Given the exceptional picture quality, immersive sound, and comprehensive smart features of the LG C3, it truly stands out. I can adjust the price one more time to $1,599 to make this deal happen for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to make it work. I'm really looking for a price closer to $1,575."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Alright, $1,575 it is. That's a fantastic price for the LG C3 65-inch OLED, considering its premium features. You won't be disappointed."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! I'll take it for $1,575."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1699.0,
+    1629.0,
+    1599.0,
+    1575.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello!\n\nI'm very interested in the LG C3 65-inch OLED TV you have listed. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's excellent to hear! The LG C3 65-inch is an outstanding TV, truly top-tier with its OLED evo panel, 4K 120Hz, and incredible gaming features. While our listed price of $1,799 is already very competitive for what you're getting, I'm open to discussing it further. What did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a fantastic TV, no doubt. My budget is quite firm, but I'm very interested in making a deal today. I could offer $750 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $750 is significantly below our cost for such a premium television. The LG C3 is a flagship model, packed with features like the OLED evo panel and advanced gaming capabilities. I can assure you it's a worthwhile investment. What's the highest you're willing to go?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium model. I'm genuinely interested, but my budget is quite limited. The absolute most I could stretch to is $825."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you stretching your budget, but $825 is still too low for the LG C3 65-inch OLED. This TV offers unparalleled picture quality, a 120Hz refresh rate, and advanced gaming features that truly set it apart. We simply can't sell it at that price. Are you able to come closer to its true value?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand its value, but I'm truly at my limit. The highest I can possibly go is $850."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you pushing your budget, but $850 is still not a viable price for this LG C3 65-inch OLED TV. It's a high-end model with a retail price of $1,799, offering cutting-edge technology and an immersive viewing experience. I'm afraid we can't accept an offer that low. Would you be able to make a more substantial offer closer to its market value?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand, but I'm truly at my absolute maximum. The highest I can possibly offer is $880. That's the most I can afford for this purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your persistence, but I must reiterate that $880 is still substantially below our threshold for the LG C3 65-inch OLED. This model is a premium product with a retail price of $1,799, known for its exceptional picture quality and advanced features. I'm afraid we can't accept an offer that low. Are you able to reconsider and offer a price that reflects the true value of this high-end television?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your time, but as I mentioned, $880 is my absolute maximum budget for this purchase. I cannot afford to go any higher."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints, and I appreciate your honesty. However, $880 is simply too far below the value of a brand-new LG C3 65-inch OLED TV, which retails at $1,799. We are unable to accept an offer at that price point."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand. Since $880 is my absolute maximum budget, and you cannot accept that, I'm afraid I won't be able to purchase the TV at this time."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    750.0,
+    825.0,
+    850.0,
+    880.0,
+    880.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 5,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

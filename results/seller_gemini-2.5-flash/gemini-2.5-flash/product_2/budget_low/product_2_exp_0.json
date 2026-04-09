@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones you have for sale. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great choice! The Sony WH-1000XM5 are truly excellent headphones, offering industry-leading noise cancellation and a fantastic audio experience, retailing at $399. What price point were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm hoping to find a good deal on these. Would you consider an offer around $130?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest, but $130 is far too low for these premium headphones. They offer unparalleled noise cancellation and features like a 30-hour battery life and speak-to-chat. We're looking for an offer closer to their true value."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand they're premium, but my budget is quite limited. What's the absolute lowest you could go on them?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "These are top-tier headphones, renowned for their exceptional noise cancellation and features like multipoint connection and crystal-clear calls. The lowest I could offer for these brand-new, premium headphones would be $360."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $360 is beyond my budget. I cannot afford them at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    130.0,
+    360.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

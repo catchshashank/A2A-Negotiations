@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the LG C3 65-inch OLED TV and I must say, it looks like a fantastic product. I was wondering if there is any room for negotiation on the price. Thank you so much!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest in the LG C3 \u2013 it's truly an exceptional TV. I appreciate you asking about flexibility on pricing.\n\nThe current price of $1,799 reflects the quality and features you're getting: the stunning OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, and those four HDMI 2.1 ports for gaming. These are premium specs that hold their value.\n\nThat said, I'm open to working with you. Are you looking at a specific price point, or would you be interested if I could offer any added value \u2013 like extended warranty or expedited delivery? What matters most to you in this purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I appreciate the premium features of the LG C3. Given my budget constraints, could you offer a discounted price closer to $880?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget, but $880 is unfortunately below what I can work with. That's significantly lower than the wholesale cost on this unit, so it's not feasible for me.\n\nHere's what I can do: I can offer you $1,499 \u2013 that's a solid $300 discount from retail. For a TV with this caliber of features, that's a competitive price. Alternatively, if cash flow is tight, I could explore a payment plan option or include accessories like a premium wall mount or extended warranty at no extra cost.\n\nWhat would make this work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, I appreciate the discount provided. However, my budget remains fixed at $880, so I won't be able to proceed with the purchase at $1,499. I'll have to pass on this offer. Thank you for your time and understanding."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1499.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

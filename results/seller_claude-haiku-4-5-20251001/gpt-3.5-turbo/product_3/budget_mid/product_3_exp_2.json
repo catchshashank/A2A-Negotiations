@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're having a great day. I came across your listing for the LG C3 65-inch OLED TV and I'm really interested in it. I was wondering if there is any room for negotiation on the price? \n\nLooking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Thanks for reaching out \u2013 I'm glad you're interested in the C3!\n\nIt's a fantastic TV, honestly. The 65-inch OLED panel with 4K 120Hz and those four HDMI 2.1 ports make it perfect for gaming or premium home theater setups. Dolby Vision IQ and Atmos really set it apart.\n\nAs for pricing, I do have some flexibility depending on your situation. What price range were you thinking, or is there a specific reason you're looking to negotiate? That'll help me see what I can work out for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the information! I'm definitely interested in the LG C3. My budget for this purchase is $1449.50. Can you offer a price within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget! The C3 is definitely worth the investment given its specs \u2013 that OLED panel and gaming features are really top-tier.\n\nHere's where I'm at: $1,449.50 is a bit lower than I can go. However, I can offer you $1,599 as my best price. That's still a solid discount from the $1,799 retail, and honestly reflects the true value of this TV.\n\nWould that work for you, or is there any flexibility on your end?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but unfortunately, $1,599 is still above my budget of $1449.50. I'll have to pass on this offer as I cannot exceed my budget. Thank you for considering, though."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1599.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

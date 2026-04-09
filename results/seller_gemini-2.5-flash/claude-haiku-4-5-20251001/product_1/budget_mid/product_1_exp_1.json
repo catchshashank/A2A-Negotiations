@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch M3 Pro\u2014it looks like exactly what I'm looking for. The specs are impressive, especially the display and battery life.\n\nI wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer ready to move forward quickly, and I'm wondering if we might be able to work something out that works for both of us.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product\n- \u2705 Introduces price negotiation smoothly without being pushy\n- \u2705 Signals you're a committed buyer (builds seller confidence)\n- \u2705 Keeps it brief and conversational\n- \u2705 Opens the door for their counter-offer"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! It's fantastic to hear you're so interested in the MacBook Pro 16-inch M3 Pro. You're absolutely right, the Liquid Retina XDR display and 22-hour battery life are truly exceptional features that make it a top-tier machine.\n\nWe've priced it very competitively at $2,499 given its incredible performance and capabilities. For a serious buyer like yourself, we're certainly open to discussing options to find a mutually agreeable solution. What kind of price were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I appreciate the competitive positioning. I'm definitely interested in this MacBook, but I need to work within my budget. I'm looking at around $2,149.50 as my target price point. \n\nI know that's a solid discount from the retail price, but given the current market and the value I'm bringing as a committed buyer, I think it's a fair starting position. What kind of flexibility do you have on pricing, or are there any bundle options or promotions you might be running that could help us get closer to that number?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're working within a budget, and $2,149.50 is a significant discount from the retail price. While we appreciate your strong interest, the M3 Pro MacBook Pro is a premium device, and its value truly stands out.\n\nGiven your readiness to move forward, the best we could offer for a direct sale would be $2,349. We occasionally have promotions, but for this specific model, that's our most competitive offer at the moment."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $2,349\u2014that's a meaningful movement. However, that's still $199.50 beyond what I can work with. My budget is firm at $2,149.50, and I need to stay within that.\n\nBefore we close the door here, are there any other options? Do you have any upcoming sales, loyalty discounts, or trade-in programs that might apply? Or would you be open to including AppleCare+ or accessories to bridge that gap while keeping the price at my target? I'm a serious buyer ready to move forward today if we can make the numbers work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm, and your readiness to proceed is valuable. While we don't have immediate loyalty programs or trade-in options, and including AppleCare+ or significant accessories at your target price isn't feasible, I can offer a final price of $2,299. This is the absolute best we can do for this premium M3 Pro model to meet you halfway and close the deal today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me halfway, and I understand this is your best offer. However, $2,299 still exceeds my budget of $2,149.50\u2014I simply can't stretch beyond that figure without putting myself in a difficult position financially.\n\nI'm genuinely interested in this MacBook, but I need to respect my budget constraints. If there's any way to reach $2,149.50 or below, I'm ready to complete the purchase today. Otherwise, I'll need to explore other options or wait for a future promotion. What's your absolute lowest you can go?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I truly appreciate your persistent interest and understanding of your budget. To ensure we can make this happen for you today, and considering your firm commitment, my absolute final offer for the MacBook Pro 16"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me on this. Before you finish that thought\u2014what's your absolute final offer? I want to make sure we're clear on the number so we can decide if we can move forward today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "My absolute final offer for the MacBook Pro 16-inch M3 Pro is $2,199. This is the lowest we can go while reflecting the premium value of this device."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate you coming down to $2,199\u2014that's genuine progress. Unfortunately, it's still $49.50 over my maximum budget of $2,149.50, and I genuinely can't exceed that limit.\n\nI've been a serious buyer throughout this conversation, and I respect that you've moved significantly from your initial $2,499. At this point, if you can't reach $2,149.50, I'm not able to move forward with the purchase today. Is there any possibility of getting to that final number, or should we call it here?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2349.0,
+    2299.0,
+    2299.0,
+    2199.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

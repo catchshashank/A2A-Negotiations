@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in purchasing it. I was wondering if there is any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Thanks for your interest in the MacBook Pro 16-inch M3 Pro. I appreciate you reaching out!\n\nThe current asking price is $2,499, which reflects the retail value for this model with its premium specs\u2014the M3 Pro chip, 18GB memory, XDR display, and exceptional battery life make it a solid investment.\n\nThat said, I'm open to working with you. What price range were you thinking? I'm flexible within reason, but I do need to stay competitive with my costs. Let me know what you have in mind, and we can see if we can make a deal work!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your message and for considering my interest in the MacBook Pro 16-inch M3 Pro. Given my budget, I would be comfortable making the purchase at $2,300. Let me know if we can make that work!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer! $2,300 is in the ballpark, and I can definitely work with that. That's a fair discount from retail while still reflecting the quality of what you're getting.\n\nI can do $2,300 for you. When would you be looking to complete the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for being open to my offer of $2,300. I'm ready to proceed with the purchase now. Let's finalize the deal at that price."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2300.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They seem like an amazing pair, and the noise cancellation and battery life are exactly what I'm looking for.\n\nI was wondering \u2014 would you be open to negotiating on the price at all? I'm a serious buyer and ready to move quickly on this. Let me know what you think!\n\nThanks!\n\n---\n\n**Why this works:**\n- Friendly and casual opening\n- Shows genuine interest in the product\n- Compliments the item (builds rapport)\n- Directly but politely asks about price flexibility\n- Signals you're a serious, motivated buyer\n- Keeps it short and leaves room for dialogue"
+    },
+    {
+      "speaker": "Seller",
+      "message": "# Response to Buyer\n\nHi! I'm glad you're interested in the Sony WH-1000XM5 headphones. They are indeed exceptional.\nGiven the quality of the product, I can offer them to you for $350. Let me know if that works for you.\nLooking forward to your response!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the quality of these headphones, but $350 is above what I can spend right now. My budget is around $310. Would you be able to work with me on that price, or perhaps offer any bundle deals or discounts that could bring it closer to that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "# Response to Buyer\n\nI understand your budget constraints. I can offer you the Sony WH-1000XM5 headphones for $320. It's the best I can do considering the quality and features they offer. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $320, but that's still a bit over my budget of $309.50. Could you go down to $309.50? That would work perfectly for me, and we can close this deal today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "# Response to Buyer\n\nI appreciate your interest and commitment to closing the deal. I can meet you at $309.50 for the Sony WH-1000XM5 headphones. Let's finalize this today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works great for me. I'm ready to move forward with the purchase at $309.50. What's the next step to complete the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    320.0,
+    309.5
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

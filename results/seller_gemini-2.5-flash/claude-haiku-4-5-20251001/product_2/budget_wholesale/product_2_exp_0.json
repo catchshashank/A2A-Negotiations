@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! I came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like exactly what I'm looking for. \n\nI was wondering if there's any flexibility on the price? I'd love to work something out if possible. Let me know what you think!\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2713 Friendly and casual opener (\"Hey!\")\n- \u2713 Shows genuine interest in the product\n- \u2713 Doesn't reveal you're a negotiator\n- \u2713 Politely opens the door to price discussion\n- \u2713 Leaves room for dialogue without being pushy\n- \u2713 Concise and natural-sounding"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for your interest! The Sony WH-1000XM5 are fantastic headphones, offering industry-leading noise cancellation and premium features. We have them listed at $399, which reflects their exceptional value. What price were you hoping to work out?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I'm definitely interested in these headphones\u2014the features are exactly what I'm looking for. However, I'm working with a budget of around $220. I know that's below your current asking price, but given the market competition and the fact that these are last-gen models now, would you have any flexibility there? Are there any discounts, bundle deals, or promotions you might be able to offer?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you're working with a budget, and it's true these headphones offer incredible value. While the WH-1000XM5 are still Sony's current flagship model, renowned for their unmatched noise cancellation and features, $220 is quite a bit below our listed price.\n\nGiven your strong interest, I could offer them to you for $350. That's a significant discount for a brand new pair of these premium headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $350 is still quite a bit above what I can work with. My budget is $220, and I need to stick to that. \n\nI understand these are premium headphones, but at that price point, I'd be looking at other options like the Bose QuietComfort or even some mid-range models. Is there any way you could meet me closer to $220? Perhaps if there's any damage to packaging, floor models, or if you're running any promotions I'm not aware of?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm, and you're looking for the best value. These are brand new headphones, not floor models, and they are still Sony's current flagship. While $220 is significantly below our retail price, I can meet your budget at $2"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me on this! Just to clarify\u2014did you mean $220? If so, that works perfectly with my budget. I'm ready to move forward at that price. Can we confirm the details and finalize the purchase?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Yes, I meant $220. I can meet you at that price. Let's confirm the details and finalize your purchase!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! I'm glad we could work this out. Let me confirm the details:\n\n- Product: Sony WH-1000XM5 Wireless Headphones\n- Price: $220.00\n- Condition: Brand new\n\nThis works great for me. What's the next step? Do you need payment information, or should I provide a shipping address?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    350.0,
+    220.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

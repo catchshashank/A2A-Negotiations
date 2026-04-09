@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch M3 Pro \u2014 it looks like exactly what I've been looking for. The specs are impressive, especially the XDR display and battery life.\n\nI'm seriously considering making a purchase, but I wanted to check if there's any flexibility on the price? I'm a committed buyer and ready to move quickly if we can work something out.\n\nWould you be open to discussing the price at all?\n\nThanks so much!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opener\n- \u2705 Shows genuine interest in the product\n- \u2705 Demonstrates you're a serious buyer (builds credibility)\n- \u2705 Opens the negotiation door without being pushy\n- \u2705 Keeps it brief and conversational\n- \u2705 Signals readiness to close the deal (incentivizes negotiation)"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks so much for the interest! I'm glad the specs caught your eye \u2014 it's truly a fantastic machine.\n\nI appreciate you being a serious buyer. Here's where I'm at: the MacBook Pro 16-inch M3 Pro is priced at $2,499, which reflects its premium specs and current market value. That said, I do have some flexibility for committed buyers like yourself.\n\nWhat price range were you thinking? I'm happy to work with you, but I want to make sure we land on something that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate that flexibility! I'm definitely a serious buyer and ready to move forward quickly. I was thinking around $2,149.50 \u2014 that's my maximum budget for this purchase. I know that's a solid discount from the retail price, but given the current market and the fact that I'm ready to commit today, I think it's fair. Would that work for you?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer and your commitment to moving quickly. However, $2,149.50 is below what I can do on this one \u2014 that's cutting into my margin too much.\n\nHere's what I can offer: I'll come down to $2,299 for you as a serious, ready-to-buy customer. That's a meaningful $200 discount off retail, and it reflects the value of closing this deal today without back-and-forth.\n\nCan we make it work at $2,299?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer and the discount, but $2,299 is unfortunately above my budget ceiling of $2,149.50. I can't stretch beyond that \u2014 it's a hard limit for me right now.\n\nThat said, I'm genuinely interested and ready to close today. Would you be able to meet me at $2,149.50? I think that's a fair middle ground that still gives you a solid sale without the uncertainty of holding inventory. What do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I genuinely appreciate your willingness to close today. However, $2,149.50 is below my absolute floor \u2014 I can't go there.\n\nHere's what I can do: I'll meet you at $2,199. That's still $50 below your ask, but it's the lowest I can responsibly go on this unit while keeping the deal viable for me. You get a strong discount, I move inventory today, and we both walk away satisfied.\n\nWhat do you say \u2014 can we close at $2,199?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate you meeting me halfway, and I understand your position. However, $2,199 is still $49.50 over my maximum budget, and I genuinely can't go above $2,149.50 \u2014 it's a firm constraint on my end.\n\nI'm a committed buyer ready to close today, so here's my final ask: can you do $2,149.50? That's $349.50 off retail, which is a meaningful discount. If that's not possible, I'll need to step back, but I'd prefer to make this work with you."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position, and I respect that you've been straightforward about your hard limit. However, $2,149.50 falls below my minimum threshold, so I genuinely can't meet you there \u2014 it's not sustainable for me.\n\nHere's my final offer: $2,175. That's $324.50 off retail, a solid discount, and the absolute lowest I can go. You're a serious buyer ready to close today, and I want to make this work, but this is where I need to land.\n\nIf $2,175 works for you, we can finalize this right now. Otherwise, I completely understand if you need to explore other options."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down further, and I genuinely want to make this work with you. However, $2,175 is still $25.50 over my absolute maximum of $2,149.50. I can't exceed that limit \u2014 it's a hard constraint I have to respect.\n\nI understand if that's where you need to be, and I don't want to waste your time. If you're unable to go to $2,149.50, I'll need to step back and explore other options. But if there's any way you can meet me there, I'm ready to close today. What do you say?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty, and I can tell you're genuinely interested. But I need to be straight with you too: $2,149.50 is below my absolute minimum, and I can't make an exception there \u2014 it's not just negotiating room, it's actually unsustainable for me.\n\nMy final position is $2,175. That's a $324.50 discount from retail, and it's as far as I can responsibly go.\n\nIf that works for you, I'm ready to close today. If not, I completely understand \u2014 no hard feelings. What's it going to be?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your honesty and the effort you've put into this. Unfortunately, $2,175 is still beyond my budget limit of $2,149.50, and I can't make an exception on that constraint.\n\nI understand this is your final position, and I respect that. Since we can't find common ground, I need to pass on this deal. I genuinely appreciate your time and willingness to negotiate, and I wish you the best finding the right buyer for this MacBook. Take care."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2299.0,
+    2199.0,
+    2175.0,
+    2175.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

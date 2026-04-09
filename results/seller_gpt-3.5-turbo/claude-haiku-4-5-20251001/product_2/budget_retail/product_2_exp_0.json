@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing \u2014 they seem like exactly what I'm looking for. The noise cancellation and battery life are impressive.\n\nI wanted to reach out and see if there's any flexibility on the price at all? I'm a serious buyer and ready to move quickly on this. Let me know what you think!\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product (mentions specific features)\n- \u2705 Subtly introduces price negotiation without being pushy\n- \u2705 Signals you're a committed buyer to encourage the seller\n- \u2705 Keeps it short and conversational\n- \u2705 Doesn't reveal your negotiation strategy"
+    },
+    {
+      "speaker": "Seller",
+      "message": "# Message to Buyer\n\nHi! I'm glad you're interested in the Sony WH-1000XM5 headphones. They are indeed top-notch. As much as I'd love to accommodate, the price is firm at $220, which is already a great deal considering their retail price of $399. Let me know if you'd like to proceed at that price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's great to hear! $220 is actually a solid price\u2014well below retail. I'm definitely interested at that price point. Before I commit, let me ask: is there any flexibility if I purchase today, or any bundle options available? If not, I'm ready to move forward at $220. What's the next step to complete the purchase?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad you see the value in the price! While $220 is already the wholesale price, I can include a headphone case as a bundle option for you. If you're ready to proceed, we can finalize the purchase at $220 with the headphone case included. Let me know if that works for you, and we can arrange the next steps for the purchase."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works for me. The headphones at $220 with the included case is a great deal. I'm ready to move forward. What do I need to do next to finalize the purchase and arrange delivery or pickup?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    220.0,
+    220.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

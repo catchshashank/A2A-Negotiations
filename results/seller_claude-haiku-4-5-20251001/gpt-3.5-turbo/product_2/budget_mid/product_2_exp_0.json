@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, \n\nI hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I must say, they look fantastic. I was wondering if there is any room for negotiation on the price? \n\nLooking forward to hearing from you soon. \n\nBest regards."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the Sony WH-1000XM5s\u2014they're truly exceptional headphones.\n\nI appreciate you asking about the price. These are currently listed at $399, which is actually competitive for the retail market. That said, I'm open to discussing it. What price range were you thinking? Keep in mind, these feature industry-leading noise cancellation, 30-hour battery life, and multipoint connection, so the value is definitely there. Let me know what you have in mind and we can see if we can work something out!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for providing the information. Given my budget constraints, I can offer $309.50 for the Sony WH-1000XM5 headphones. Let me know if we can make that work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $309.50 is a bit lower than I can go. These headphones are in high demand, and at that price point, I'd be cutting too deeply into my margins.\n\nHere's what I can do: I can offer you $349 for the pair. That's a solid $50 discount from the retail price, and you're still getting world-class noise cancellation and that incredible 30-hour battery life. It's a fair middle ground that works for both of us. Can we meet at $349?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position, and I appreciate the offer. However, my budget is firm at $309.50. If you can accommodate that price, I'm ready to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is tight, but I can't go that low\u2014$309.50 is unfortunately below what I need to move forward on this deal.\n\nHere's my best offer: I can do $329. That's still a meaningful discount from retail, and it allows me to make this work. If you can stretch to $329, we've got a deal and you can have these headphones shipped out today. What do you say?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but I must adhere to my budget of $309.50. Unfortunately, I won't be able to proceed with the purchase at $329. Thank you for the negotiation."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate you being straightforward about your budget constraints. \n\nBefore you go, let me make one final offer: $319. That's the absolute best I can do while keeping this fair on my end. If that works for you, I can process this immediately and get them to you quickly. Otherwise, I completely respect your position. Let me know!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the final offer. I appreciate your understanding. I'm willing to accept the headphones for $319 within my budget. Let's proceed with the purchase at that price. Thank you for your flexibility."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    349.0,
+    329.0,
+    319.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Sony WH-1000XM5 headphones you have listed. Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Excellent choice, the Sony WH-1000XM5 are truly exceptional headphones, renowned for their industry-leading noise cancellation and crystal-clear sound. They retail at $399, and I'm open to discussing the price. What were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the XM5s. Would you be willing to part with them for $290?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a good offer, and I appreciate your interest. These headphones truly deliver an unparalleled audio experience with features like 30-hour battery life and speak-to-chat. To make sure you get the full value, I could do $349."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $349 is beyond my budget. I couldn't go higher than $300."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget. These headphones truly offer exceptional value, from their comfortable design to multipoint connection and crystal-clear calls. Considering everything, I can meet you at $325 for this premium set."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $325 is still beyond my budget. I can't go higher than $300."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you. Given your strong interest and to ensure you experience the best in audio, I can agree to $300. Shall we proceed?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, $300 works for me. Let's proceed."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    349.0,
+    325.0,
+    300.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in your MacBook Pro 16-inch with the M3 Pro chip\u2014it looks like exactly what I'm looking for. The specs are impressive, especially the display and battery life.\n\nI wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer ready to move quickly if we can work something out.\n\nWhat would you say?\n\nThanks!\n\n---\n\n**Why this works:**\n- Friendly and natural opening\n- Shows genuine interest in the product\n- Opens the door to negotiation without being aggressive\n- Creates urgency (\"ready to move quickly\")\n- Keeps it brief and conversational\n- Doesn't reveal you're operating at maximum budget"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's great to hear! The MacBook Pro 16-inch with the M3 Pro truly is an exceptional machine, and you're spot on about the display and battery life \u2013 they're industry-leading. For such a premium, high-performance device, we offer it at $2,499. What price point did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the details on the MacBook Pro. At $2,499, that's the standard retail price, and my budget maxes out right there. Before I commit, I'd like to explore if there's any flexibility \u2013 do you have any current promotions, bundle deals, or discounts available? For instance, are there any back-to-school offers, trade-in credits, or corporate discounts I could take advantage of? If we can work something out below retail, I'm ready to move forward today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. While we don't currently have specific public promotions or bundle deals running, for a committed buyer ready to finalize the purchase today, I can offer a special price of $2,450. This is an exceptional value for the M3 Pro 16-inch MacBook Pro."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a solid offer at $2,450 \u2013 I appreciate you working with me. Before I commit, let me ask: is there any additional room to negotiate? Could you do $2,400, or perhaps throw in AppleCare+ coverage or accessories to sweeten the deal? I'm ready to finalize today if we can find that middle ground."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your readiness to move forward. To finalize the deal for you today, I can meet you at $2,400. This is the best price I can offer for this exceptional M3 Pro 16-inch MacBook Pro."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect \u2013 $2,400 works for me. That's a great price for this machine. Let's move forward with the purchase. What's the next step to finalize the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2450.0,
+    2400.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

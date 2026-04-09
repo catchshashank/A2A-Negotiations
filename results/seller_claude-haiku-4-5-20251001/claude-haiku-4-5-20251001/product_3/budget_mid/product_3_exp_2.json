@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! I'm really interested in your LG C3 65-inch OLED TV \u2014 it looks like an amazing display with all those great features. I've been looking for something like this for a while now.\n\nI'm definitely ready to move forward, but I wanted to check: would you have any flexibility on the price at all? I'm a serious buyer and ready to complete the purchase soon if we can work something out.\n\nLet me know what you think!\n\n---\n\n**Why this works:**\n- Opens naturally with \"Hi!\" \n- Shows genuine interest without being pushy\n- Asks about price flexibility diplomatically (\"any flexibility\")\n- Signals you're a serious, ready buyer (builds credibility for negotiation)\n- Keeps it brief and friendly\n- Leaves room for their response before you anchor with a specific number"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks so much for your interest! I'm glad you appreciate the C3 \u2014 it really is a fantastic TV with that evo OLED panel and 4K 120Hz performance.\n\nI appreciate you being upfront about wanting flexibility. Here's where I'm at: the retail price is $1,799, and I can definitely work with you as a serious buyer. Depending on your situation \u2014 whether this is for personal use, if you're buying multiple units, or if you have any trade-ins \u2014 I might have some room to move on price.\n\nWhat's your timeline looking like, and is there anything specific that would help make this work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being flexible. I'm a serious buyer ready to move forward quickly. Here's my situation: I'm looking at $1,449.50 as my absolute maximum budget for this TV. \n\nI understand that's a solid discount from retail, but given the current market and my timeline, that's what I can work with. Do you have any room to meet me in that range, or are there any promotions, open-box options, or bundle deals that could help bridge the gap?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you laying out your budget clearly \u2014 that helps me understand where you're coming from. Here's the thing though: at $1,449.50, I'd actually be taking a loss on this unit. My cost on this TV is $1,100, so that offer puts me underwater.\n\nThat said, I don't want to lose this sale. Here's what I *can* do: I can get you to $1,599 \u2014 that's a solid $200 off retail and gives you a genuine discount while keeping this deal viable for me. That's about as much flexibility as I have on pricing.\n\nIf that still doesn't work, I'm open to exploring other options like extended warranty, delivery, or setup included to add value. But price-wise, $1,599 is my best position.\n\nWhat do you think \u2014 does that work better for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your transparency on your cost structure \u2014 that helps me understand your position. However, $1,599 is still $149.50 beyond what I can spend. That's a hard ceiling for me, not negotiable.\n\nHere's what I'm thinking: since you mentioned being open to adding value in other ways, what if we structure this differently? Could you do $1,449.50 on the TV itself, and I'd be willing to pay separately for extended warranty or premium delivery/setup? That way you're still getting revenue, and I stay within my budget.\n\nAlternatively, do you have any floor models, display units, or slight cosmetic variations that might be priced lower? I'm flexible on those details if it gets us to a number that works for both of us."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I respect the creative thinking here. But I need to be straight with you: $1,449.50 for the TV itself \u2014 even with add-ons \u2014 puts me below my floor. I can't go there, whether it's structured as one line item or split across services.\n\nHere's my reality: my absolute minimum on this unit is $1,100 wholesale, and I need margin to stay in business. At $1,599, I'm already giving you meaningful value.\n\nOn your alternative \u2014 I don't have floor models or cosmetic variations available right now that would change the math.\n\nSo here's where I land: **$1,599 is genuinely my best offer.** That's $200 off retail, and it's a fair deal for both of us. If that number truly doesn't work for your budget, I understand, but that's the position I can hold.\n\nAre you able to make $1,599 work, or do we need to explore other options?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your honesty and respect that you've laid out your position clearly. Unfortunately, $1,599 is genuinely beyond my budget \u2014 I can't stretch to that number.\n\nAt this point, I think we've both been transparent about where we stand, and there's a gap we can't bridge. I don't want to waste your time or mine by going in circles.\n\nUnless there's something I'm missing \u2014 like a different model, a timing consideration, or a path forward I haven't thought of \u2014 I think I need to step back on this one. But I appreciate you working with me and being straightforward throughout."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1599.0,
+    1599.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

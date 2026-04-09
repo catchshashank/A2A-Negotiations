@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They seem like exactly what I've been looking for, and I love that they have such great battery life and noise cancellation.\n\nI'm definitely keen to move forward with this, but I was wondering if there's any flexibility on the price? I'd love to work something out that works for both of us. What would you think about that?\n\nLooking forward to hearing from you!\n\n---\n\n**Why this works:**\n- Opens naturally and friendly\n- Shows genuine interest in the product (builds rapport)\n- Introduces price negotiation smoothly without being abrupt\n- Leaves room for dialogue and counteroffers\n- Keeps it brief and respects the seller's time"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! I'm glad to hear you're interested in the Sony WH-1000XM5 headphones. They are indeed top-notch. While I can't go below the wholesale price of $220, I can offer them to you for $350. Let me know if that works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $350 is still well above what I can spend. My budget is $220 maximum for these headphones. Since you mentioned your wholesale price is $220, could you offer them to me at that wholesale price? That would work perfectly within my budget and we could close this deal today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. Given that the wholesale price is $220, I can offer you the Sony WH-1000XM5 headphones at that price. Let's close this deal today at $220."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works great for me. I'll take the Sony WH-1000XM5 headphones at $220. Let's move forward with the purchase. What's the next step?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    220.0
+  ],
+  "budget": 220.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

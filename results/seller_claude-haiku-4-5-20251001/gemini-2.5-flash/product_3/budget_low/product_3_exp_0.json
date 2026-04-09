@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI'm really interested in the LG C3 65-inch OLED TV you have listed. It looks like a fantastic set! I was wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for your interest! The LG C3 is an excellent choice\u2014that OLED evo panel and 4K 120Hz really deliver stunning picture quality, especially for gaming and movies.\n\nI can definitely work with you on pricing. What price range were you thinking? I'm flexible, but I do need to stay within my cost structure. What would make this deal work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm really interested in the C3, it's a fantastic TV. I'm looking to get the best possible deal, and I was hoping to pay around $775 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $775 is unfortunately below what I can work with\u2014that's well under my cost on this unit. I wouldn't be able to move forward at that price.\n\nHere's what I can do: The retail is $1,799, and I'm willing to offer you a solid discount. How about $1,299? That's still a meaningful savings for you, and it gets us both to a fair deal. Or if you're looking for something closer to $1,100, we can discuss that as a floor. What sounds more reasonable to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offers, but both $1,299 and $1,100 are well beyond what I can afford. I simply cannot pay that much for the TV."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget is a real concern. Let me be honest with you\u2014$1,100 is actually my absolute floor on this one. That's my cost, so I can't go lower without losing money on the sale.\n\nThat said, if cash flow is the issue, would a payment plan work for you? Or if there's anything else I can help with\u2014like bundling accessories, extended warranty, or delivery options\u2014I'm open to exploring that. But price-wise, $1,100 is where we'd need to land. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me, but $1,100 is still too high for my budget. I simply cannot afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate your honesty. Unfortunately, $1,100 is truly my minimum\u2014that's my actual cost on the unit, so I can't go lower without taking a loss.\n\nIf the C3 is outside your budget right now, I'd rather be straight with you than waste your time. That said, if your budget opens up or circumstances change, I'm here. Or if you'd like to explore a smaller OLED model or a different brand that fits your price range, I'm happy to help with that instead. What would actually work for your budget?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for being so understanding. Unfortunately, the price is still beyond what I can spend, so I won't be able to purchase the TV at $1,100."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1299.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

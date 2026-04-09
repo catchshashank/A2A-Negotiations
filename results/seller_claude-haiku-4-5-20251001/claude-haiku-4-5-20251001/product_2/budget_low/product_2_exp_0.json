@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! I came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like exactly what I'm looking for with the noise cancellation and battery life.\n\nI was wondering if you'd be open to any flexibility on the price? I'm a serious buyer and ready to move quickly if we can work something out. What would you say?\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2713 Friendly and natural opener\n- \u2713 Shows genuine interest in the product\n- \u2713 Mentions specific features (builds credibility)\n- \u2713 Politely introduces price negotiation without being pushy\n- \u2713 Signals you're a committed buyer\n- \u2713 Keeps it brief and conversational"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for reaching out! I'm glad you're interested in these headphones\u2014they really are fantastic, and the noise cancellation is genuinely industry-leading.\n\nI appreciate you being a serious buyer. Here's the thing: I'm listing these at $379, which is already a solid value compared to the retail price of $399. Given the condition and how quickly you're ready to move, I could potentially go down to $360 if we close this soon. That's about as flexible as I can be while keeping the price fair.\n\nDoes that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I need to be straightforward with you\u2014my budget is $176, so I'm quite a bit below where you're at. I understand these are excellent headphones, but that's my absolute ceiling. \n\nIs there any flexibility on your end to work within that range, or would this not be feasible?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty, and I understand budget constraints are real. However, I have to be straightforward too\u2014$176 is unfortunately below what I can do. These headphones cost me $220 wholesale, so I'd actually be losing money at that price.\n\nThe lowest I can go is around $240-250, which still gives you a meaningful discount from retail while keeping this viable for me. If that's still outside your budget, I totally understand, but that's the floor I'm working with.\n\nWould something in that range be possible for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being straight with me about your costs. I understand your position, but unfortunately $240-250 is still beyond what I can spend\u2014my budget is genuinely capped at $176, and I can't go over that.\n\nI know that's a significant gap, so if we can't make it work at my price point, I totally understand. But if you do decide you want to move these at $176, I'm ready to close immediately. Otherwise, I should probably step back and not waste your time. What do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I really appreciate your honesty and the fact that you're ready to move quickly\u2014that's valuable. But I have to be straight with you: $176 puts me at a $44 loss on my cost alone, which I just can't do.\n\nI understand if we're too far apart, and there's no hard feelings. But if you can stretch to even $240, I can make that work today and you'll still get an incredible deal on these headphones. That's genuinely my best offer.\n\nIf that doesn't work for you, I wish you the best finding a pair that fits your budget!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really do appreciate you working with me and being transparent about your costs. I can see we're just too far apart on this one\u2014$240 is still well beyond my $176 limit, and I can't stretch beyond that no matter what.\n\nI totally understand your position, and I don't blame you for holding firm. These are great headphones, and you deserve fair compensation for them. I'm going to have to pass, but thanks for the honest conversation. Best of luck with the sale!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    379.0,
+    240.0,
+    240.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

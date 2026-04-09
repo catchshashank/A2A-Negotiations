@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I hope you are doing well. I came across your listing for the LG C3 65-inch OLED TV and I must say, I'm really interested in it. I was wondering if there is any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest in the LG C3 \u2013 it's an incredible TV, honestly one of the best OLED displays out there right now.\n\nI appreciate you asking about flexibility on price. The $1,799 retail is actually a fair ask given what you're getting \u2013 the evo panel, 4K 120Hz, Dolby Vision IQ, and those four HDMI 2.1 ports are premium features. That said, I'm open to working with you.\n\nWhat kind of price range were you thinking? I'm happy to discuss options, but I do want to make sure we land on something that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the LG C3 \u2013 it's definitely a top-tier TV. Given my budget constraints, would you be able to offer a discounted price closer to $1,600?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. $1,600 is a solid offer, but that's getting pretty close to where I need to be on my end.\n\nHere's the thing \u2013 I can definitely work with you on price. How about we meet somewhere in the middle? I could do $1,650, which gives you a nice $150 discount off retail while still reflecting the quality of what you're getting.\n\nThat's a fair compromise that I think works for both of us. Does that price point feel reasonable to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your willingness to negotiate. $1,650 sounds like a fair compromise to me. Let's move forward with that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could work that out. $1,650 it is \u2013 you're getting an amazing TV at a solid price.\n\nLet me just get the details sorted for you. What's the best way to proceed with the purchase? Do you need any information about delivery, warranty, or setup options?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your assistance. I'm excited about the purchase. I would like to proceed with the purchase at $1,650. Please provide me with the necessary information for delivery, warranty, and setup options."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1650.0,
+    1650.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\n---\n\nHey! I came across your listing for the LG C3 65-inch OLED TV and I'm really interested in it. The specs look fantastic\u2014especially the 120Hz refresh rate and those HDMI 2.1 ports.\n\nI'm seriously looking to pick one up soon, so I wanted to reach out and see if you'd be open to any flexibility on the price? I'd love to work something out that works for both of us.\n\nLet me know! Thanks \ud83d\ude0a\n\n---\n\n**Why this works:**\n- Opens naturally with \"Hey!\"\n- Shows genuine interest in the product (mentions specific features)\n- Politely introduces price negotiation without being pushy\n- Signals you're a serious buyer (\"looking to pick one up soon\")\n- Leaves room for dialogue and keeps a friendly tone"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's fantastic to hear! The LG C3 is indeed an outstanding TV, truly delivering an immersive experience with its OLED evo panel and advanced gaming features. We've set a very competitive price for its premium quality. What offer did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the enthusiasm about the TV's quality. I'm interested in purchasing it, but I need to be upfront about my budget constraint\u2014I can go up to $880. I know that's significantly below the $1,799 retail price. \n\nDo you have any current promotions, bundle deals, or floor models that might help us work within that range? I'm a serious buyer ready to move forward if we can find something that works."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your directness. While $880 is below what we can offer for a new LG C3 65-inch OLED, it's clear you recognize its value. We don't have floor models or specific bundle deals that would bring this particular TV down to that price, as our listed price already reflects a significant discount for such a high-demand, premium product. What's the highest you're able to consider for this exceptional TV?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your honesty. My budget is firm at $880\u2014that's the absolute maximum I can spend right now. I understand the C3 is premium, but that's my hard limit.\n\nSince we're quite far apart on price, do you have any other 65-inch OLED options or slightly smaller models that might fall closer to my budget? Or would you be able to connect me with a manager who might have flexibility on pricing or alternative solutions? I'm genuinely ready to buy today if we can make something work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm at $880, and I appreciate your readiness to purchase today. However, the LG C3 65-inch OLED is a top-tier model, and that price point is simply not feasible for this specific unit. We don't have other OLED models in that size range that would meet your budget, nor can we go below our current pricing structure for this premium TV.\n\nPerhaps there's a slight adjustment you could make, considering the unparalleled quality and features you'd be getting with the C3?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me, but I need to be clear: $880 is genuinely my maximum\u2014I can't stretch beyond that. I understand the C3 is premium, but that's my hard ceiling.\n\nSince we can't bridge that gap on this model, I'll have to pass on the LG C3 for now. If your pricing changes or you have other options that fit my budget in the future, I'd be interested to hear about them. Thanks for your time."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    880.0,
+    880.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello!\n\nI'm very interested in the Apple MacBook Pro 16-inch (M3 Pro) you have listed. It looks like a fantastic machine. I was wondering if there might be any room for negotiation on the price?\n\nThanks!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's an excellent choice, truly a powerhouse. The M3 Pro MacBook Pro 16-inch is a premium machine, and we've already priced it very competitively for its features and performance. What price point were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate that it's a premium machine. Given my budget, I was hoping to secure it for $1350."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $1350 is significantly below our cost for this brand new, top-of-the-line M3 Pro MacBook Pro. It's a professional-grade machine with unparalleled performance and features. We simply cannot sell it at that price. What's the highest you're able to consider for this exceptional device?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a high-end machine. I could stretch to $1400, but that would be my absolute limit."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you stretching your budget, but $1400 is still significantly below a viable price for this new 16-inch M3 Pro MacBook Pro. This is a top-tier machine, offering unparalleled performance and features. To make a deal work, we'd need to be in a much higher range that reflects its true value. What's the highest you're genuinely able to offer?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand its value, but my budget is firm. $1440 is the absolute maximum I can offer."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your persistence, but $1440 is still not a feasible price for this brand new, high-performance M3 Pro MacBook Pro. It's a professional-grade machine with a retail price of $2,499, and its features justify a significantly higher investment. We're quite a distance apart. What's the absolute highest you're genuinely able to offer to take home this incredible machine today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I've already stated my absolute maximum is $1440. I cannot afford to go any higher."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand that's your current limit, but $1440 is simply too low for this brand new M3 Pro MacBook Pro 16-inch. We cannot sell it at that price. It's a premium device with a retail value of $2,499. If that's your absolute maximum, we won't be able to proceed with a sale."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand. In that case, I cannot afford it."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1350.0,
+    1400.0,
+    1440.0,
+    1440.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

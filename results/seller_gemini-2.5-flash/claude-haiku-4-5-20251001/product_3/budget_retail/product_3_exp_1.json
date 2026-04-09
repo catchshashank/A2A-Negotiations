@@ -1,0 +1,78 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! I'm really interested in the LG C3 65-inch OLED TV you have listed. It looks like an amazing set with all those features\u2014the 4K 120Hz and Game Optimizer are exactly what I'm looking for.\n\nI'm seriously considering making a purchase, but I wanted to reach out and see if there's any flexibility on the asking price? I'd love to work something out if possible.\n\nLet me know what you think!\n\n---\n\n**Why this works:**\n- Opens naturally without sounding like a script\n- Shows genuine interest in the product (mentions specific features)\n- Frames negotiation as collaborative (\"work something out\")\n- Polite and friendly tone\n- Leaves room for the seller to respond positively without pressure"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's fantastic to hear you're interested in the LG C3! It truly is an incredible TV, especially with the 4K 120Hz and Game Optimizer for an immersive experience. We've priced it to reflect its premium features and value, but I'm open to a reasonable discussion. What price did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the enthusiasm! The C3 is definitely impressive. I'm looking at the retail price of $1,799, and I'm wondering if there's any flexibility there. Do you have any current promotions, bundle deals, or discounts available? I'm a serious buyer ready to move forward today if we can find a price that works for both of us."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your readiness to move forward today! The LG C3 truly offers unparalleled value at its retail price, especially with those high-end gaming features. While we don't have any specific promotions running on it right now, for a serious buyer ready to close the deal, I'm certainly willing to see what we can do. What price would make you comfortable taking home this incredible TV today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you being open to negotiation. Given that $1,799 is the retail price and my maximum budget, I'd need to see a meaningful discount to move forward\u2014ideally somewhere in the $1,650-$1,700 range. That would reflect a genuine deal while staying within what I can spend. Can you work with something in that ballpark, or do you have any other incentives like extended warranty or delivery included at the current price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget and being upfront. The LG C3 is a premium TV, and its retail price of $1,799 reflects that. To secure a deal today, I can offer it to you for $1,725. This allows you to get this top-tier TV with a solid discount."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer at $1,725\u2014that's a step in the right direction. Can you get any closer to $1,650? That would make this a compelling deal for me. Alternatively, if $1,725 is your best price, would you be able to include free delivery and setup, or an extended warranty to add more value?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your persistence. To make this an exceptional deal for you today, I can meet you at $1,699. That's a significant discount from the retail price and a truly compelling offer for the LG C3 65-inch OLED."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a solid offer at $1,699\u2014I appreciate you coming down. Can you include free delivery and setup at this price? If so, we have a deal and I'm ready to move forward today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Yes, absolutely. At $1,699, we'll include complimentary delivery and setup for your new LG C3 65-inch OLED TV. It's a deal! How would you like to proceed with the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works for me. Let's move forward. I'm ready to complete the purchase at $1,699 with free delivery and setup included. What are the next steps\u2014do you need payment information, or should I sign any paperwork first?"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0,
+    1725.0,
+    1699.0,
+    1699.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

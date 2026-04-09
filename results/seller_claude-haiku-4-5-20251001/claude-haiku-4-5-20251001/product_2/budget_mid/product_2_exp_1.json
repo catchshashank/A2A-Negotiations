@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They look like exactly what I've been looking for, especially with that noise cancellation and battery life.\n\nI was wondering \u2014 would you be open to any flexibility on the price? I'm a serious buyer ready to move quickly, and I'd love to work something out if there's any room to negotiate.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens friendly and casual (\"Hi there!\")\n- Shows genuine interest in the product (mentions specific features)\n- Signals you're a serious, committed buyer\n- Asks about negotiation diplomatically without being pushy\n- Keeps it short and easy to respond to"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Thanks for your interest in the Sony WH-1000XM5s \u2014 they're fantastic headphones and honestly some of the best on the market right now.\n\nI appreciate you being a serious buyer. The retail price is $399, and I'm currently asking $349 for them. That's already a solid discount from retail, especially considering the quality and features you're getting with the noise cancellation and 30-hour battery life.\n\nSince you mentioned you're ready to move quickly, I could potentially do $329 if we can close this soon. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $329 is still above what I can work with. I'm looking to spend around $310 maximum. I know that's a significant discount from retail, but given the current market and that these have been discounted heavily online lately, I think there's room to meet somewhere closer to that range. Would you be able to go down to $310?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you on the market pricing, and I get that you're looking for a good deal. Here's the thing though \u2014 even at $329, I'm giving up significant margin. Going down to $310 would put me in a tough spot financially.\n\nHow about we meet at $319? That's a meaningful discount for you, and it's the lowest I can realistically go while still making this work for me. I think that's fair given what you're getting with these headphones. Can we do $319?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down, but $319 is still just over my budget. I'm firm at $309.50 \u2014 that's genuinely my maximum. I understand margins matter, but I've got to stay within my limit. If you can meet me there, I'm ready to close this today. What do you say?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being straightforward about your limit. I really do want to make this work since you're ready to close today, but $309.50 is honestly just below where I can go on this.\n\nLet me meet you at $315 \u2014 that's as low as I can go. You get a great deal on premium headphones, and I can make the sale happen today. Can we do $315 and call it a deal?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position, but I can't go above $309.50 \u2014 that's my absolute limit and I need to stick to it. I'm a serious buyer ready to move today, but I just can't stretch beyond that number. If you can meet me at $309.50, we have a deal right now. Otherwise, I'll need to pass. What do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty, and I genuinely want to make this work. However, $309.50 is unfortunately below what I can do on these headphones \u2014 it cuts into my cost too much.\n\nI'm going to stay firm at $315. That's a fair price for both of us, and it's the lowest I can go. If that works for you, we can close this today. If not, I totally understand, but that's where I need to be on this one."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me, but I genuinely can't go to $315 \u2014 my budget is $309.50 and I can't exceed it. I understand that puts you in a tough spot, but I have to stay firm on my limit. If you can't meet that price, I'll have to pass on this deal. I appreciate your time though."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    329.0,
+    319.0,
+    315.0,
+    315.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

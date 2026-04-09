@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch and I must say, it looks like a fantastic product. I was wondering if there is any possibility of negotiating the price a bit. Thank you and looking forward to hearing from you soon.\n\nBest regards."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad you're interested in the MacBook Pro 16-inch. I can offer you a special price of $2,300 for this premium device. Let me know if this works for you.\n\nBest regards."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate it. However, I have a strict budget of $2,499 for this purchase. Is there any room for further negotiation within my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. Considering your offer, I can agree to sell the MacBook Pro 16-inch to you for $2,499. Let me know if this works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for accommodating my budget. I accept your offer of $2,499 for the MacBook Pro 16-inch. When can we proceed with the purchase?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0,
+    2499.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

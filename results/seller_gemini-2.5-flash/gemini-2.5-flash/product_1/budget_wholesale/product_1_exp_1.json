@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Apple MacBook Pro 16-inch. It looks like a fantastic machine! I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's an excellent choice! The 16-inch MacBook Pro with the M3 Pro chip is truly an outstanding machine, offering unparalleled performance and battery life. The retail price of $2,499 reflects its premium features and long-term value. What price point did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the information on its features. Given my budget, I was hoping to find something closer to $1,600."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand that budgeting is important. However, $1,600 is significantly below our cost for a brand new 16-inch M3 Pro MacBook Pro, which boasts 18GB unified memory, a stunning Liquid Retina XDR display, and up to 22 hours of battery life.\n\nConsidering its premium features and performance, the best I can offer for this exceptional machine is $2,350."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium product, but $2,350 is still too far outside my budget. I really can't go above $1,800."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty regarding your budget. While $1,800 is precisely our wholesale cost for this powerful machine, given your strong interest, I can meet you there for a quick sale. That's the absolute lowest I can go for this brand new M3 Pro MacBook Pro."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, I'll take it for $1,800."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2350.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

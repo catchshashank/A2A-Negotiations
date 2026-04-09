@@ -1,0 +1,303 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the LG C3 65-inch OLED TV and I'm very interested in it. I was wondering if there might be any room to negotiate the price. Looking forward to hearing from you soon. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for reaching out, and I'm glad you're interested in the LG C3\u2014it's an excellent TV!\n\nI appreciate you asking about pricing. The $1,799 retail price reflects the premium quality of this model: the OLED evo panel, 4K 120Hz, Dolby Vision IQ, and those four HDMI 2.1 ports make it a top-tier choice for gaming and home theater.\n\nThat said, I'm open to working with you. What price range were you thinking? Depending on the situation, I might be able to offer some flexibility while keeping it fair for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the detailed information on the LG C3 TV. Given my budget, I'm looking to secure the best possible price within $1449.50. Can you provide a discounted offer within this range that we could potentially work with?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you sharing your budget, and I understand you're looking for the best deal possible. However, at $1,449.50, that's unfortunately below what I can offer on this model.\n\nHere's what I can do: I can bring the price down to $1,499, which gives you a solid $300 discount from retail while still reflecting the premium features you're getting. That's a genuine offer that works for both of us.\n\nIf that works for your budget, we can move forward today. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, but I must stick to my budget of $1449.50. Unfortunately, $1,499 is above what I can afford at this time. I appreciate your understanding."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand budget constraints, and I appreciate your honesty about your limit.\n\nHere's the thing\u2014at $1,449.50, I'm unable to go that low while maintaining fair margins on this premium model. My absolute floor is $1,499, which is already a significant discount.\n\nIf that price doesn't work right now, I'd suggest a couple of alternatives: you could wait for seasonal sales (Black Friday, etc.), or if you're interested in a smaller screen size like the 55-inch model, I might have more flexibility there.\n\nBut if you decide the 65-inch at $1,499 makes sense, I'm ready to help you complete the purchase today. Let me know!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the additional options and understanding. I'll consider your offer for the 65-inch model at $1,499, and I'll explore the alternatives you mentioned as well. I appreciate your assistance in this process."
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're very welcome! I'm glad we could work through this together. The 65-inch at $1,499 is a great value for what you're getting\u2014you'll really enjoy that OLED picture quality.\n\nFeel free to reach out anytime if you'd like to move forward with the purchase or if you have any other questions. I'm here to help!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your help and for the valuable information. I'll definitely keep your offer in mind and reach out if I decide to move forward with the purchase. Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you so much! I really appreciate your time and interest. Feel free to reach out whenever you're ready\u2014I'll be here to help make the purchase smooth and easy.\n\nHave a great day, and I hope to work with you soon!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and support. I'll be sure to reach out when I'm ready. Have a wonderful day too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Looking forward to hearing from you. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care as well! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the exchange, but it looks like we've said our goodbyes! Feel free to reach out when you're ready to discuss the TV. Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the interaction! I'll keep that in mind. Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Take care, and I look forward to hearing from you soon! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Take care, and have a great day ahead! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! You too\u2014have a wonderful day! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Have a fantastic day as well! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Enjoy your day! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! Have a great day too! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! Take care as well! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think we've wrapped up our conversation nicely! Feel free to reach out anytime you're ready. Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I'll keep that in mind. Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0,
+    1499.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 30,
+  "negotiation_completed": true,
+  "negotiation_result": "max_turns_reached",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

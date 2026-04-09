@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\n---\n\nHi there! \ud83d\udc4b\n\nI'm really interested in the Sony WH-1000XM5 headphones you're listing. They look like exactly what I've been looking for\u2014the noise cancellation and battery life are impressive.\n\nI was wondering if there's any flexibility on the price? I'm a serious buyer and ready to move quickly if we can work something out. Would you be open to discussing it?\n\nLooking forward to hearing from you!\n\n---\n\n**Why this works:**\n- Opens naturally and friendly\n- Shows genuine interest in the product\n- Asks about price negotiation without being aggressive\n- Signals you're a committed buyer (increases seller motivation)\n- Keeps it brief and non-pushy\n- Leaves room for the seller to respond positively"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out\u2014I'm glad you're interested in these headphones. They really are fantastic, and I can tell you'd appreciate the quality.\n\nI appreciate you being upfront about price. Here's where I'm at: these are retailing at $399, and I'm currently offering them at $349. That's already a solid discount from retail, and honestly, it reflects the real value here\u2014you're getting industry-leading noise cancellation and 30 hours of battery life that competitors charge way more for.\n\nSince you mentioned you're a serious buyer ready to move quickly, I'm happy to lock in that $349 price if you want to go ahead. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer and the discount you're offering. $349 is definitely better than retail, but I'm hoping we can do a bit better. Would you be able to go down to $320? I'm a serious buyer ready to move forward today, and that price would make this a really compelling deal for me. What do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I respect that you're ready to move today. $320 is getting close to where I need to be, but let me be straight with you\u2014I can do $335. That's a $64 discount off retail, which is a solid 16% off, and honestly that's about as far as I can go while keeping this fair for both of us.\n\nYou're getting an incredible product here, and at $335 you're getting genuine value. Can we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $335\u2014that's a real move in the right direction. Here's where I'm at: I can go to $330, and that would seal the deal for me today. That's still a great discount for you at 17% off retail, and we both walk away happy. Can you meet me at $330?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, and I can see we're close. Here's the thing\u2014$330 is right at the edge of what makes sense for me on this deal. I can meet you at $332, and that's genuinely my best number. You're still getting a solid 17% discount, and we close this today.\n\nDoes $332 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You know what, $332 is fair. I can work with that. Let's do it\u2014I'm ready to move forward today."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    349.0,
+    335.0,
+    332.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

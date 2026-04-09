@@ -1,0 +1,78 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I'm really interested in your Apple MacBook Pro 16-inch (M3 Pro) \u2013 it looks like a great machine. Would you be open to discussing the price a little?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's an excellent choice, truly a powerhouse of a machine. The retail price for this configuration of the 16-inch M3 Pro MacBook Pro is \\$2,499. What price point were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! It certainly looks like an incredible machine. I was hoping to get it for around $2,100."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer of $2,100. This 16-inch M3 Pro MacBook Pro is a brand new, top-of-the-line machine, offering unparalleled performance and that stunning Liquid Retina XDR display. For this premium model, I can offer it to you for $2,300."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium device. To meet you somewhat in the middle, would $2,175 work?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you moving up on your offer. This MacBook Pro truly delivers exceptional value with its M3 Pro chip and 22-hour battery life. Considering its features, I can meet you at $2,275."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down further. How about we settle at $2,200?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for the best possible deal. This MacBook Pro offers incredible value with its 18GB unified memory and 512GB SSD. My best offer for this exceptional machine would be $2,250."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. My final offer would be $2,225."
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a very fair offer. For such a powerful and versatile machine, I'm happy to accept your final offer of $2,225. We can proceed with the transaction at that price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm happy to accept that. Let's proceed with the transaction."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2300.0,
+    2275.0,
+    2250.0,
+    2225.0
+  ],
+  "budget": 2499.0,
+  "budget_scenario": "retail",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

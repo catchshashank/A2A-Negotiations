@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really impressed by the Apple MacBook Pro 16-inch (M3 Pro) you have listed. It looks fantastic. I was wondering if there might be any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! It's an exceptional machine, truly top-of-the-line with the M3 Pro chip and incredible battery life. While $2,499 is a fair reflection of its premium features, I'm certainly open to hearing your best offer."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "It certainly sounds like an impressive machine. I'm very interested, and to kick things off, I'd like to offer $2,150 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you for your offer. While $2,150 is a start, it's a bit lower than we'd ideally like for a brand new M3 Pro MacBook Pro. Given its retail value and unparalleled performance, we're looking to get closer to the $2,499 mark. Could you perhaps come up a bit more to reflect its true value?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position on the retail value. I'm willing to increase my offer to $2,300. How does that sound?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a much stronger offer, and I appreciate you coming up to $2,300. We're getting closer. This M3 Pro model truly delivers unmatched power and efficiency. Could you meet us just a little further, perhaps at $2,400, to finalize this deal for such an incredible machine?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me in the middle. I can do $2,375 to close the deal right now."
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a very strong offer, and I appreciate your commitment. To seal the deal on this exceptional M3 Pro MacBook Pro, could you do $2,400? It's a small step up for a truly future-proof machine."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Alright, $2,400 it is. I accept."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    2400.0,
+    2400.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

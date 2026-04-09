@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Sony WH-1000XM5 headphones. They look fantastic! I was wondering if you'd be open to discussing the price at all?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the Sony WH-1000XM5 headphones! I can definitely discuss the price with you. What price were you thinking about?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the WH-1000XM5. I was hoping to get them for around $295."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the WH-1000XM5 headphones. Given their premium features and quality, I can offer them to you for $350."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand they're premium headphones. While $350 is a bit more than I was hoping, I could stretch to $310 to make a deal today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. I can meet you halfway at $330 for the Sony WH-1000XM5 headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me part way. How about $320 to finalize the purchase right now?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position. I can agree to sell the Sony WH-1000XM5 headphones to you for $320. Thank you for your purchase!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Excellent! I'm happy with that. I'll take them for $320."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    350.0,
+    330.0,
+    320.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

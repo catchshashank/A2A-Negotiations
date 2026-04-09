@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI'm really interested in the LG C3 65-inch OLED TV you have listed. It's exactly what I've been looking for\u2014love the specs, especially the 4K 120Hz and those HDMI 2.1 ports for gaming.\n\nI'm serious about moving forward with this purchase, but I wanted to reach out and see if there's any flexibility on the price? I'm ready to buy right away if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens naturally without sounding like a formal negotiator\n- Shows genuine product knowledge (builds credibility)\n- Creates urgency (\"ready to buy right away\")\n- Politely asks about flexibility without being pushy\n- Keeps the door open for their response"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out\u2014I'm glad the C3 caught your eye, it's definitely a fantastic set, especially for gaming with those HDMI 2.1 ports and 120Hz performance.\n\nI appreciate your interest in moving quickly. The TV is currently at $1,799, which is our retail price and reflects the premium quality of that evo panel and feature set. That said, since you're serious and ready to purchase right away, I can offer you $1,699\u2014that's a solid $100 discount off retail, and it's the best I can do while keeping the value fair on both sides.\n\nDoes that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I really appreciate the offer and the $100 discount. The C3 is definitely the TV I want. Let me ask\u2014is there any flexibility on that $1,699, or is that your final price? I'm ready to move forward today if we can get a bit closer to $1,650. What would it take to make that happen?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I really want to make this work since you're ready to go today. Let me be straight with you\u2014$1,650 is tough for me to hit. Here's what I can do: I'll come down to $1,675. That's a $124 total discount off retail, and honestly, that's about as low as I can go on this one while keeping things sustainable on my end.\n\nIf you're ready to complete the purchase today, we've got a deal at $1,675. What do you say?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You know what, $1,675 is a fair offer and I appreciate you coming down further. That's a solid discount and I'm satisfied with that price. Let's move forward\u2014I'm ready to complete the purchase at $1,675."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1699.0,
+    1675.0
+  ],
+  "budget": 1799.0,
+  "budget_scenario": "retail",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

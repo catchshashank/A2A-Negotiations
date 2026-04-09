@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Apple MacBook Pro 16-inch (M3 Pro). Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely, I'm glad you're interested! The MacBook Pro 16-inch M3 Pro is an excellent machine with that stunning Liquid Retina XDR display and impressive M3 Pro performance.\n\nThe current price is $2,499, which reflects its premium specs and features. That said, I'm open to discussing what might work for you. What kind of pricing were you thinking about, or do you have questions about the value it offers?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the M3 Pro, it's an impressive machine. However, my budget for this purchase is quite firm, and I was hoping for a price closer to $1500 to make it work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. However, $1,500 is unfortunately below what I can offer\u2014that's well below my cost on this unit.\n\nHere's the thing: the M3 Pro with 18GB memory, 512GB storage, and that XDR display is genuinely worth the investment. But I understand budget matters. \n\nWhat if we looked at this differently\u2014could you stretch to around $2,200-$2,300? That's a meaningful discount from the retail price, and it gets you this powerhouse machine. Or if budget is the real constraint, I could explore if there are any other configurations that might fit better. What matters most to you\u2014the specs, or hitting a specific price point?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $2,200 is still considerably outside my budget. My absolute maximum for this purchase is $1800, and unfortunately, I cannot go above that. The price point is the critical factor for me."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand, and I respect that you've been clear about your limit. Here's the good news\u2014$1,800 is actually where we can work together. That's my absolute floor, but it's also a fair price that gets you this machine.\n\nAt $1,800, you're getting a $699 discount from retail, which is substantial. You're getting the full M3 Pro experience\u2014the 16-inch XDR display, 22-hour battery, all of it\u2014without overpaying.\n\nCan we move forward at $1,800?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, $1,800 works for me. I appreciate you meeting my budget. Let's proceed."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

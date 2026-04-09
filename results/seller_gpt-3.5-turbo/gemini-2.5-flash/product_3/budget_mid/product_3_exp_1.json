@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the LG C3 65-inch OLED TV you have listed. It looks like a fantastic set. I was wondering if there might be any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the LG C3 65-inch OLED TV! It's definitely a top-of-the-line TV. While I can't go below the wholesale price of $1,100, I can offer you a special price of $1,600. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. The LG C3 sounds fantastic, but $1,600 is a bit more than I was hoping to spend. Would you be able to do $1,350?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the LG C3. Since you seem really interested, I can meet you halfway at $1,500. Would that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you meeting me in the middle, but $1,500 is still just a bit too high for my budget. I'm afraid I can't afford that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your budget constraints. Since I can't go below the wholesale price, I respect your decision. If you ever reconsider or have any questions in the future, feel free to reach out."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand. Thank you for your time. Unfortunately, I cannot afford it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1600.0,
+    1500.0,
+    1500.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

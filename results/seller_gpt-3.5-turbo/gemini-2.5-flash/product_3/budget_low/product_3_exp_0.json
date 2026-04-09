@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello!\n\nI'm really interested in your LG C3 65-inch OLED TV \u2013 it looks fantastic. I was wondering if there might be any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the LG C3 65-inch OLED TV! Given its premium features and quality, I can offer you a special price of $1,600. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a fantastic TV, and I appreciate the offer, but $1,600 is quite a bit outside my budget. I was hoping to spend closer to $750 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. While I'm unable to go as low as $750, I can offer you a discounted price of $1,050 for the LG C3 65-inch OLED TV. It's a great deal considering its quality and features. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me, but $1,050 is still more than I can spend right now. I simply cannot afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. Since I want to ensure you get a quality product at a reasonable price, I can offer you the LG C3 65-inch OLED TV for $1,100, which is the wholesale price. This way, you can enjoy the premium features of the TV without exceeding your budget. What do you think of this offer?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to find a price that works, but $1,100 is still beyond my budget. I simply cannot afford it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your budget constraints. I want to ensure you get a great deal, so I'm unable to go below the wholesale price of $1,100 for the LG C3 65-inch OLED TV. If your circumstances change in the future, feel free to reach out. Thank you for considering our product."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand that's your final price, and I appreciate you trying to work with me. Unfortunately, $1,100 is still beyond what I can afford for this purchase. I'll have to pass on this offer."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1600.0,
+    1050.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

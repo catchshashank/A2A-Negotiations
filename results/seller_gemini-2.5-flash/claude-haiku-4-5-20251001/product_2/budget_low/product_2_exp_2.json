@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like an amazing pair with all those features!\n\nI'm definitely looking to move forward with a purchase, but I was wondering if there's any flexibility on the price? I'd love to work something out that works for both of us. Let me know what you think!\n\nThanks so much, and looking forward to hearing from you.\n\n---\n\n**Why this works:**\n- Opens casually and naturally (\"Hi there!\")\n- Shows genuine interest in the product\n- Compliments the seller's listing (builds rapport)\n- Frames negotiation as collaborative (\"work something out\")\n- Keeps it brief and non-threatening\n- Leaves room for dialogue without committing to a specific number yet"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi! Thanks for reaching out. You're right, the Sony WH-1000XM5s are truly exceptional, especially with their industry-leading noise cancellation and 30-hour battery. They retail for $399, but I could offer them to you for $380. It's an excellent value for brand new, top-tier headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $380 is still well above what I can spend. My budget is $176, and I need to stay within that. I understand these are premium headphones, but at that price point, I'd need to look elsewhere. Is there any flexibility on pricing, or would you have any previous generation models or open-box options that might fit my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand that $380 is outside your current budget. However, these are brand new, current-generation headphones, and $176 is considerably lower than what I can accept. I don't have any previous generation models or open-box options available. The lowest I could go for these premium WH-1000XM5s is $320."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me, but $320 is still more than double my budget of $176. That's simply not feasible for me right now. At that price difference, I'm unable to move forward with this purchase. I'll need to explore other options that fit within my budget. Thanks for your time though."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    380.0,
+    320.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

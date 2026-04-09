@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the LG C3 65-inch OLED TV and I'm really interested in it. I was wondering if there is any room to negotiate on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for your interest in the LG C3 \u2013 it's an amazing TV. The retail price is $1,799, which is already competitive for this model given the 4K 120Hz OLED panel, Dolby Vision IQ, and those four HDMI 2.1 ports that make it perfect for gaming.\n\nThat said, I'm open to working with you. What price range were you thinking? I can definitely explore options depending on your budget and timeline."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your flexibility. My budget is $1100.00. Would you be able to offer the LG C3 at that price or lower?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront with your budget. At $1,100, we're looking at a significant discount from the $1,799 retail price \u2013 that's about 39% off, which is substantial.\n\nHere's the thing: $1,100 is actually my absolute floor on this unit. I can't go lower than that, but I can meet you there. If that works for you, we can absolutely make this happen today. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand your position, and I appreciate you meeting my budget. Let's go ahead and make it happen at $1,100.00. I'm ready to complete the purchase today."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could make this work. Let me get the details sorted for you.\n\nTo finalize the purchase at $1,100, I'll need:\n- Your full name\n- Delivery address\n- Contact number\n- Preferred payment method\n\nOnce I have those, we can process this right away and get your LG C3 scheduled for delivery. Sound good?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That sounds great! Here are my details:\n- Full Name: [Provide Your Full Name]\n- Delivery Address: [Provide Your Delivery Address]\n- Contact Number: [Provide Your Contact Number]\n- Preferred Payment Method: [Indicate Your Preferred Payment Method]\n\nLooking forward to getting the LG C3 delivered. Thank you for your assistance!"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello there! I came across your listing for the LG C3 65-inch OLED TV and I'm really impressed with the features it offers. I was wondering if there might be any room for negotiation on the price. Looking forward to hearing from you! Thank you."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the LG C3 65-inch OLED TV. It's a fantastic choice with top-notch features. While I can't go below the wholesale price of $1,100, I can definitely work with you to find a price that works for both of us. Let's discuss how we can make this work for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer, I appreciate your willingness to work with me. My budget is $880, so unfortunately, I won't be able to meet the wholesale price of $1,100. If you're able to come closer to my budget, we can move forward."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations, but I'm unable to go below the wholesale price of $1,100 for the LG C3 65-inch OLED TV. However, I'm more than happy to help you explore any other options or answer any questions you may have about the product. Let me know how you'd like to proceed."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding. I appreciate your assistance. Since the price is above my budget, I'll have to decline the offer for now. If there are any future promotions or discounts that bring it closer to my budget, please let me know."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. Thank you for considering the LG C3 65-inch OLED TV. I'll definitely keep you in mind if there are any future promotions or discounts that align more closely with your budget. Feel free to reach out if you have any questions in the future. Thank you for your interest!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and keeping me in mind for future promotions. I appreciate your assistance and will definitely reach out if I have any questions in the future. Thank you for your time!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're very welcome! I'm here to help whenever you need. Thank you for considering the LG C3 65-inch OLED TV, and don't hesitate to reach out if you have any questions in the future. Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your support and assistance. I will definitely reach out if I have any questions in the future. Have a great day too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Have a wonderful day as well, and feel free to reach out anytime. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I appreciate it. Take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! Take care and have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! You too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0,
+    1100.0
+  ],
+  "budget": 880.0,
+  "budget_scenario": "low",
+  "completed_turns": 8,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

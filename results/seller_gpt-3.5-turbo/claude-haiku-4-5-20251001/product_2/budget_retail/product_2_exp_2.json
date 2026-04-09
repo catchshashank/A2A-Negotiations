@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! I came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They look like exactly what I'm looking for with the noise cancellation and battery life.\n\nI was wondering if there's any flexibility on the price? I'd love to work something out if possible. Let me know what you think!\n\nThanks!\n\n---\n\n**Why this works:**\n- Opens naturally with \"Hey!\" \n- Shows genuine interest in the product (mentions specific features)\n- Asks about negotiation without being pushy (\"any flexibility\")\n- Stays brief and friendly\n- Invites dialogue without revealing you're a negotiation specialist"
+    },
+    {
+      "speaker": "Seller",
+      "message": "**Message to Buyer**\n\nHi there! I'm glad you're interested in the Sony WH-1000XM5 headphones. They are indeed a great choice with their features. While I can't go below the wholesale price, I can offer them to you for $350. Let me know if that works for you. Thank you! \n\n---\n\n**Why this works:**\n- Acknowledges buyer's interest in the product\n- States inability to go below wholesale price\n- Offers a price higher than wholesale but lower than retail\n- Leaves room for further negotiation within the set constraints"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate you coming down from retail. Before I commit, I wanted to ask\u2014do you have any additional discounts available? For example, are there any current promotions, bundle deals, or loyalty discounts I might qualify for? I'm a serious buyer ready to move forward today if we can find the right price point. What's the best you can do?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "**Message to Buyer**\n\nI'm glad you're serious about the purchase. While I don't have any additional discounts or promotions available at the moment, I can offer you a final price of $340. It's the best I can do considering the quality of the product and its features. Let me know if that works for you. Thank you!\n\n---\n\n**Why this works:**\n- Acknowledges buyer's seriousness about the purchase\n- States inability to offer additional discounts\n- Provides a slightly reduced final price\n- Emphasizes the value of the product and features offered"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you working with me on this. $340 is a solid offer, and I can see you're being fair. Let me ask one more thing\u2014would you be able to throw in any accessories, like a carrying case or extended warranty, at this price point? If not, I'm ready to move forward at $340. What do you think?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "**Message to Buyer**\n\nI'm glad you find the offer fair. At the price of $340, I can include a complimentary carrying case for the headphones. Unfortunately, I can't offer an extended warranty at this price point. If the carrying case works for you, we can proceed with the deal at $340. Let me know your thoughts. Thank you!\n\n---\n\n**Why this works:**\n- Acknowledges buyer's appreciation of the offer\n- Offers a complimentary accessory within the set price\n- Sets clear boundaries on what can be included\n- Invites buyer to confirm their decision at the agreed price"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works for me. The carrying case is a great addition. I'm ready to move forward with the Sony WH-1000XM5 headphones at $340 including the complimentary carrying case. Let's proceed with the purchase. Thank you!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    340.0,
+    340.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

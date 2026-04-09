@@ -1,0 +1,78 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the Sony WH-1000XM5 headphones you have listed. They look fantastic! Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! They are indeed a fantastic choice. The Sony WH-1000XM5 are available at their retail price of $399. What price were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the WH-1000XM5. Given the market, I was hoping to find them closer to $340."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. The WH-1000XM5s are truly top-of-the-line, offering unmatched noise cancellation and features, which justifies their $399 retail price. I could offer them to you for $385."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand their value. While $385 is a step in the right direction, I'm still hoping for a bit more flexibility. Could you do $350?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your interest in a better deal. These headphones are a premium product, and $399 is a very competitive price for their advanced features. I can meet you a bit closer at $375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down further. I'm really looking to get the best possible value. Would you be able to do $360?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for the best value. These headphones are renowned for their industry-leading features. My best offer for you would be $370."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer. I'm trying to stick to my budget as much as possible. How about $365?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're working with a budget. The Sony WH-1000XM5 offers unparalleled noise cancellation and features, making $370 the absolute best price I can offer for these premium headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, I'll take them for $370."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    385.0,
+    399.0,
+    370.0,
+    370.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 4,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

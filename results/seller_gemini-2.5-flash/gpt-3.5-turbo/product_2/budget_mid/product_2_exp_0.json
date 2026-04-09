@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really impressed by the features it offers. I was wondering if there is any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're impressed with the Sony WH-1000XM5s \u2013 they truly are exceptional headphones with industry-leading noise cancellation and a fantastic 30-hour battery. Given their premium features, we find the retail price of $399 to be excellent value. However, I can offer them to you today for $385."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate the discount, but my budget is $309.50. Would you be able to go lower to meet my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget. The Sony WH-1000XM5s offer unparalleled features like speak-to-chat and crystal-clear calls, making them a premium investment. The lowest I can go while still reflecting their value is $365."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your understanding. Unfortunately, $365 is still above my budget of $309.50. If you can offer them within my budget, I'd be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm. These headphones truly stand out for their industry-leading noise cancellation and multipoint connection, features that set them apart. I can offer a final price of $345, which is the absolute best I can do for such a high-quality product."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. I appreciate the offer, but I must adhere to my budget of $309.50. Unfortunately, I won't be able to proceed with the purchase at this price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    385.0,
+    365.0,
+    345.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

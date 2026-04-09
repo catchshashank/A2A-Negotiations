@@ -1,0 +1,42 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Apple MacBook Pro 16-inch and I'm really interested in purchasing it. I was wondering if there was any possibility of negotiating the price? Looking forward to hearing from you soon. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Apple MacBook Pro 16-inch. While I can't go below the wholesale price, I can offer it to you for $2,300. Let me know if this works for you! Thank you for considering."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate your willingness to negotiate. Unfortunately, $2,300 is still above my budget. I'll have to pass on this offer. Thank you."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 0,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

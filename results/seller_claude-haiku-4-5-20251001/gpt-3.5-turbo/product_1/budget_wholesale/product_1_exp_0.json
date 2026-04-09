@@ -1,0 +1,303 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I'm really interested in it. I was wondering if there's any room for negotiation on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out, and I'm glad you're interested in the MacBook Pro 16-inch M3 Pro. It's an incredible machine with that stunning Liquid Retina XDR display and the M3 Pro chip\u2014really a powerhouse for professionals.\n\nThe retail price is $2,499, which is already competitive given the specs. That said, I'm happy to work with you. What price range were you thinking about? I can definitely explore some options depending on your budget and timeline."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi there! I'm really interested in the MacBook Pro 16-inch M3 Pro. Given my budget constraints, I'm looking to secure this amazing machine for $1800. Do you think we can work within this budget to make a deal happen?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget! $1,800 is right at our wholesale cost, so there's unfortunately no margin for us to work with there.\n\nHere's what I can do though\u2014at $1,900 or $1,950, we'd have a deal that works for both of us. You'd still be getting a significant discount from the $2,499 retail price, and I can make that happen. Would either of those price points work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but I must stick to my budget of $1800. Unfortunately, I won't be able to go beyond that. If there's any way we can make it work within that budget, I'd be happy to proceed."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your position, and I respect that you have a firm budget. Unfortunately, $1,800 is our absolute floor\u2014that's our wholesale cost with zero margin. I literally can't go lower than that without losing money on the sale.\n\nThat said, if you're flexible at all, even $1,850 would make this work for us both. Otherwise, I'd suggest checking back with us in a few weeks\u2014we sometimes run promotions that could bring the price closer to your target. Would either of those options interest you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your understanding. I'll have to decline the offer at $1,850 as well, as I need to stick to my budget of $1,800. I'll keep an eye out for future promotions and check back later. Thank you for your time and assistance!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate you being straightforward about your budget. If things change or you'd like to revisit this in the future, feel free to reach out anytime. We'll definitely keep you in mind for any upcoming promotions\u2014you never know what might become available!\n\nThanks for your interest in the MacBook Pro, and best of luck with your search. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and flexibility. I will definitely keep in touch for any future opportunities. I appreciate your assistance and have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're welcome! I really appreciate your interest and the pleasant conversation. Feel free to reach out whenever you're ready\u2014we're always here to help. Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your kind words. I will definitely reach out when the time is right. Have a wonderful day as well!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Looking forward to hearing from you. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Take care as well! Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye! \ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Seller",
+      "message": "\ud83d\udc4b"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "\ud83d\udc4b"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1900.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 30,
+  "negotiation_completed": true,
+  "negotiation_result": "max_turns_reached",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

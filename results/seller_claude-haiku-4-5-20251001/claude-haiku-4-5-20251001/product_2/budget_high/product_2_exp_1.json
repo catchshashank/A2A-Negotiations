@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHey! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested\u2014they seem like exactly what I'm looking for. I've been wanting to upgrade to something with solid noise cancellation and that 30-hour battery life is a huge plus.\n\nBefore I commit, I wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer and ready to move forward quickly if we can work something out.\n\nLet me know what you think! \ud83d\ude0a\n\n---\n\n**Why this works:**\n- Opens naturally without sounding like a bot\n- Shows genuine interest in the specific features\n- Frames negotiation as a reasonable ask (\"flexibility\")\n- Signals you're a serious, motivated buyer\n- Keeps it brief and friendly"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Thanks for reaching out\u2014I'm glad you're interested in these! They really are fantastic headphones, and you're right about that battery life being a game-changer.\n\nI appreciate you being upfront about looking for flexibility. Here's the thing: these are priced competitively at $399, and honestly, that's already a solid value for what you're getting. The noise cancellation and features justify the price point.\n\nThat said, since you mentioned you're ready to move quickly, I could potentially work with you on the price. What range were you thinking? Let me know and we can see if we can make this work. \ud83d\udc4d"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for being open to negotiating! I appreciate that. I'm definitely interested in moving forward quickly\u2014these are exactly what I need.\n\nHere's where I'm at: I'd like to get them for around $340-350. I know that's a jump from the retail price, but I'm a serious buyer ready to complete this today, and I'm hoping that commitment is worth some flexibility on your end.\n\nWhat do you think\u2014can we work something out in that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer and your commitment to moving fast! I hear you on wanting a deal, but I've gotta be honest\u2014$340-350 is a bit too low for me to work with here.\n\nHere's my counter: I can do $375. That's a meaningful discount off retail, and it reflects the fact that you're a serious buyer ready to go today. It's a fair middle ground that works for both of us.\n\nCan we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the counter\u2014$375 is definitely better. Let me be straight with you: I can go to $365. That gives you a solid $34 discount off retail, and I'm ready to complete this right now with no back-and-forth.\n\nDoes $365 work for you?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you meeting me closer to the middle\u2014that shows you're serious. But $365 is still a bit tight for me to move on. Here's what I can do: $370. That's a $29 discount off retail, and honestly, it's the lowest I can comfortably go while keeping this fair on my end.\n\nYou get a real savings, I move the product today with a committed buyer, and we both walk away happy. Does $370 work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You know what, $370 is fair. You've been reasonable throughout this, and I appreciate that. I'm ready to move forward at that price. Let's do it."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0,
+    370.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

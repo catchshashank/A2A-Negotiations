@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \ud83d\udc4b\n\nI came across your MacBook Pro 16-inch listing and I'm really interested in it\u2014the specs look fantastic, especially the M3 Pro chip and that XDR display. \n\nI'm seriously considering making a purchase, but I wanted to reach out and see if there's any flexibility on the price? I'm looking to move forward quickly with the right offer.\n\nWould you be open to discussing this?\n\nThanks!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opener\n- \u2705 Shows genuine interest in the product\n- \u2705 Compliments specific features (builds rapport)\n- \u2705 Signals buying intent (\"seriously considering,\" \"move forward quickly\")\n- \u2705 Opens negotiation without being pushy\n- \u2705 Concise and to the point\n- \u2705 Doesn't reveal your budget or negotiation strategy upfront"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! Thanks for reaching out and showing such keen interest in the MacBook Pro 16-inch. You're absolutely right, the M3 Pro chip and XDR display make it an outstanding machine.\n\nI do have a *little* flexibility for serious buyers looking to move quickly. For you, I could offer it at $2,399. This is a fantastic value for a brand new M3 Pro model with these specs. Let me know what you think!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the flexibility, but $2,399 is still quite a bit above what I can work with. My budget is around $1,800, and that's what I'm really looking to spend on this machine.\n\nIs there any way you could meet me closer to that range? I'm a serious buyer ready to move forward quickly if we can make the numbers work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget, but $1,800 is not feasible for a brand new M3 Pro MacBook Pro with these advanced specifications. This is a top-tier machine. The absolute best I can offer is $2,199. That's a significant discount for a new unit, and truly the lowest I can go."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down to $2,199, but I'm afraid that's still beyond what I can afford. My maximum budget is $1,800, and I can't stretch beyond that.\n\nAt this price point, I'd need to look at other options or wait for a sale. If you have any refurbished or open-box M3 Pro models, or if there's any way to get closer to $1,800, I'd be interested in exploring that. Otherwise, I'll have to pass on this deal. Thanks for working with me though!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget is firm at $1,800. While I typically can't offer a new M3 Pro model at that price point, given your strong interest and readiness to purchase, I can meet you there for this one-time offer.\n\nSo, for you, I can do $1,800. This is the absolute lowest I can go, and it's a remarkable deal for this powerful machine. Let me know if you'd like to proceed!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's great! Yes, I can absolutely work with $1,800. I'm ready to move forward with that price. What's the next step to complete the purchase?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2399.0,
+    2199.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

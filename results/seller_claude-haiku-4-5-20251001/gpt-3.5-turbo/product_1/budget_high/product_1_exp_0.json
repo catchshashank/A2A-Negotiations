@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch and I'm very interested in purchasing it. I was wondering if there is any room to negotiate the price. \n\nLooking forward to hearing from you soon. \n\nThank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the MacBook Pro 16-inch\u2014it's an excellent machine.\n\nI appreciate you asking about pricing. The retail price is $2,499, which reflects the premium specs: the M3 Pro chip, 18GB memory, XDR display, and that impressive 22-hour battery life. These features are in high demand right now.\n\nThat said, I'm open to working with you. What price range were you thinking? I can offer some flexibility, but I'd want to make sure we find something that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi there! I'm really interested in the MacBook Pro 16-inch with the M3 Pro chip and all those amazing features. Given my budget constraints, could you offer me the best price you can provide for this top-notch machine?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand budget is a consideration. Here's what I can do for you:\n\nI can offer you **$2,299**\u2014that's a solid $200 discount off retail. For a machine with these specs, that's a genuinely competitive price, especially with the M3 Pro, XDR display, and 22-hour battery life.\n\nThis is my best offer while keeping the value fair for both of us. Does that work for you, or did you have a specific target price in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer of $2,299 for the MacBook Pro 16-inch. It's a generous discount off the retail price. I would be happy to accept that offer and proceed with the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2299.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Apple MacBook Pro 16-inch (M3 Pro). It looks fantastic! I was wondering if you might be open to a bit of negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely, I'm glad you're interested! The MacBook Pro 16-inch with M3 Pro is an excellent machine\u2014that Liquid Retina XDR display and M3 Pro chip really set it apart.\n\nThe retail price is $2,499, but I'm definitely open to working with you. What kind of pricing were you thinking? I'm happy to find a fair deal that works for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the MacBook Pro. To start, I was hoping we could work towards a price closer to $1,950."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer! $1,950 is in the right ballpark, and I can definitely work with you there. That's a solid discount from the $2,499 retail price\u2014you'd be saving over $500.\n\nHow does $2,150 sound as a starting point? That gives you meaningful savings while reflecting the premium quality and specs you're getting. We can also discuss it further if you have other considerations, like bulk purchase or timing."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down. How about we meet in the middle at $2,050?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you meeting me halfway! $2,050 is closer, but I'd like to propose $2,200. That's still a solid $300 off retail, and it reflects the value of what you're getting\u2014the M3 Pro chip, the XDR display, and all those premium features.\n\nHow does $2,200 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "$2,125 would be a more comfortable price for me."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I can work with $2,125\u2014that's a fair compromise. You're getting a $374 discount off retail, and I'm confident you'll love this machine. Let's move forward at that price. When would you like to complete the purchase?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect, $2,125 works for me. I'm ready to complete the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1950.0,
+    2200.0,
+    2125.0
+  ],
+  "budget": 2998.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

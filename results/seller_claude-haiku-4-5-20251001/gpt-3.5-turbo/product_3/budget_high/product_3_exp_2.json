@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the LG C3 65-inch OLED TV and I must say, it looks like a fantastic product. I was wondering if there might be any room for negotiation on the price. Thank you and I look forward to hearing from you soon. \n\nBest regards, \n[Your Name]"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there! Thanks for your interest in the LG C3\u2014it's an incredible TV with that stunning OLED evo panel and 4K 120Hz performance. \n\nI appreciate you asking about pricing. The current price is $1,799, which reflects the premium features you're getting: Dolby Vision IQ, Dolby Atmos, four HDMI 2.1 ports, and our AI Picture Pro technology. \n\nThat said, I'm happy to work with you. What price range were you thinking, and are you looking to move forward soon? That might help me see what I can do."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi, thanks for the detailed information on the LG C3. Given my budget is $2158.80, would you be able to offer a discounted price that fits within that range? I'm interested in finalizing the purchase soon."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great news\u2014your budget actually gives us some flexibility here! The current retail price is $1,799, which is already well within your range and represents excellent value for the features you're getting.\n\nSince you're ready to finalize soon, I can lock in the $1,799 price for you right now, or if you're purchasing multiple units or have any other considerations, I'm open to discussing that. What works best for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate your willingness to work with my budget. I'm prepared to proceed with the purchase at the current price of $1,799 for the LG C3. Let's move forward with this offer."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

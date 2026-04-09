@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Sony WH-1000XM5 headphones. They look fantastic. I was wondering if there might be any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Great question! I'm glad you're interested in these headphones\u2014they really are fantastic. The retail price is $399, and honestly, they're worth every penny given the industry-leading noise cancellation and 30-hour battery life.\n\nThat said, I do have some flexibility depending on your situation. Are you looking to purchase multiple units, or is there something specific that would help me work with you on pricing?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "They sound great! I'm just looking for a single pair for myself. Would you be able to do $320?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer! $320 is a fair starting point, but I can do better than the retail price for you. How about $350? That's a solid discount from the $399 retail, and you're getting an incredible product with noise cancellation that honestly outperforms competitors at higher price points.\n\nDoes $350 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm still hoping to get a bit closer to my original offer. How about $335?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you\u2014$335 is closer to where you want to be. Let me meet you at $345. That's still a meaningful discount from retail, and it reflects the real value of these headphones. They're genuinely top-tier, and $345 is a fair price for that quality.\n\nCan we do $345?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "How about we split the difference at $340?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, I like your thinking. $340 works for me\u2014that's a fair compromise. You're getting a genuine discount from retail on a best-in-class product. Let's make it happen. Ready to move forward?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! I'm happy with $340. Let's proceed."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    350.0,
+    345.0,
+    340.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

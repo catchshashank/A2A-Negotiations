@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI'm really interested in your Sony WH-1000XM5 headphones. I was wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice \u2013 these are fantastic headphones. The retail price is $399, and they're honestly worth every penny with the noise cancellation and 30-hour battery life.\n\nThat said, I can work with you. What price range were you thinking? I'm open to discussion, but I do need to stay within a reasonable margin given the quality and features you're getting here."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm definitely interested in the headphones. Given the retail price, I was hoping we could discuss a price closer to $275."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the interest! $275 is a bit lower than I can go \u2013 that cuts pretty deep into my margin. Here's what I can do: I can bring it down to $350 for you. That's a solid $49 off retail, and you're still getting an incredible product with industry-leading noise cancellation, 30-hour battery, and multipoint connection.\n\nWhat do you think \u2013 does $350 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $350 is still higher than I can afford at the moment. I'm very interested in these headphones, but I'd need to be closer to my initial offer for it to work."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you \u2013 budget matters. Let me meet you closer to the middle. How about $320? That's a meaningful discount from retail, and honestly, it's about as low as I can reasonably go while keeping this fair on my end.\n\nThese headphones typically hold their value really well, so you're making a solid investment. Does $320 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down further, but $320 is still beyond my budget. I'm afraid I cannot afford it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    350.0,
+    320.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

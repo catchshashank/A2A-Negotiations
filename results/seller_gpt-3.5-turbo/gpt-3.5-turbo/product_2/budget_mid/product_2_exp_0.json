@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there is any room to negotiate the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. The retail price for these headphones is $399, but I can offer them to you at a special price of $350. Let me know if you're interested!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate the discount, but my budget is $309.50. Could you consider offering a price closer to that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. How about I offer you the Sony WH-1000XM5 Wireless Headphones for $320? It's the best I can do considering their retail price and features. Let me know if that works for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but I must stick to my budget of $309.50. If you can meet that price, I'd be happy to proceed with the purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. I can offer you the Sony WH-1000XM5 Wireless Headphones for $309.50. Let's proceed with the purchase at that price. I'm sure you'll enjoy the features and quality of these headphones!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for accommodating my budget. I agree to purchase the Sony WH-1000XM5 Wireless Headphones for $309.50. Looking forward to experiencing the features of these headphones!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    320.0,
+    309.5
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

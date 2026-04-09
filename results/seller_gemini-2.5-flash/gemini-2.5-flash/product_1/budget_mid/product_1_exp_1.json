@@ -1,0 +1,87 @@
+{
+  "product_id": 1,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Apple MacBook Pro 16-inch (M3 Pro). It seems like a fantastic laptop. Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "It certainly is a fantastic machine, offering unparalleled performance and features. The retail price for this configuration is \\$2,499. What kind of offer were you considering today?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in this model. I was hoping to get it for around $1999."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. The MacBook Pro 16-inch with the M3 Pro chip, 18GB unified memory, and 22-hour battery life is truly a premium device, retailing at \\$2,499. We typically don't go that low, but I'm open to finding a fair price. Could you come up a bit closer to the retail value?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium device. How about we meet at $2099? That feels like a fair compromise for such a powerful machine."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you moving up on your offer. The M3 Pro chip, coupled with 18GB of unified memory and the impressive 22-hour battery life, truly makes this a top-tier machine. To finalize this today, I could meet you at \\$2,299. How does that sound?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a bit higher than I can manage right now. I'm afraid I can't afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand. It's a significant investment, but you're getting cutting-edge performance and longevity with the M3 Pro. Considering its value, I could offer it to you for \\$2,199 to ensure you get this incredible machine today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but that's still beyond my budget. I'm afraid I cannot afford it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand budget is a key factor. To ensure you don't miss out on this incredible M3 Pro MacBook Pro, the absolute best I can do for you today is **\\$2,100**. That's a truly exceptional price for a machine of this caliber."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a very strong offer, and I appreciate you working with me. To make this happen today, could you possibly do $2099?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You've got a deal. At \\$2,099, you're getting an outstanding value for this top-of-the-line MacBook Pro 16-inch with the M3 Pro chip. Let's finalize this for you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Fantastic! I'm happy with that. Let's finalize the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    2299.0,
+    2199.0,
+    2100.0,
+    2099.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 5,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

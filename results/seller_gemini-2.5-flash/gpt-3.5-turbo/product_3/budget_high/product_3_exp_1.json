@@ -1,0 +1,69 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the LG C3 65-inch OLED TV and I'm very interested in it. I was wondering if there is any room for negotiation on the price? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the LG C3 65-inch OLED TV. It's truly a top-tier display with its stunning OLED evo panel and incredible gaming features. While the retail price is $1,799, we do have some flexibility. What price did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer. Considering my budget of $2158.80, would you be able to offer a price below $1,700?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for a price below $1,700. However, the LG C3's retail price of $1,799 reflects its premium features and value. For such a high-demand model, we usually aim closer to that. What's the highest price you're comfortable with for this exceptional TV, considering your budget?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value proposition. Considering my budget constraint, would you be able to offer the LG C3 for $1,750?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's a very good offer. The LG C3 at $1,750 is an excellent deal for a TV of this caliber, especially with its OLED evo panel and advanced gaming features. To make this deal happen, could we meet at $1,775? It's a small step up for an incredible viewing experience."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I must stick to my budget. Unfortunately, $1,750 is the highest price I can afford for the LG C3. Thank you for considering my offer."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand, and I appreciate your firm offer. Given your commitment, I can accept $1,750 for the LG C3 65-inch OLED TV. It's an excellent choice, and I'm sure you'll be thrilled with it. We can proceed with that price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding. I'm glad we could reach an agreement at $1,750 for the LG C3 65-inch OLED TV. I'm excited about the purchase and look forward to enjoying its premium features. Let's proceed with the transaction at this price."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0,
+    1750.0,
+    1750.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

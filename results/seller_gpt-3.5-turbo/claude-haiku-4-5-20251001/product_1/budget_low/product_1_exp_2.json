@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\n---\n\nHi there! \ud83d\udc4b\n\nI came across your MacBook Pro 16-inch listing and I'm really interested in it\u2014the M3 Pro chip and that display sound amazing. I've been looking for something with these specs for a while now.\n\nI'm genuinely interested in moving forward, but I wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer and ready to complete this soon if we can work something out.\n\nWould you be open to discussing the price at all?\n\nThanks so much!\n\n---\n\n**Why this works:**\n- \u2705 Friendly and genuine tone\n- \u2705 Shows real interest in the product (mentions specific features)\n- \u2705 Signals you're a serious/motivated buyer\n- \u2705 Opens negotiation door naturally without being pushy\n- \u2705 Keeps it brief and conversational"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there!\n\nI'm glad to hear you're interested in the MacBook Pro 16-inch\u2014it truly is a remarkable device with top-notch features. I appreciate your interest and I'm open to discussing the price. Let's see how we can work something out. Feel free to share your thoughts on what you have in mind for the price.\n\nLooking forward to finding a mutually agreeable deal!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for being open to negotiating! I'm definitely interested in this MacBook Pro 16-inch. However, I need to be upfront\u2014my budget is $1,440. I know that's significantly below the $2,499 retail price, but I'm hoping we can work something out. \n\nAre there any current promotions, bundle deals, or refurbished options that might help us bridge that gap? I'm a serious buyer ready to move forward quickly if we can find a price point that works."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your honesty about your budget. While $1,440 is below the retail price, I'm unable to go below the wholesale price of $1,800. However, I can offer you some value-added services like extended warranty or accessories to enhance your purchase. Let's explore how we can make this work within your budget while ensuring you get the best value. Let me know if you're open to discussing these options further to reach a mutually beneficial agreement."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but I need to be direct\u2014$1,800 is still $360 beyond my maximum budget of $1,440, and unfortunately I can't stretch beyond that limit regardless of added services or accessories.\n\nAt this point, I don't think we can reach a deal that works for both of us. Unless you're able to come down to my budget range, I won't be able to move forward with this purchase. Do you have any other options or pricing you could consider?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your budget constraints. While I can't go below the wholesale price of $1,800, I value your interest and am willing to offer a one-time discount, bringing the price down to $1,700 for you. This is the best offer I can extend while still ensuring a fair deal for both of us. Let me know if this revised price aligns with your budget and if we can proceed with the purchase at $1,700."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the discount to $1,700, and I can see you're trying to work with me. However, that's still $260 over my maximum budget of $1,440, which I simply cannot exceed.\n\nUnfortunately, we're too far apart on price for this to work. I won't be able to move forward at $1,700. If you're ever able to reconsider and get closer to my budget range, I'd be happy to revisit this conversation. Otherwise, I'll need to look at other options. Thanks for trying to negotiate with me."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0,
+    1700.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

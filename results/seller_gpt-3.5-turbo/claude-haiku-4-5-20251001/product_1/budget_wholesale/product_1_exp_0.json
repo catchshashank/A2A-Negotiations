@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there! \n\nI'm really interested in your MacBook Pro 16-inch M3 Pro \u2014 it looks like exactly what I've been searching for. The specs are impressive, especially the display and battery life.\n\nI'm definitely serious about moving forward, but I wanted to check if there's any flexibility on the price? I'm looking to make a purchase soon and would love to work something out that works for both of us.\n\nWhat do you think \u2014 is there room to negotiate?\n\nThanks!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi,\n\nI'm glad to hear you're interested in the MacBook Pro 16-inch M3 Pro! It's a top-of-the-line device with impressive features. I can offer you a special price of $2,300 to help make it work for both of us. Let me know if that works for you.\n\nLooking forward to your response!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the offer! I appreciate the discount, but $2,300 is still above what I can work with. My budget is $1,800. I'm a serious buyer and ready to move forward quickly at the right price. Can you work with me on getting closer to that range? What's the best you can do?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. The best price I can offer you for the MacBook Pro 16-inch M3 Pro is $1,900. It's a great deal considering the quality and features of the device. Let me know if that works for you so we can proceed with the sale. Thank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down, but $1,900 still exceeds my maximum budget of $1,800. That's my hard limit and I can't go above it. Is there any flexibility to reach $1,800 or below? If not, I may need to look at other options. What can you do?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your position. Given your budget limit, I can offer you the MacBook Pro 16-inch M3 Pro at the wholesale price of $1,800. I value your interest and I'm willing to work with you at this price point. Let me know if this works for you so we can finalize the sale. Thank you for considering!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! That works for me. $1,800 is exactly at my budget limit and I'm satisfied with this price. Let's move forward with the purchase. What are the next steps to finalize the sale?"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2300.0,
+    1900.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

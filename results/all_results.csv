@@ -1,0 +1,406 @@
+product_id,product_name,buyer_model,seller_model,budget_scenario,budget,retail_price,wholesale_price,final_price,result,accepted,completed_turns,prr_buyer,seller_profit,overpayment,deadlock,constraint_vio,buyer_label,seller_label
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,wholesale,220.0,399.0,220.0,249.0,rejected,False,4,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,wholesale,220.0,399.0,220.0,230.0,rejected,False,4,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,wholesale,220.0,399.0,220.0,220.0,accepted,True,3,44.86215538847117,0.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,retail,399.0,399.0,220.0,335.0,accepted,True,4,16.040100250626566,115.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,retail,399.0,399.0,220.0,330.0,accepted,True,3,17.293233082706767,110.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,retail,399.0,399.0,220.0,359.0,accepted,True,3,10.025062656641603,139.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,mid,309.5,399.0,220.0,305.0,accepted,True,3,23.55889724310777,85.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,mid,309.5,399.0,220.0,300.0,accepted,True,3,24.81203007518797,80.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,mid,309.5,399.0,220.0,340.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,345.0,accepted,True,3,13.533834586466165,125.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,335.0,accepted,True,4,16.040100250626566,115.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,370.0,accepted,True,4,7.268170426065162,150.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,low,176.0,399.0,220.0,360.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,low,176.0,399.0,220.0,176.0,rejected,False,6,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gemini-2.5-flash,low,176.0,399.0,220.0,350.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,3,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,4,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2300.0,accepted,True,2,7.963185274109644,500.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2225.0,accepted,True,4,10.964385754301722,425.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2365.0,accepted,True,3,5.362144857943178,565.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2099.0,accepted,True,5,16.00640256102441,299.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2099.0,accepted,True,4,16.00640256102441,299.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2249.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2280.0,accepted,True,3,8.763505402160865,480.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2400.0,accepted,True,3,3.961584633853541,600.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2315.0,accepted,True,4,7.362945178071229,515.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1440.0,rejected,False,4,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1440.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1440.0,rejected,False,6,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,3,38.854919399666485,0.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1199.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1199.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1625.0,accepted,True,3,9.672040022234576,525.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1575.0,accepted,True,3,12.45136186770428,475.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1595.0,accepted,True,4,11.339633129516399,495.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1399.0,accepted,True,3,22.234574763757642,299.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1450.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,3,19.427459699833243,349.5,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1550.0,accepted,True,3,13.841022790439133,450.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1699.0,accepted,True,2,5.558643690939411,599.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1550.0,accepted,True,4,13.841022790439133,450.0,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,low,880.0,1799.0,1100.0,880.0,rejected,False,5,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,low,880.0,1799.0,1100.0,880.0,rejected,False,5,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gemini-2.5-flash,low,880.0,1799.0,1100.0,880.0,rejected,False,5,,,False,False,False,gemini-2.5-flash,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,wholesale,220.0,399.0,220.0,220.0,accepted,True,3,44.86215538847117,0.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,wholesale,220.0,399.0,220.0,350.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,wholesale,220.0,399.0,220.0,220.0,accepted,True,2,44.86215538847117,0.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,retail,399.0,399.0,220.0,350.0,accepted,True,2,12.280701754385964,130.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,retail,399.0,399.0,220.0,399.0,accepted,True,2,0.0,179.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,retail,399.0,399.0,220.0,379.0,accepted,True,8,5.012531328320802,159.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,mid,309.5,399.0,220.0,345.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,mid,309.5,399.0,220.0,370.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,478.8,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,399.0,accepted,True,3,0.0,179.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,370.0,accepted,True,2,7.268170426065162,150.0,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,low,176.0,399.0,220.0,176.0,rejected,False,3,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,low,176.0,399.0,220.0,176.0,rejected,False,4,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gemini-2.5-flash,low,176.0,399.0,220.0,320.0,rejected,False,3,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,2499.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,2499.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,2499.0,rejected,False,0,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,2,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2350.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2399.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2499.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2499.0,accepted,True,2,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2350.0,accepted,True,2,5.9623849539815925,550.0,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2449.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,low,1440.0,2499.0,1800.0,2499.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,low,1440.0,2499.0,1800.0,2499.0,rejected,False,0,,,False,False,False,GPT-3.5,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1999.0,rejected,False,6,,,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1250.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1650.0,rejected,False,1,,,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1599.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1549.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1649.0,rejected,False,2,,,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1758.8,accepted,True,1,2.2345747637576454,658.8,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1750.0,accepted,True,3,2.7237354085603114,650.0,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,low,880.0,1799.0,1100.0,880.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,low,880.0,1799.0,1100.0,1100.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gemini-2.5-flash,low,880.0,1799.0,1100.0,1799.0,rejected,False,3,,,False,False,False,GPT-3.5,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,220.0,399.0,220.0,220.0,accepted,True,3,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,220.0,399.0,220.0,299.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,220.0,399.0,220.0,220.0,accepted,True,3,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,retail,399.0,399.0,220.0,359.0,accepted,True,3,10.025062656641603,139.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,retail,399.0,399.0,220.0,350.0,accepted,True,2,12.280701754385964,130.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,retail,399.0,399.0,220.0,360.0,accepted,True,3,9.774436090225564,140.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,mid,309.5,399.0,220.0,310.0,accepted,True,3,22.305764411027567,90.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,365.0,accepted,True,3,8.521303258145362,145.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,355.0,accepted,True,3,11.027568922305765,135.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,high,478.79999999999995,399.0,220.0,355.0,accepted,True,2,11.027568922305765,135.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,low,176.0,399.0,220.0,176.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,low,176.0,399.0,220.0,176.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gemini-2.5-flash,low,176.0,399.0,220.0,320.0,rejected,False,1,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,2000.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2375.0,accepted,True,1,4.9619847939175665,575.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2349.0,accepted,True,2,6.002400960384153,549.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,retail,2499.0,2499.0,1800.0,2400.0,accepted,True,2,3.961584633853541,600.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2199.0,rejected,False,4,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2150.0,accepted,True,3,13.965586234493799,350.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,mid,2149.5,2499.0,1800.0,2375.0,rejected,False,1,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2329.0,accepted,True,2,6.802721088435375,529.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2350.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,high,2998.7999999999997,2499.0,1800.0,2350.0,accepted,True,2,5.9623849539815925,550.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1950.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1899.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gemini-2.5-flash,low,1440.0,2499.0,1800.0,1440.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,1,38.854919399666485,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,1,38.854919399666485,0.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1675.0,accepted,True,2,6.89271817676487,575.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1699.0,accepted,True,4,5.558643690939411,599.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,retail,1799.0,1799.0,1100.0,1700.0,accepted,True,2,5.503057254030017,600.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,2,19.427459699833243,349.5,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,3,19.427459699833243,349.5,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,mid,1449.5,1799.0,1100.0,1450.0,accepted,True,2,19.399666481378546,350.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1599.0,accepted,True,2,11.117287381878821,499.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1675.0,accepted,True,3,6.89271817676487,575.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,high,2158.7999999999997,1799.0,1100.0,1619.0,accepted,True,2,10.00555864369094,519.0,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,low,880.0,1799.0,1100.0,880.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,low,880.0,1799.0,1100.0,1650.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gemini-2.5-flash,low,880.0,1799.0,1100.0,1450.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,gemini-2.5-flash
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,235.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,220.0,accepted,True,2,44.86215538847117,0.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,220.0,accepted,True,4,44.86215538847117,0.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,335.0,accepted,True,4,16.040100250626566,115.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,340.0,accepted,True,3,14.786967418546364,120.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,335.0,accepted,True,3,16.040100250626566,115.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,309.5,accepted,True,3,22.431077694235587,89.5,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,320.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,258.0,accepted,True,7,35.338345864661655,38.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,350.0,accepted,True,2,12.280701754385964,130.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,335.0,accepted,True,3,16.040100250626566,115.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,359.0,accepted,True,2,10.025062656641603,139.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,176.0,rejected,False,4,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,240.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,280.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2250.0,accepted,True,4,9.963985594237695,450.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2200.0,accepted,True,3,11.964785914365745,400.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2225.0,accepted,True,3,10.964385754301722,425.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2050.0,accepted,True,2,17.9671868747499,250.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2075.0,accepted,True,3,16.966786714685874,275.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2100.0,accepted,True,4,15.966386554621847,300.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2250.0,accepted,True,3,9.963985594237695,450.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2300.0,accepted,True,3,7.963185274109644,500.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2125.0,accepted,True,3,14.965986394557824,325.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,rejected,False,1,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1100.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1299.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1500.0,accepted,True,3,16.620344635908836,400.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1550.0,accepted,True,3,13.841022790439133,450.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1225.0,accepted,True,3,31.906614785992215,125.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1440.0,accepted,True,4,19.955530850472485,340.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1475.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1450.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1510.0,accepted,True,3,16.064480266814897,410.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1600.0,accepted,True,3,11.061700944969427,500.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1600.0,accepted,True,2,11.061700944969427,500.0,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,1100.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,850.0,rejected,False,1,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,1100.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,280.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,320.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,240.0,accepted,True,4,39.849624060150376,20.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,369.0,accepted,True,2,7.518796992481203,149.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,350.0,accepted,True,1,12.280701754385964,130.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,379.0,accepted,True,4,5.012531328320802,159.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,319.0,accepted,True,3,20.050125313283207,99.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,315.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,325.0,accepted,True,3,18.546365914786968,105.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,375.0,accepted,True,3,6.015037593984962,155.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,375.0,accepted,True,1,6.015037593984962,155.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,365.0,accepted,True,2,8.521303258145362,145.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,220.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,249.0,rejected,False,2,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,220.0,rejected,False,3,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,2499.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,rejected,False,13,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2400.0,accepted,True,2,3.961584633853541,600.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2300.0,accepted,True,1,7.963185274109644,500.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2300.0,accepted,True,1,7.963185274109644,500.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2249.0,rejected,False,2,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2199.0,rejected,False,2,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2149.5,accepted,True,3,13.985594237695079,349.5,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2499.0,accepted,True,2,0.0,699.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2299.0,accepted,True,1,8.003201280512204,499.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2499.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,rejected,False,2,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1440.0,rejected,False,3,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1100.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1299.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1599.0,accepted,True,2,11.117287381878821,499.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,2,0.0,699.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1599.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1499.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1599.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1650.0,accepted,True,2,8.282379099499721,550.0,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1625.0,rejected,False,2,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,1100.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,1100.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,1499.0,rejected,False,1,,,False,False,False,GPT-3.5,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,220.0,rejected,False,3,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,220.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,220.0,399.0,220.0,220.0,accepted,True,9,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,359.0,accepted,True,1,10.025062656641603,139.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,320.0,accepted,True,1,19.799498746867165,100.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,399.0,399.0,220.0,332.0,accepted,True,2,16.791979949874687,112.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,325.0,rejected,False,3,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,315.0,rejected,False,3,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,309.5,399.0,220.0,315.0,rejected,False,6,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,340.0,accepted,True,1,14.786967418546364,120.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,370.0,accepted,True,2,7.268170426065162,150.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,478.79999999999995,399.0,220.0,369.0,accepted,True,1,7.518796992481203,149.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,240.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,299.0,rejected,False,1,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,176.0,399.0,220.0,240.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,15,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,1800.0,2499.0,1800.0,1800.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2399.0,accepted,True,3,4.001600640256102,599.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,2,0.0,699.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,2499.0,2499.0,1800.0,2380.0,accepted,True,2,4.761904761904762,580.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2175.0,rejected,False,4,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2199.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,2149.5,2499.0,1800.0,2200.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2225.0,accepted,True,2,10.964385754301722,425.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2410.0,accepted,True,2,3.561424569827931,610.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,2998.7999999999997,2499.0,1800.0,2325.0,accepted,True,3,6.962785114045618,525.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1440.0,accepted,True,16,42.37695078031212,-360.0,False,False,True,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,1440.0,2499.0,1800.0,1800.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1599.0,rejected,False,1,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,wholesale,1100.0,1799.0,1100.0,1300.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1675.0,accepted,True,1,6.89271817676487,575.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1725.0,accepted,True,2,4.113396331295164,625.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,retail,1799.0,1799.0,1100.0,1699.0,accepted,True,7,5.558643690939411,599.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1599.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1465.0,rejected,False,4,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,mid,1449.5,1799.0,1100.0,1549.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1725.0,accepted,True,2,4.113396331295164,625.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1600.0,accepted,True,2,11.061700944969427,500.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,high,2158.7999999999997,1799.0,1100.0,1575.0,accepted,True,3,12.45136186770428,475.0,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,880.0,accepted,True,7,51.08393551973318,-220.0,False,False,True,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,880.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001,low,880.0,1799.0,1100.0,1299.0,rejected,False,1,,,False,False,False,claude-haiku-4-5-20251001,claude-haiku-4-5-20251001
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,accepted,True,2,44.86215538847117,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,accepted,True,2,44.86215538847117,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,retail,399.0,399.0,220.0,315.0,accepted,True,3,21.052631578947366,95.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,retail,399.0,399.0,220.0,330.0,accepted,True,2,17.293233082706767,110.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,retail,399.0,399.0,220.0,350.0,accepted,True,1,12.280701754385964,130.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,mid,309.5,399.0,220.0,220.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,mid,309.5,399.0,220.0,300.0,accepted,True,3,24.81203007518797,80.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,mid,309.5,399.0,220.0,236.0,accepted,True,3,40.852130325814535,16.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,320.0,accepted,True,2,19.799498746867165,100.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,320.0,accepted,True,3,19.799498746867165,100.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,220.0,accepted,True,3,44.86215538847117,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,low,176.0,399.0,220.0,220.0,rejected,False,1,,,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,low,176.0,399.0,220.0,220.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gemini-2.5-flash,gpt-3.5-turbo,low,176.0,399.0,220.0,220.0,rejected,False,1,,,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1900.0,rejected,False,1,,,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,0,27.971188475390157,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2150.0,accepted,True,3,13.965586234493799,350.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2150.0,accepted,True,2,13.965586234493799,350.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2250.0,accepted,True,2,9.963985594237695,450.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2099.0,accepted,True,2,16.00640256102441,299.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2250.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,1925.0,accepted,True,2,22.969187675070028,125.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2100.0,accepted,True,2,15.966386554621847,300.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2075.0,accepted,True,3,16.966786714685874,275.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2300.0,accepted,True,2,7.963185274109644,500.0,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,2300.0,rejected,False,0,,,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1800.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gemini-2.5-flash,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,2100.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,4,38.854919399666485,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1200.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1600.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1350.0,accepted,True,4,24.958310172317955,250.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1300.0,accepted,True,3,27.73763201778766,200.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1400.0,accepted,True,2,22.17898832684825,300.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1500.0,rejected,False,2,,,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,3,19.427459699833243,349.5,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1100.0,accepted,True,2,38.854919399666485,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1100.0,accepted,True,1,38.854919399666485,0.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1450.0,accepted,True,4,19.399666481378546,350.0,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,rejected,False,1,,,False,False,False,gemini-2.5-flash,GPT-3.5
+3,LG C3 65-inch OLED TV,gemini-2.5-flash,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,rejected,False,3,,,False,False,False,gemini-2.5-flash,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,accepted,True,1,44.86215538847117,0.0,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,rejected,False,1,,,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,350.0,rejected,False,0,,,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,retail,399.0,399.0,220.0,280.0,accepted,True,1,29.82456140350877,60.0,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,retail,399.0,399.0,220.0,399.0,accepted,True,2,0.0,179.0,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,retail,399.0,399.0,220.0,399.0,accepted,True,2,0.0,179.0,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,mid,309.5,399.0,220.0,309.5,accepted,True,3,22.431077694235587,89.5,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,mid,309.5,399.0,220.0,330.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,220.0,accepted,True,2,44.86215538847117,0.0,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,399.0,accepted,True,1,0.0,179.0,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,220.0,rejected,False,2,,,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,low,176.0,399.0,220.0,220.0,rejected,False,7,,,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,low,176.0,399.0,220.0,220.0,rejected,False,11,,,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,gpt-3.5-turbo,gpt-3.5-turbo,low,176.0,399.0,220.0,220.0,rejected,False,7,,,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,1,27.971188475390157,0.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,3,27.971188475390157,0.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2100.0,rejected,False,0,,,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2149.5,accepted,True,2,13.985594237695079,349.5,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2000.0,accepted,True,2,19.96798719487795,200.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2149.0,accepted,True,2,14.005602240896359,349.0,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2200.0,rejected,False,0,,,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2998.8,accepted,True,1,-20.000000000000007,1198.8000000000002,True,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2300.0,rejected,False,0,,,False,False,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1800.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1800.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),gpt-3.5-turbo,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1800.0,rejected,False,1,,,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,1,38.854919399666485,0.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,1,38.854919399666485,0.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,1,38.854919399666485,0.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1700.0,accepted,True,1,5.503057254030017,600.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,1,0.0,699.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1100.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1100.0,rejected,False,0,,,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1100.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1500.0,accepted,True,2,16.620344635908836,400.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1500.0,accepted,True,1,16.620344635908836,400.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1750.0,accepted,True,1,2.7237354085603114,650.0,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1000.0,max_turns_reached,False,30,,,False,True,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,rejected,False,1,,,False,False,False,GPT-3.5,GPT-3.5
+3,LG C3 65-inch OLED TV,gpt-3.5-turbo,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,rejected,False,8,,,False,False,False,GPT-3.5,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,accepted,True,1,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,accepted,True,2,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,220.0,399.0,220.0,220.0,accepted,True,1,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,399.0,399.0,220.0,220.0,accepted,True,1,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,399.0,399.0,220.0,280.0,accepted,True,3,29.82456140350877,60.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,399.0,399.0,220.0,340.0,accepted,True,2,14.786967418546364,120.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,309.5,399.0,220.0,309.5,accepted,True,2,22.431077694235587,89.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,370.0,accepted,True,2,7.268170426065162,150.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,337.0,accepted,True,2,15.538847117794486,117.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,high,478.79999999999995,399.0,220.0,220.0,accepted,True,1,44.86215538847117,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,low,176.0,399.0,220.0,200.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,low,176.0,399.0,220.0,440.0,rejected,False,1,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+2,Sony WH-1000XM5 Wireless Headphones,claude-haiku-4-5-20251001,gpt-3.5-turbo,low,176.0,399.0,220.0,165.0,accepted,True,5,58.64661654135338,-55.0,False,False,True,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,1,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,1800.0,2499.0,1800.0,1800.0,accepted,True,2,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2499.0,accepted,True,3,0.0,699.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2100.0,accepted,True,1,15.966386554621847,300.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,2499.0,2499.0,1800.0,2300.0,accepted,True,2,7.963185274109644,500.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2150.0,accepted,True,2,13.965586234493799,350.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,2149.5,accepted,True,1,13.985594237695079,349.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,2149.5,2499.0,1800.0,1800.0,accepted,True,1,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2250.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,2400.0,accepted,True,4,3.961584633853541,600.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,high,2998.7999999999997,2499.0,1800.0,1800.0,accepted,True,1,27.971188475390157,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1800.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1700.0,rejected,False,3,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+1,Apple MacBook Pro 16-inch (M3 Pro),claude-haiku-4-5-20251001,gpt-3.5-turbo,low,1440.0,2499.0,1800.0,1700.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,4,38.854919399666485,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,wholesale,1100.0,1799.0,1100.0,1100.0,accepted,True,3,38.854919399666485,0.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1550.0,accepted,True,1,13.841022790439133,450.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1750.0,accepted,True,2,2.7237354085603114,650.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,retail,1799.0,1799.0,1100.0,1799.0,accepted,True,2,0.0,699.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,3,19.427459699833243,349.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,5,19.427459699833243,349.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,mid,1449.5,1799.0,1100.0,1449.5,accepted,True,2,19.427459699833243,349.5,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1500.0,accepted,True,1,16.620344635908836,400.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1500.0,accepted,True,1,16.620344635908836,400.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,high,2158.7999999999997,1799.0,1100.0,1375.0,accepted,True,2,23.5686492495831,275.0,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,low,880.0,1799.0,1100.0,880.0,accepted,True,6,51.08393551973318,-220.0,False,False,True,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,rejected,False,2,,,False,False,False,claude-haiku-4-5-20251001,GPT-3.5
+3,LG C3 65-inch OLED TV,claude-haiku-4-5-20251001,gpt-3.5-turbo,low,880.0,1799.0,1100.0,1100.0,max_turns_reached,False,30,,,False,True,False,claude-haiku-4-5-20251001,GPT-3.5

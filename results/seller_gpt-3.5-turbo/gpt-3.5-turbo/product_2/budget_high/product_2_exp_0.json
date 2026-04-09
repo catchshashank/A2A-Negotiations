@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm quite interested in them. I was wondering if there is any room for negotiation on the price. Looking forward to hearing from you. \n\nThank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. They are indeed a great choice. The retail price for these headphones is $399, but I can offer them to you for $350. Let me know if this works for you. Thank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate the discount. To stay within my budget, would you be able to offer them for $320?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget considerations. I can meet you halfway at $335. How does that sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I appreciate your flexibility. To ensure I stay within my budget, could you consider offering them for $325?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but I must adhere to the wholesale price for these headphones, which is $220. Would you be willing to consider purchasing them at that price?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. I understand the wholesale pricing constraints. I am happy to accept the offer at $220. Let's proceed with the purchase."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    335.0,
+    220.0
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

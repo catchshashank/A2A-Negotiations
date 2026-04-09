@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the LG C3 65-inch OLED TV you have listed. I was wondering if there's any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the LG C3 65-inch OLED TV! While I can't go below the wholesale price, I can definitely offer you a great deal. How does $1,600 sound to you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $1,600 is more than I can stretch my budget to. I'm looking to complete the purchase closer to $1,05"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. How about meeting halfway at $1,250?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's still a bit too high for me. I'm afraid I can't afford it at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. Given your budget, I can offer you the LG C3 65-inch OLED TV for $1,100, which is the wholesale price."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I can do $1,100. I'll take it."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1600.0,
+    1250.0,
+    1100.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

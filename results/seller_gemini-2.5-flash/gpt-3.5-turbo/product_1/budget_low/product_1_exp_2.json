@@ -1,0 +1,96 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well! I came across your listing for the Apple MacBook Pro 16-inch and I'm really interested in it. I was wondering if there's any room for negotiation on the price? \n\nLooking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": null
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm interested in purchasing the MacBook Pro 16-inch (M3 Pro). What is the best price you can offer me for it?"
+    },
+    {
+      "speaker": "Seller",
+      "message": null
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I have a maximum budget of $1440.00 for this purchase."
+    },
+    {
+      "speaker": "Seller",
+      "message": null
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but unfortunately, it exceeds my budget. I won't be able to proceed with the purchase at that price. If you can offer a lower price within my budget, I'd be happy to consider it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the MacBook Pro 16-inch. This is a premium device with cutting-edge M3 Pro performance and a stunning display, retailing at $2,499"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for providing the retail price information. As mentioned earlier, my budget is limited to $1440.00, so I won't be able to afford the MacBook Pro 16-inch at its full retail price. If you can offer a price within my budget, I'd be interested in discussing further."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget, however, the MacBook Pro 16-inch with the M3 Pro chip is a high-performance machine. The retail price reflects its advanced features and capabilities, and a price point of $1440.00 is simply not feasible for this model."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I completely understand the value of the MacBook Pro 16-inch with the M3 Pro chip. I appreciate your position on the pricing. Since my budget is firm at $1440.00, I may have to explore other options within my budget. Thank you for your time and assistance."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand. The MacBook Pro 16-inch M3 Pro is an exceptional machine, truly in a class of its own for performance and battery life. Should your requirements or budget change, please feel free to reach out."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding. I will keep that in mind. If there are any future promotions or if my budget changes, I will definitely consider the MacBook Pro 16-inch M3 Pro. I appreciate your time and assistance in this matter."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand. However, to ensure you don't miss out on this exceptional machine, I could offer you a special price of $1,999. This is a significant discount from the retail price for a brand new M3 Pro MacBook Pro 16-inch, reflecting its premium features and performance."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the special offer of $1,999 for the MacBook Pro 16-inch M3 Pro. Unfortunately, it still exceeds my budget of $1440.00. I appreciate the discount, but I must adhere to my budget limit. If there are any future promotions or if my budget changes, I will reconsider. Thank you for your understanding."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    2499.0,
+    1440.0,
+    1440.0,
+    1999.0
+  ],
+  "budget": 1440.0,
+  "budget_scenario": "low",
+  "completed_turns": 6,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

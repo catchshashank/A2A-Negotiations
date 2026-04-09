@@ -1,0 +1,51 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I must say, I'm quite impressed by the features it offers. Would you be open to discussing the possibility of negotiating the price a bit? Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm doing great, thank you. It's fantastic to hear you're impressed by the MacBook Pro 16-inch (M3 Pro). It truly is an exceptional machine, packed with cutting-edge features for unparalleled performance and battery life. We're certainly open to a fair discussion. What price were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm glad to hear you're impressed by the MacBook Pro 16-inch (M3 Pro). Given my budget constraints, would you be able to offer it for $2,100?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer of $2,100, and I understand budget considerations. However, for a brand new M3 Pro MacBook Pro with its advanced chip, 18GB unified memory, and 22-hour battery life, $2,100 is a bit lower than we can go. This machine retails for $2,499, and it's an investment that truly pays off. My best offer for you today would be $2,399."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my budget. Unfortunately, $2,399 is above my maximum limit of $2,149.50. I appreciate your time, but I won't be able to proceed with the purchase at that price."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2399.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

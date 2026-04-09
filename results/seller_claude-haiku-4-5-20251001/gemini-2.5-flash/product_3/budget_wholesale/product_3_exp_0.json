@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the LG C3 65-inch OLED TV you have listed. Is the price firm, or would you be open to discussing it?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice on the C3 \u2013 it's an incredible TV. The retail price is $1,799, which is already competitive for this model given the specs. That said, I'm open to discussing it depending on your situation. Are you looking at purchasing today, or do you have specific concerns about the price?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "It's definitely a fantastic TV. I'm ready to purchase today if we can agree on a price. $1,799 is quite a bit above what I'm looking to spend. Could you do $950?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being ready to move forward today! However, $950 is below what I can work with \u2013 that's just too low for this model. \n\nHere's the thing: the C3 is top-tier with the OLED evo panel, 4K 120Hz, and those 4 HDMI 2.1 ports. At $1,799 retail, you're already getting solid value.\n\nI can definitely meet you somewhere in the middle though. What if we look at $1,399? That's a meaningful discount from retail, and it reflects the quality you're getting. Can you work with that?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the C3, but $1,399 is still too high for my budget. I'm very interested in this TV, but I can't afford that price. My absolute best is $1,050."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, and I appreciate your honesty about your budget. The thing is, $1,050 puts me in a really tight spot \u2013 that's cutting into my cost significantly.\n\nHere's where I can flex: I can do $1,299. That's a solid $500 off retail, and it reflects real savings while keeping this deal viable for me. Plus, you're getting an exceptional TV today.\n\nIf you're serious about moving forward, $1,299 is the best I can offer. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Unfortunately, $1,299 is still beyond my budget. I truly cannot afford that price. Thank you for your time."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1399.0,
+    1299.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

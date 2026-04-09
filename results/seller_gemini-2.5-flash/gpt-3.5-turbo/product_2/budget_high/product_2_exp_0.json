@@ -1,0 +1,51 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there is any room for negotiation on the price. Looking forward to hearing from you. Thank you! \n\nBest regards, \n[Your Name]"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thank you for your interest in the Sony WH-1000XM5 headphones. They truly offer an unparalleled audio experience. While these are highly sought after at their retail price of $399, I'm open to considering a reasonable offer."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering offers. Given my budget of $478.80, would you be willing to offer a discounted price for the Sony WH-1000XM5 headphones?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Yes, absolutely! Given your budget, I can certainly offer them to you at $478.80. These headphones are truly top-tier. Would you like to proceed with the purchase at this price?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but unfortunately, $478.80 is at my maximum budget. I'm afraid I won't be able to proceed with the purchase at that price. Thank you for your understanding."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    478.8
+  ],
+  "budget": 478.79999999999995,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

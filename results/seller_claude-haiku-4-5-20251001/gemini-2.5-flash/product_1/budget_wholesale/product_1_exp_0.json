@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in your Apple MacBook Pro 16-inch (M3 Pro). It looks like a fantastic machine. Would you be open to discussing the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely! I'm glad you're interested in the MacBook Pro 16-inch M3 Pro\u2014it's an excellent machine with incredible performance and that stunning XDR display.\n\nThe retail price is $2,499, which reflects its premium specs: the M3 Pro chip, 18GB unified memory, and 512GB SSD. That said, I'm always open to discussing pricing depending on your situation. What kind of budget were you thinking, or is there anything specific about the machine you'd like to know more about?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm very interested in the MacBook Pro. My budget is quite firm, and I'm looking to spend no more than $1,650 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. However, $1,650 is below what I can offer this machine for\u2014I need to stay at $1,800 minimum given the specs and current market value.\n\nThat said, at $1,800 you're getting a $699 discount off retail, which is a solid deal for a machine with this performance level. Is there any flexibility on your end, or would that price work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Okay, if $1,800 is your absolute minimum, I can agree to that. Let's proceed with the purchase at $1,800."
+    },
+    {
+      "speaker": "Seller",
+      "message": "Perfect! I'm glad we could work this out. At $1,800, you're getting excellent value on a top-tier machine.\n\nLet me get the paperwork started. I'll need a few details from you\u2014your name, shipping address, and preferred payment method. We can have this processed and shipped out quickly. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Yes, that works perfectly. Please proceed with the paperwork."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

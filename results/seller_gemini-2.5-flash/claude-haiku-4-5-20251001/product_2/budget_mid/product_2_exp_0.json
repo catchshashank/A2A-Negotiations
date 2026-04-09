@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi! \ud83d\udc4b\n\nI came across your listing for the Sony WH-1000XM5 headphones and I'm really interested in them. They seem like exactly what I'm looking for, especially with the noise cancellation and battery life.\n\nI was wondering \u2014 would you be open to any flexibility on the price? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- Opens naturally and friendly\n- Shows genuine interest in the product (not just the price)\n- Signals you're a serious, motivated buyer\n- Asks about negotiation without being pushy\n- Keeps it brief and leaves room for their response"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks for your interest! You're right, the Sony WH-1000XM5s are fantastic, especially with their industry-leading noise cancellation and 30-hour battery life. They retail for $399. What price did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks for the enthusiasm! I'm definitely interested in these headphones. Given the current market competition and that I'm a serious buyer ready to move forward today, I'd like to propose $309.50. That's a fair discount from retail that works for both of us\u2014you make the sale immediately, and I get a great deal. Can you work with that price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. The WH-1000XM5s are truly premium headphones, offering unparalleled noise cancellation, 30-hour battery life, and features like speak-to-chat and crystal-clear calls. Considering their retail price of $399 and their exceptional value, I can offer them to you for $375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $375 is still above what I can work with. I'm looking at comparable options in the market, and I need to stay at $309.50 to make this purchase work for my budget. That's my firm ceiling. Can you meet me there, or do we need to explore other options?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Okay, I can meet you at $309.50. You're getting an excellent deal on these top-tier headphones. Let's finalize this!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Perfect! I'm glad we could work this out. Yes, let's finalize the purchase at $309.50. What's the next step to complete the transaction?"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0,
+    309.5
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

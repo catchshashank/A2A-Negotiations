@@ -1,0 +1,105 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. I was wondering if there is any room for negotiation on the price? Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the Sony WH-1000XM5 Wireless Headphones. The retail price for these headphones is $399, but I can offer them to you at a special price of $350 today. Would that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer! I appreciate the discount, but unfortunately, my budget is $176.00. Can you offer a price closer to that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget constraints. While I can't go below the wholesale price of $220, I can offer you a discounted price of $220 for the Sony WH-1000XM5 Wireless Headphones. Let me know if that works for you."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but I'm afraid $220 is still above my budget of $176.00. I'll have to pass on this offer. Thank you for your time."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. If you have any other questions or need assistance in the future, feel free to reach out. Thank you for considering the Sony WH-1000XM5 Wireless Headphones. Have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and assistance. I'll keep that in mind. Have a great day as well!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Have a wonderful day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! If you have any more questions in the future, feel free to ask. Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I appreciate that. Have a fantastic day ahead!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! You too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0,
+    220.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 7,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

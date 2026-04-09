@@ -1,0 +1,60 @@
+{
+  "product_id": 1,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I saw your listing for the Apple MacBook Pro 16-inch and it looks fantastic. I'm very interested in it \u2013 would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! I'm glad to hear you're interested in the MacBook Pro 16-inch. I can definitely discuss the price with you. What price were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the MacBook Pro. I was hoping to get it for around $1999."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your interest in the MacBook Pro. Given its premium features and quality, I can offer it to you for $2399. It's a great value for the performance and experience it provides."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand it's a premium device. However, $2399 is still a bit high for me. Could you do $2050?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your perspective. Considering the value of the MacBook Pro, I can meet you halfway at $2250. It's a competitive offer for this top-of-the-line device."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's still more than I can afford right now. I'm afraid I can't go above my budget, so I'll have to pass on that offer."
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    2399.0,
+    2250.0
+  ],
+  "budget": 2149.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

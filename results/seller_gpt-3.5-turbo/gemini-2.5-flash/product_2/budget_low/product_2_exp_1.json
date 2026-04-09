@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in your Sony WH-1000XM5 headphones. They look great! Is there any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I'm glad to hear you're interested in the Sony WH-1000XM5 headphones! The retail price is $399, but I can offer them to you for $350."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the offer. That's a bit more than I was looking to spend. I could offer $150."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your budget, but I'm unable to go below the wholesale price of $220. However, I can offer you a discounted price of $220 for the Sony WH-1000XM5 headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $220 is still above my budget. I'm afraid I cannot afford them at that price."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand. If your budget changes in the future, feel free to reach out. I'm here to help."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for understanding. I'm unable to purchase them at that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    350.0,
+    220.0,
+    220.0
+  ],
+  "budget": 176.0,
+  "budget_scenario": "low",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

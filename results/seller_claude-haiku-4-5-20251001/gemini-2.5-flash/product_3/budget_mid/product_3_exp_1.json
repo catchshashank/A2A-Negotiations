@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello, I'm really interested in the LG C3 65-inch OLED TV. Is there any flexibility on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! Great choice with the C3 \u2013 it's an incredible TV. The retail price is $1,799, and honestly, that's pretty fair given what you're getting: the OLED evo panel, 4K 120Hz, Dolby Vision IQ, and those four HDMI 2.1 ports for gaming.\n\nThat said, I can work with you. What kind of budget were you thinking? Let me see what I can do."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! It sounds like a fantastic TV. I was hoping to spend around $1350 for it."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget. At $1,350, that's pretty steep a discount \u2013 we'd be cutting into our margin significantly.\n\nHere's what I can do: I can bring it down to $1,550. That's a solid $250 off retail, and you're still getting premium features that justify the price. Plus, with OLED technology, you're investing in picture quality that'll last years.\n\nWhat do you think \u2013 does $1,550 work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "$1550 is still a bit too high for my budget, unfortunately. I was really hoping to stay closer to my original offer. Is there any way we could get it down to $1400?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you, but $1,400 is really where I can't go \u2013 that's getting too close to our cost on this. \n\nHere's my best offer: $1,475. That's $325 off retail, and it's the lowest I can realistically move on this unit while keeping the deal fair for both of us.\n\nThis TV is worth every penny at that price point. Can we make $1,475 work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $1475 is still beyond my budget. I'm afraid I can't afford it at that price."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1550.0,
+    1475.0
+  ],
+  "budget": 1449.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

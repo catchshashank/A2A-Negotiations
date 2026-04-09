@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones you have listed. They look fantastic! I was wondering if there's any room for negotiation on the price?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "That's fantastic to hear! The Sony WH-1000XM5s are an excellent choice, offering unparalleled noise cancellation and a host of premium features. We currently have them listed at their retail price of $399, which truly reflects their advanced technology and superior audio experience. What price were you considering?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I was hoping to get them for around $295."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer. The WH-1000XM5s are truly top-tier, packed with features like industry-leading noise cancellation and 30-hour battery life. Given their premium quality and performance, the best I can do for you is $375."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "$375 is still a bit high for me. How about we meet at $300?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand you're looking for a great deal. These headphones are truly exceptional, offering features like Speak-to-Chat and crystal clear calling that enhance daily use. I can come down a little further, how about $360? That's a significant discount for a brand new pair of these industry-leading headphones."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you trying to work with me, but $360 is still more than I can afford. My budget is limited."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you on the budget, and I want to help you experience these incredible headphones. The WH-1000XM5s truly elevate your audio with their unrivaled noise cancellation and convenient multipoint connection. I can offer them to you for $340. This is an exceptional price for a product of this caliber."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $340 is still beyond my budget. I cannot afford that price."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    375.0,
+    360.0,
+    340.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

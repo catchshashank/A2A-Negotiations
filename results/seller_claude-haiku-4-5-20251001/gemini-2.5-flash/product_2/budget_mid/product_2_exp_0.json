@@ -1,0 +1,69 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm really interested in the Sony WH-1000XM5 headphones you have listed. They look great! Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey, thanks for your interest! These are fantastic headphones\u2014the noise cancellation and 30-hour battery life really set them apart. The retail price is $399, which is fair given the quality, but I'm definitely open to working with you. What price range were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thanks! They certainly sound impressive. I was hoping to get them for around $250."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate the offer, but $250 is a bit below what I can do. These are premium headphones with industry-leading features, and I need to maintain a minimum of $220. How about we meet somewhere in the middle? I could do $320\u2014that's a solid discount from retail, and you're getting an exceptional product. Does that work for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $320 is more than I can afford right now. Could you come down a bit closer to $300?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I hear you. How about $310? That's still a meaningful discount from the $399 retail price, and it's a fair price for headphones with this level of performance. It's a good middle ground between what you're looking for and the value these deliver. Can we make that work?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Unfortunately, $310 is still just a bit outside my budget. I really can't go above $309.50."
+    },
+    {
+      "speaker": "Seller",
+      "message": "You know what, I appreciate you being specific with me. $309.50 works\u2014let's do it. These headphones are worth every penny, and I'm glad we could find a price that works for both of us. Should we move forward with the order?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Great! Yes, let's move forward with the order at $309.50."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    320.0,
+    310.0,
+    309.5
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 3,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

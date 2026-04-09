@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I'm very interested in the Sony WH-1000XM5 headphones you have listed. Would you be open to discussing the price a bit?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Absolutely, I'd be happy to discuss the price with you. What price were you thinking of?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I'm interested in the Sony WH-1000XM5 headphones. I was hoping to pay around $275 for them."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your offer, but the Sony WH-1000XM5 headphones are high-quality with great features. How about we settle at $350 for them?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but $350 is a bit more than I was looking to spend. I could do $290."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but I can't go below the Wholesale Price for the Sony WH-1000XM5 headphones, which is $220. Would you be willing to meet at $320 for them?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate you coming down, but $320 is still more than I can spend. My absolute maximum is $305."
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    350.0,
+    220.0
+  ],
+  "budget": 309.5,
+  "budget_scenario": "mid",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gemini-2.5-flash",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

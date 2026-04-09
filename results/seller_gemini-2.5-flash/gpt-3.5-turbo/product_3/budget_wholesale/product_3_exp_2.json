@@ -1,0 +1,60 @@
+{
+  "product_id": 3,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you are doing well. I came across your listing for the LG C3 65-inch OLED TV and I must say, it looks like an amazing product. I was wondering if there is any flexibility on the price. Let me know if we can discuss this further. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thank you for your interest in the LG C3 65-inch OLED TV. It truly is an exceptional product with incredible features. While the listed price reflects its premium quality and performance, I'm open to discussing it further. What price did you have in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for considering my interest. I have a budget of $1100. Could you offer the LG C3 65-inch OLED TV within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your offer, but $1100 is significantly below what we can accept for such a premium TV. The LG C3 65-inch OLED, with its OLED evo panel, 4K 120Hz, and advanced gaming features, offers an unparalleled viewing experience. We typically sell this model for $1799. What's the highest you're willing to go for this exceptional TV?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I understand the value of the LG C3 65-inch OLED TV. Considering its features, would you be able to offer it at $1050 to meet my budget?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate your understanding of the TV's value. However, $1050 is below our absolute minimum. This LG C3 is a top-tier model, packed with features like the OLED evo panel and 4K 120Hz for an immersive experience. The lowest I can go for this exceptional unit is $1250."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, but unfortunately, $1250 exceeds my budget of $1100. I'll have to decline the offer. Thank you for considering my proposal."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1799.0,
+    1250.0
+  ],
+  "budget": 1100.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gemini-2.5-flash",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

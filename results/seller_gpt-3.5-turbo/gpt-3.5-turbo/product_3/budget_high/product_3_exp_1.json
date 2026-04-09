@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you're doing well. I came across your listing for the LG C3 65-inch OLED TV and I'm really interested in it. I was wondering if there's any flexibility on the price. Looking forward to hearing from you. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello,\n\nI'm glad to hear you're interested in the LG C3 65-inch OLED TV. It's a fantastic choice! While I understand your request, the price for this top-of-the-line TV is already quite competitive. Let me assure you that the quality and features of this TV justify the price. Feel free to ask if you have any further questions about the product. Thank you!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your response. I appreciate the value of the LG C3 TV. Considering my budget, would you be able to offer any discounts or special pricing options to help me make the purchase today?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand your considerations. To ensure you receive the best value, I can offer you the LG C3 65-inch OLED TV at a special price of $1,500. This is a limited-time offer, so if you're ready to proceed with the purchase, please let me know. Thank you for considering this opportunity!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for the special offer. I would like to accept your offer and proceed with the purchase of the LG C3 65-inch OLED TV for $1,500. Thank you for accommodating my budget."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1799.0,
+    1500.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

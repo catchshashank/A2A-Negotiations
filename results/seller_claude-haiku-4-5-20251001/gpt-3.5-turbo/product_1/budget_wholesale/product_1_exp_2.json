@@ -1,0 +1,159 @@
+{
+  "product_id": 1,
+  "experiment_num": 2,
+  "product_data": {
+    "id": 1,
+    "Product Name": "Apple MacBook Pro 16-inch (M3 Pro)",
+    "Retail Price": "$2,499",
+    "Wholesale Price": "$1,800",
+    "Features": "16-inch Liquid Retina XDR display, Apple M3 Pro chip, 18GB unified memory, 512GB SSD, 22-hour battery life, MagSafe 3 charging, Thunderbolt 4 ports"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello,\n\nI hope you are doing well! I came across your listing for the Apple MacBook Pro 16-inch (M3 Pro) and I must say, I am very interested in purchasing it. I was wondering if there is any possibility of negotiating the price? \n\nLooking forward to hearing from you soon. Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hello! Thanks for your interest in the MacBook Pro 16-inch M3 Pro \u2013 great choice!\n\nI appreciate you reaching out about pricing. The retail price is $2,499, which reflects the premium specs: the M3 Pro chip, 18GB memory, stunning Liquid Retina XDR display, and exceptional battery life.\n\nThat said, I'm open to working with you. What price range were you thinking? I can definitely explore options, but I'd want to make sure we land on something fair for both of us."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Hi there! Thanks for the information. Given my budget constraints, I'm looking to purchase the MacBook Pro 16-inch M3 Pro at $1,800. Would that be possible within our negotiation?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget! However, $1,800 is actually our wholesale cost \u2013 that's what we pay to acquire the product, so we can't go below that.\n\nThat said, I want to work with you. How flexible is your budget? If you could stretch to somewhere in the $2,000\u2013$2,200 range, we'd have a solid deal that works for both of us. What do you think?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but my budget is firm at $1,800. If we can't make it work within that range, I understand. Thank you for considering my budget limitations."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely understand, and I appreciate your honesty about your budget constraints.\n\nUnfortunately, $1,800 is our absolute floor \u2013 it's our cost to source the unit, so there's no margin for us there. I genuinely can't go lower than that.\n\nIf your budget is firm at $1,800, I'd hate to lose the opportunity to work together. However, if there's any possibility you could stretch even slightly higher \u2013 say to $1,850 or $1,900 \u2013 I'd be happy to make that work. Otherwise, I completely understand if you need to explore other options. Let me know!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding. I appreciate your offer, but I must stick to my budget of $1,800. Unfortunately, I won't be able to stretch beyond that. I understand if we can't reach an agreement at this time. Thank you for your time and consideration."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I completely respect that, and I appreciate you being straightforward throughout our conversation. I wish we could have made it work at your price point.\n\nIf circumstances change or your budget becomes more flexible down the road, please don't hesitate to reach out \u2013 I'd be happy to revisit this. Best of luck with your search, and thanks again for considering us!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your understanding and flexibility. I will certainly keep your offer in mind for any future changes. I appreciate your assistance and professionalism throughout this negotiation. Have a great day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you so much \u2013 I really appreciate your professionalism and courtesy throughout our conversation. It was a pleasure working with you, even if we couldn't close the deal this time.\n\nFeel free to reach out anytime if things change or if you'd like to explore other options. Best of luck, and have a great day!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you for your kind words. It was a pleasure working with you as well. I will definitely keep your offer in mind for any future needs. Wishing you a successful day ahead!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! I really appreciate that. Wishing you all the best, and don't hesitate to get in touch whenever you're ready. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Thank you! I will definitely keep that in mind. Take care, and best of luck with your future endeavors!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you so much \u2013 that's very kind of you! Take care, and I hope we can work together in the future. Best wishes!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Likewise! Take care and best wishes to you as well. Looking forward to the possibility of working together in the future. Have a wonderful day!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! You too \u2013 have a wonderful day, and thanks again for reaching out. Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! Have a fantastic day as well, and thank you for the conversation. Take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "You're very welcome! Thanks for your time, and take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "It was my pleasure! Thank you, and take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thank you! Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You're welcome! Take care!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Take care!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "You too!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Thanks! Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Goodbye!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "Goodbye!"
+    }
+  ],
+  "seller_price_offers": [
+    2499.0,
+    2499.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0,
+    1800.0
+  ],
+  "budget": 1800.0,
+  "budget_scenario": "wholesale",
+  "completed_turns": 13,
+  "negotiation_completed": true,
+  "negotiation_result": "rejected",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

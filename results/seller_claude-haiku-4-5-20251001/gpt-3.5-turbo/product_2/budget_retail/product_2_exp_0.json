@@ -1,0 +1,60 @@
+{
+  "product_id": 2,
+  "experiment_num": 0,
+  "product_data": {
+    "id": 2,
+    "Product Name": "Sony WH-1000XM5 Wireless Headphones",
+    "Retail Price": "$399",
+    "Wholesale Price": "$220",
+    "Features": "Industry-leading noise cancellation, 30-hour battery life, multipoint connection, speak-to-chat technology, crystal clear hands-free calling, foldable design"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "Hello! I hope you're doing well. I came across your listing for the Sony WH-1000XM5 Wireless Headphones and I'm really interested in them. Would you be open to discussing the price at all? Thank you!"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hey! I'm doing great, thanks for asking. I'm glad you're interested in the WH-1000XM5s\u2014they're fantastic headphones. The current price is $399, which is actually the retail price and a solid deal given the features: industry-leading noise cancellation, 30-hour battery life, and multipoint connection.\n\nThat said, I'm open to discussing it. What price range were you thinking?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate your offer, and I'm really interested in the WH-1000XM5 headphones. Considering my budget is $399, would you be able to offer a lower price within that range?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I appreciate you being upfront about your budget! Here's the thing\u2014at $399, you're already getting the retail price, which is honestly fair value for these headphones given everything they offer.\n\nThat said, I can work with you. How about $369? That gives you a nice discount while I can still make this work. Does that feel more comfortable for you?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I appreciate the offer, but unfortunately, $369 is still above my budget of $399. I'm looking to stay within that limit. Is there any way we can work out a price closer to that?"
+    },
+    {
+      "speaker": "Seller",
+      "message": "I think there might be a little confusion here\u2014$369 is actually *below* $399, so it's within your budget and saves you $30! That's a solid discount on a premium product.\n\nIf $369 works for you, we can move forward with that. Otherwise, I'm happy to hear what specific price point you had in mind?"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "I apologize for the misunderstanding. $369 sounds like a great deal, and I appreciate the discount. Let's proceed with that price. Thank you for working with me on this!"
+    }
+  ],
+  "seller_price_offers": [
+    399.0,
+    399.0,
+    369.0,
+    369.0
+  ],
+  "budget": 399.0,
+  "budget_scenario": "retail",
+  "completed_turns": 2,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "gpt-3.5-turbo",
+    "seller": "claude-haiku-4-5-20251001",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}

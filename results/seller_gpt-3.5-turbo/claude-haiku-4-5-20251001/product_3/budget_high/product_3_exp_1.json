@@ -1,0 +1,51 @@
+{
+  "product_id": 3,
+  "experiment_num": 1,
+  "product_data": {
+    "id": 3,
+    "Product Name": "LG C3 65-inch OLED TV",
+    "Retail Price": "$1,799",
+    "Wholesale Price": "$1,100",
+    "Features": "65-inch OLED evo panel, 4K 120Hz, Dolby Vision IQ, Dolby Atmos, webOS 23, Game Optimizer with 4x HDMI 2.1 ports, AI Picture Pro"
+  },
+  "conversation_history": [
+    {
+      "speaker": "Buyer",
+      "message": "# Message to Seller\n\nHi there!\n\nI'm really interested in the LG C3 65-inch OLED TV you have listed. It looks like an amazing TV with all those features\u2014the OLED panel and 4K 120Hz are exactly what I'm looking for.\n\nBefore I move forward, I wanted to reach out and see if there's any flexibility on the price? I'm a serious buyer and ready to move quickly if we can work something out.\n\nLet me know what you think!\n\nThanks,\n[Your name]\n\n---\n\n**Why this works:**\n- \u2705 Friendly and natural opening\n- \u2705 Shows genuine interest in the product\n- \u2705 Mentions specific features (builds credibility as a serious buyer)\n- \u2705 Gently introduces price negotiation without being pushy\n- \u2705 Signals readiness to complete the deal\n- \u2705 Keeps it short and to the point"
+    },
+    {
+      "speaker": "Seller",
+      "message": "Hi there!\n\nI'm glad to hear you're interested in the LG C3 65-inch OLED TV. Given its top-notch features, I can offer it to you for $1,500. Let me know if that works for you.\n\nLooking forward to your response!"
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's a great offer at $1,500 \u2013 I appreciate it! Before I commit, I'd like to ask: is there any flexibility on the price, or any additional incentives you could offer? For example, free delivery, extended warranty, or a bundle with accessories? I'm a serious buyer ready to move forward today if we can work out the best possible deal."
+    },
+    {
+      "speaker": "Seller",
+      "message": "I understand your request for additional incentives. How about this: I can offer you the LG C3 65-inch OLED TV for $1,500 with free delivery and a complimentary extended warranty. This is a fantastic deal considering all the features of the TV. Let me know if this works for you, and we can proceed with the sale today."
+    },
+    {
+      "speaker": "Buyer",
+      "message": "That's an excellent package with the free delivery and extended warranty included. I'm very interested and ready to move forward. At $1,500 plus those extras, this is a solid deal. Let's proceed with the purchase today."
+    }
+  ],
+  "seller_price_offers": [
+    1799.0,
+    1500.0,
+    1500.0
+  ],
+  "budget": 2158.7999999999997,
+  "budget_scenario": "high",
+  "completed_turns": 1,
+  "negotiation_completed": true,
+  "negotiation_result": "accepted",
+  "models": {
+    "buyer": "claude-haiku-4-5-20251001",
+    "seller": "gpt-3.5-turbo",
+    "summary": "gpt-3.5-turbo"
+  },
+  "parameters": {
+    "max_turns": 30
+  }
+}
