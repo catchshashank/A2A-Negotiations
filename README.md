@@ -7,26 +7,6 @@ Paper: https://arxiv.org/abs/2506.00073
 
 ---
 
-## What's here
-
-```
-a2a_negotiation/
-├── Config.py                  ← API keys (fill this in first)
-├── LanguageModel.py           ← Unified LLM wrapper (+ Anthropic support)
-├── Conversation.py            ← Negotiation engine (faithful replication)
-├── main.py                    ← CLI entry point
-├── requirements.txt
-├── run_baseline.sh            ← Quick smoke test (1 product, 2 scenarios)
-├── run_full_replication.sh    ← Full model-pair matrix
-├── dataset/
-│   └── products.json          ← 3 sample products (add more to replicate paper)
-├── results/                   ← Output JSON files (auto-created)
-└── analysis/
-    └── results_analysis.ipynb ← Metrics & plots (PRR, deal rate, anomalies)
-```
-
----
-
 ## Setup
 
 ```bash
@@ -99,7 +79,7 @@ Fields include: `conversation_history`, `seller_price_offers`, `negotiation_resu
 
 ---
 
-## Metrics (computed in the notebook)
+## Metrics (from the original paper)
 
 - **PRR** (Price Reduction Rate): `(retail − final_price) / retail × 100`
 - **Deal Rate**: fraction of negotiations ending in `accepted`
@@ -107,9 +87,9 @@ Fields include: `conversation_history`, `seller_price_offers`, `negotiation_resu
 
 ---
 
-## Extensions (next steps)
+## Extensions (in the notebook)
 
-Planned extensions beyond the baseline replication:
+Extensions beyond the baseline replication:
 
 1. **Psychological/emotional modeling** — agent emotional state (frustration, urgency, trust) injected into prompts each turn
 2. **Welfare & fairness tracking** — inline surplus calculation, Nash bargaining solution, equity index
